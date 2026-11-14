@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight, ArrowUpRight, CakeSlice, Clock, Gift, Heart, Leaf, MapPin, Palette, PartyPopper, PenLine,
-  ShieldCheck, ShoppingCart, SlidersHorizontal, Sparkles, Star, Truck,
+  Pause, Play, ShieldCheck, ShoppingCart, SlidersHorizontal, Sparkles, Star, Truck,
 } from 'lucide-react';
 import { home } from '../lib/data';
 import SmartLink from '../components/ui/SmartLink';
@@ -14,47 +14,80 @@ const UP = '/media/ksbakers/uploads/';
 
 /* ---------------- Hero ---------------- */
 
-const SLIDES = [
-  { img: `${UP}b9fbf741-4114-4fea-b8f3-c58cca5ef5b7.jpg`, alt: 'chocolate glaze cake' },
-  { img: `${UP}fc1b8e8f-c004-423c-9606-3913e567a401.jpg`, alt: 'red and white rosette cake' },
-  { img: `${UP}48ca7ae2-2eb6-4051-98c3-9ca766b6f6c7.jpg`, alt: 'pastel rainbow drip cake' },
-];
+// Version 2: the hero is a looping background film. The poster (a still of a chocolate
+// glaze cake) shows while it loads, and stays when motion is reduced or data saving is on.
+const HERO_VIDEO = '/media/ksbakers/video/cake%20shop%20video2.mp4';
+const HERO_POSTER = `${UP}b9fbf741-4114-4fea-b8f3-c58cca5ef5b7.jpg`;
 
 function Hero() {
-  const [i, setI] = useState(0);
+  const ref = useRef(null);
+  const [playing, setPlaying] = useState(false);
+  const [userPaused, setUserPaused] = useState(false);
+
+  // Autoplay unless the visitor prefers reduced motion or has data saving on.
+  const [autoplay] = useState(() =>
+    typeof window !== 'undefined'
+    && !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    && !navigator.connection?.saveData);
+
+  // Pause while the hero is scrolled out of view to save battery; resume on return.
   useEffect(() => {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    const t = setInterval(() => setI(n => (n + 1) % SLIDES.length), 5000);
-    return () => clearInterval(t);
-  }, [i]);
+    const v = ref.current;
+    if (!v || !autoplay) return;
+    const io = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting && !userPaused) v.play().catch(() => {});
+      else v.pause();
+    }, { threshold: 0.15 });
+    io.observe(v);
+    return () => io.disconnect();
+  }, [autoplay, userPaused]);
+
+  const toggle = () => {
+    const v = ref.current;
+    if (!v) return;
+    if (v.paused) { setUserPaused(false); v.play().catch(() => {}); }
+    else { setUserPaused(true); v.pause(); }
+  };
 
   return (
-    <section className="hm-hero" aria-labelledby="hero-heading">
-      <div className="hm-hero__art" aria-hidden="true">
-        {SLIDES.map((s, n) => (
-          <img key={s.img} src={s.img} alt="" className={n === i ? 'is-on' : ''} loading={n === 0 ? 'eager' : 'lazy'} />
-        ))}
-        <span className="hm-hero__script">Baked<br />Fresh<br />Daily <Heart className="inline h-6 w-6" /></span>
-      </div>
-      <Leaf className="hm-hero__leaf" strokeWidth={1} aria-hidden="true" />
-      <div className="m-wrap hm-hero__inner">
-        <div className="hm-hero__copy m-rise">
-          <span className="hm-kicker">Freshly baked</span>
-          <h1 id="hero-heading" className="hm-hero__title">
+    <section className="hm-vhero" aria-labelledby="hero-heading">
+      <video
+        ref={ref}
+        className="hm-vhero__video"
+        src={HERO_VIDEO}
+        poster={HERO_POSTER}
+        muted
+        loop
+        playsInline
+        autoPlay={autoplay}
+        preload={autoplay ? 'auto' : 'metadata'}
+        aria-hidden="true"
+        tabIndex={-1}
+        onPlay={() => setPlaying(true)}
+        onPause={() => setPlaying(false)}
+      />
+      <div className="hm-vhero__shade" aria-hidden="true" />
+      <div className="m-wrap hm-vhero__inner">
+        <div className="hm-vhero__copy m-rise">
+          <span className="hm-kicker hm-vhero__kicker">Freshly baked</span>
+          <h1 id="hero-heading" className="hm-vhero__title">
             Cakes for Every <em>Celebration</em>
           </h1>
-          <p className="hm-hero__lead">Handcrafted cakes, fresh pastries and custom creations for life&apos;s special moments.</p>
-          <div className="hm-hero__ctas">
+          <p className="hm-vhero__lead">Handcrafted cakes, fresh pastries and custom creations for life&apos;s special moments.</p>
+          <div className="hm-vhero__ctas">
             <Link to="/birthday-cakes" className="hm-btn hm-btn--solid">Shop Cakes <ArrowRight className="h-4 w-4" /></Link>
-            <Link to="/custom-cakes" className="hm-btn hm-btn--outline"><CakeSlice className="h-4 w-4" /> Custom Cake</Link>
-          </div>
-          <div className="hm-dots">
-            {SLIDES.map((s, n) => (
-              <button key={s.img} type="button" aria-pressed={n === i} aria-label={`Show ${s.alt}`} onClick={() => setI(n)} className={n === i ? 'is-on' : ''} />
-            ))}
+            <Link to="/custom-cakes" className="hm-btn hm-btn--glass"><CakeSlice className="h-4 w-4" /> Custom Cake</Link>
           </div>
         </div>
       </div>
+      <button
+        type="button"
+        className="hm-vhero__toggle"
+        onClick={toggle}
+        aria-label={playing ? 'Pause background video' : 'Play background video'}
+      >
+        {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
+      </button>
     </section>
   );
 }

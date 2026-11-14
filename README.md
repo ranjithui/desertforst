@@ -19,6 +19,30 @@ npm run preview    # serves dist/ on http://localhost:4173
 
 Node 18+ is required (the project pins Vite 5 so it runs on Node 18).
 
+## Versions
+
+| Branch | Version | Home hero |
+| --- | --- | --- |
+| `main` | 1.x | image slider |
+| `version2` | 2.0.0 | full-bleed looping video |
+
+Switch with `git switch main` or `git switch version2`, then run `npm run dev` as usual.
+
+### Version 2 video hero
+
+- Video: `public/media/ksbakers/video/cake shop video2.mp4` (1280×720, H.264, 8 s, 5.7 MB).
+  It plays muted, looped and inline, so browsers allow autoplay, including on iPhone.
+- Poster: a chocolate-cake still shows while the video loads, and also when the visitor has
+  *reduce motion* or data saving turned on (the video then doesn't autoplay).
+- A pause/play button sits bottom-right (top-right on phones). The video also pauses
+  while the hero is scrolled out of view.
+- Layout: copy on the left over a dark gradient on desktop and tablet. On phones the copy
+  sits at the bottom so the cake stays visible above it.
+- Code: `Hero` in `src/pages/Home.jsx`, styles in `src/styles/hero-video.css`.
+- To swap the film, replace the file and update `HERO_VIDEO` in `Home.jsx` (and `HERO_POSTER`
+  for a matching still). Keep it short, muted-friendly and under ~6 MB, saved with the
+  `moov` atom at the start ("fast start") so playback begins before it fully downloads.
+
 ## What's inside
 
 ```
