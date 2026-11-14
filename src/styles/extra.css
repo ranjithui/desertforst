@@ -42,3 +42,7 @@
 /* Drawer/sheet entrances run a little slower than the 150ms default. */
 .animate-in.duration-300 { animation-duration: .3s; }
 .animate-in.duration-200 { animation-duration: .2s; }
+
+/* Branch field (WhatsApp ordering) */
+.pl-9 { padding-left: 2.25rem; }
+.border-red-400 { border-color: #f87171; }

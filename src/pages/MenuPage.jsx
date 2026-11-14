@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { ChevronDown, ChevronRight, ChevronUp, MapPin } from 'lucide-react';
+import { ChevronDown, ChevronRight, ChevronUp } from 'lucide-react';
 import { menu } from '../lib/data';
-import { useShop } from '../context/ShopContext';
-import { VegMark } from '../components/ui/Icons';
+import { VegMark, WhatsAppIcon } from '../components/ui/Icons';
 import MenuProductCard, { Tags, useOrder } from '../components/product/MenuProductCard';
 
 // Anchor ids match the original (#cakes, #hot-&-fresh-bites …).
@@ -10,7 +9,7 @@ const anchor = g => (g.slug === 'deserts-and-pastries' ? g.slug : g.name.toLower
 const SUBTITLES = { cakes: "Celebrate life's sweet moments with our handcrafted cakes." };
 
 function MobileRow({ product }) {
-  const { store, order } = useOrder(product);
+  const { order } = useOrder(product);
   const [expanded, setExpanded] = useState(false);
   return (
     <div className="flex flex-row gap-4 py-5 first:pt-0">
@@ -31,8 +30,8 @@ function MobileRow({ product }) {
           <img src={product.image_url} alt={product.name} loading="lazy" className="w-full h-full object-cover" />
         </div>
         <div className="relative -mt-5 flex justify-center">
-          <button type="button" aria-label={store ? `Add ${product.name}` : 'Pick a store to order'} onClick={order} className={`flex h-11 items-center justify-center rounded-full border border-accent bg-cream text-accent shadow-soft transition-colors duration-200 cursor-pointer [touch-action:manipulation] hover:bg-accent hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${store ? 'px-5 font-sans text-sm font-semibold' : 'w-11'}`}>
-            {store ? 'ADD' : <MapPin className="w-5 h-5" />}
+          <button type="button" aria-label={`Order ${product.name} on WhatsApp`} onClick={order} className={`flex h-11 items-center justify-center rounded-full border border-accent bg-cream text-accent shadow-soft transition-colors duration-200 cursor-pointer [touch-action:manipulation] hover:bg-accent hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 w-11`}>
+            <WhatsAppIcon className="w-5 h-5" />
           </button>
         </div>
       </div>
@@ -74,15 +73,9 @@ function MenuSection({ group, defaultOpen }) {
 
 /** /products — "Our Menu": sticky category tabs with scroll-spy and collapsible sections. */
 export default function MenuPage() {
-  const { store, exploring, openPicker, picker } = useShop();
   const [active, setActive] = useState(anchor(menu[0]));
   const tabsRef = useRef(null);
   const [canScroll, setCanScroll] = useState(false);
-
-  // Original greets first-time visitors with the store picker.
-  useEffect(() => {
-    if (!store && !exploring && !picker) openPicker();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const els = menu.map(g => document.getElementById(anchor(g))).filter(Boolean);
@@ -114,11 +107,6 @@ export default function MenuPage() {
         <div className="max-w-4xl mx-auto">
           <h1 className="font-display text-4xl md:text-5xl font-semibold text-cocoa mb-4">Our Menu</h1>
           <p className="font-sans text-lg md:text-xl text-cocoa-light font-light">Handcrafted delights, made fresh every morning.</p>
-          <button type="button" onClick={openPicker} aria-label="Choose store - change store" className="group mt-5 inline-flex items-center gap-2 max-w-full rounded-full border border-pastel-sand/70 bg-white/80 pl-4 pr-3 py-2 font-sans text-sm font-medium text-cocoa shadow-soft hover:border-accent hover:text-accent transition-colors duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2">
-            <MapPin className="w-4 h-4 text-accent shrink-0" />
-            <span className="truncate font-semibold">{store ? store.name : exploring ? 'Just browsing' : 'Choose store'}</span>
-            <ChevronDown className="w-4 h-4 text-cocoa-light shrink-0" />
-          </button>
         </div>
       </div>
       <div className="sticky top-[var(--site-header)] transition-[top] duration-300 ease-intent z-30 panel border-b border-pastel-sand/50 py-2 overflow-hidden">

@@ -54,7 +54,7 @@ public/
   Products/                 menu product photography
 src/
   main.jsx, App.jsx         router + routes
-  context/ShopContext.jsx   cart, selected store, dialogs (persisted to localStorage)
+  context/ShopContext.jsx   options dialog + toast state (orders go to WhatsApp, see lib/whatsapp.js)
   components/
     layout/                 AnnouncementBar, Header (sticky, hide-on-scroll), SearchBox, MobileMenu,
                             Footer, CartDrawer, Layout
@@ -100,24 +100,36 @@ recorded in `scripts/raw/original-noop-classes.txt` and kept for fidelity.
 | `/gifting`, `/gifting/:slug`, `/add-ons` | gifting tiles, hampers, add-on search + filters |
 | `/about`, `/stores`, `/faq` | story, values, team, press; outlet search; searchable accordion |
 | `/queries`, `/feedback`, `/blog` | contact routing, review forms (stored locally) |
-| `/login`, `/checkout` | mobile + OTP sign-in and checkout |
+| `/login` | mobile + OTP sign-in |
 | policy pages | privacy, terms, cancellation & refund |
 
-Shared interactions: announcement marquee, sticky header that hides on scroll-down, hover mega-menus,
-full-screen mobile menu, store picker → product options → cart drawer flow, toast notifications,
-reveal-on-scroll animations, `prefers-reduced-motion` support.
+Shared interactions: sticky header, hover mega-menus, full-screen mobile menu, product options
+dialog, WhatsApp ordering, toast notifications, reveal-on-scroll animations,
+`prefers-reduced-motion` support.
+
+### Ordering on WhatsApp
+
+There is no cart or checkout. Every "Order on WhatsApp" / "Order Now" button opens a chat with
+one fixed number, pre-filled with the product name, SKU, size or weight, flavour, cake message,
+add-ons, price and the **branch** the customer types (the branch box suggests the outlet names and
+remembers the last one used).
+
+- **Change the number**: `ORDER_WHATSAPP_NUMBER` in `src/lib/whatsapp.js` (country code + number,
+  digits only, e.g. `919876543210`). It is currently a testing number (+91 96293 73640).
+- Message wording: `orderMessage()` in the same file.
+- Where it's used: `src/pages/CakePage.jsx` (cake pages) and
+  `src/components/product/ProductOptionsDialog.jsx` (Bestsellers, Our Menu, Hampers, Add-ons).
 
 ### Backend-dependent features
 
-The original talks to its own API for accounts, OTP SMS, addresses, store routing, payments and
-reviews. This replica is front-end only, so those flows run locally:
+The original talks to its own API for accounts, OTP SMS, payments and reviews. This replica is
+front-end only, so those flows run locally:
 
-- **Store selection**: delivery areas are the outlet localities; choosing one selects that outlet.
 - **Login**: any valid Indian mobile number and any 6-digit code sign you in (stored in `localStorage`).
-- **Cart, checkout, reviews, corporate enquiries**: kept in `localStorage`; checkout shows a confirmation.
+- **Reviews, corporate enquiries**: kept in `localStorage`.
 
-To connect a real backend, replace the handlers in `ShopContext.jsx`, `LoginPage.jsx`,
-`CheckoutPage.jsx`, `CorporatePage.jsx` and `components/ui/form.js` with API calls.
+To connect a real backend, replace the handlers in `LoginPage.jsx`, `CorporatePage.jsx` and
+`components/ui/form.js` with API calls.
 
 ## Testing
 

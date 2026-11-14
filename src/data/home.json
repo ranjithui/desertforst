@@ -101,7 +101,7 @@
    "name": "Butterscotch Cake - Eggless ",
    "slug": "butterscotch-cake-eggless",
    "description": "A creamy butterscotch-flavoured cake with a rich, sweet profile. A delightful choice for birthdays, anniversaries and special occasions.",
-   "sku": null,
+   "sku": "DF274",
    "image_url": "/media/ksbakers/uploads/f0a22f40-d2da-483e-b246-9a82e51f4a55.jpg",
    "price_city": 0,
    "price_outskirts": 0,
@@ -128,7 +128,7 @@
      "compare_at_price_outskirts": 699,
      "gofrugal_item_id": "1407",
      "image_url": "/media/ksbakers/uploads/bd7e4280-2303-4caa-9cdc-0bb7ceef0e1b.jpg",
-     "sku": "1407"
+     "sku": "DF274-500G"
     },
     {
      "id": "0e6371b3-7a1a-42ad-8868-0251a89e755e",
@@ -140,7 +140,7 @@
      "compare_at_price_outskirts": 999,
      "gofrugal_item_id": "503",
      "image_url": "/media/ksbakers/uploads/f0a22f40-d2da-483e-b246-9a82e51f4a55.jpg",
-     "sku": "503"
+     "sku": "DF274-1KG"
     }
    ],
    "customisations": [
@@ -159,7 +159,7 @@
    "name": "Black Forest Cake - Eggless",
    "slug": "black-forest-cake-eggless",
    "description": "A classic chocolate cake with creamy layers and a delicious Black Forest-inspired flavour. A favourite for birthdays and special celebrations.",
-   "sku": null,
+   "sku": "DF273",
    "image_url": "/media/ksbakers/uploads/46dcebe9-8676-4b31-83de-438101197bc4.jpg",
    "price_city": 0,
    "price_outskirts": 0,
@@ -186,7 +186,7 @@
      "compare_at_price_outskirts": 599,
      "gofrugal_item_id": "1408",
      "image_url": "/media/ksbakers/uploads/7ceaa349-c47a-4dcf-8f62-e82498d3aa30.jpg",
-     "sku": "1408"
+     "sku": "DF273-500G"
     },
     {
      "id": "272a9bf0-5a56-4530-bb0c-48280fe653d6",
@@ -198,7 +198,7 @@
      "compare_at_price_outskirts": 999,
      "gofrugal_item_id": "504",
      "image_url": "/media/ksbakers/uploads/46dcebe9-8676-4b31-83de-438101197bc4.jpg",
-     "sku": "504"
+     "sku": "DF273-1KG"
     }
    ],
    "customisations": [
@@ -217,7 +217,7 @@
    "name": "Almond Delight Cake - Eggless",
    "slug": "almond-delight-cake-eggless",
    "description": "A creamy almond-flavoured cake with a rich nutty taste. A delicious choice for birthdays, anniversaries and special occasions.",
-   "sku": null,
+   "sku": "DF276",
    "image_url": "/media/ksbakers/uploads/9a5984e7-db00-4542-9759-cce1c71f213b.jpg",
    "price_city": 0,
    "price_outskirts": 0,
@@ -244,7 +244,7 @@
      "compare_at_price_outskirts": 820,
      "gofrugal_item_id": "1513",
      "image_url": "/media/ksbakers/uploads/160493ae-a8a7-440f-af99-5a4902dad0bf.jpg",
-     "sku": "1513"
+     "sku": "DF276-500G"
     },
     {
      "id": "e5ddde1c-b1bd-43b3-b824-cd412e347b95",
@@ -256,7 +256,7 @@
      "compare_at_price_outskirts": 1067,
      "gofrugal_item_id": "513",
      "image_url": "/media/ksbakers/uploads/9a5984e7-db00-4542-9759-cce1c71f213b.jpg",
-     "sku": "513"
+     "sku": "DF276-1KG"
     }
    ],
    "customisations": [
@@ -275,7 +275,7 @@
    "name": "Choco Truffle Cake - Eggless",
    "slug": "choco-truffle-cake-eggless",
    "description": "A rich chocolate truffle cake with smooth, creamy layers and an indulgent chocolate finish. Perfect for birthdays, anniversaries and chocolate lovers.",
-   "sku": null,
+   "sku": "DF281",
    "image_url": "/media/ksbakers/uploads/ef6b6167-de4f-4aa1-8b53-a80ede69690f.jpg",
    "price_city": 0,
    "price_outskirts": 0,
@@ -302,7 +302,7 @@
      "compare_at_price_outskirts": 820,
      "gofrugal_item_id": "1531",
      "image_url": "/media/ksbakers/uploads/15ea4082-46c5-4654-944e-795cd359c56c.jpg",
-     "sku": "1531"
+     "sku": "DF281-500G"
     },
     {
      "id": "ddfc2fe6-f0da-43f1-97d3-1e83812b3427",
@@ -314,7 +314,7 @@
      "compare_at_price_outskirts": 1299,
      "gofrugal_item_id": "531",
      "image_url": "/media/ksbakers/uploads/ef6b6167-de4f-4aa1-8b53-a80ede69690f.jpg",
-     "sku": "531"
+     "sku": "DF281-1KG"
     }
    ],
    "customisations": [
@@ -333,7 +333,7 @@
    "name": "Red Velvet Cream Cheese Cake - Eggless ",
    "slug": "red-velvet-cream-cheese-cake-eggless",
    "description": "Soft red velvet layers paired with creamy cream-cheese-style frosting. An elegant choice for birthdays, anniversaries and special celebrations.",
-   "sku": null,
+   "sku": "DF277",
    "image_url": "/media/ksbakers/uploads/75a78219-420d-4a8c-9bd1-545c42c93248.jpg",
    "price_city": 0,
    "price_outskirts": 0,
@@ -360,7 +360,7 @@
      "compare_at_price_outskirts": 839,
      "gofrugal_item_id": "1467",
      "image_url": "/media/ksbakers/uploads/6936b9e6-b938-40b3-8027-f3f8a3fd9db0.jpg",
-     "sku": "1467"
+     "sku": "DF277-500G"
     },
     {
      "id": "aa985f52-0b58-4e55-aa37-84f618633350",
@@ -372,7 +372,7 @@
      "compare_at_price_outskirts": 1067,
      "gofrugal_item_id": "567",
      "image_url": "/media/ksbakers/uploads/75a78219-420d-4a8c-9bd1-545c42c93248.jpg",
-     "sku": "567"
+     "sku": "DF277-1KG"
     }
    ],
    "customisations": [
@@ -391,7 +391,7 @@
    "name": "Pineapple cake - Eggless 500g",
    "slug": "pineapplecake-500g",
    "description": "A refreshing pineapple-flavoured cake with soft, creamy layers. A popular choice for birthdays, family celebrations and everyday dessert cravings.",
-   "sku": "409",
+   "sku": "DF391",
    "image_url": "/media/ksbakers/uploads/d5318c84-45a2-4c5e-a9ac-3a77bf4127ea.jpg",
    "price_city": 599,
    "price_outskirts": 579,

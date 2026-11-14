@@ -24,7 +24,7 @@ export function searchCakes(query) {
     else if (cakeFlavours(c).some(f => f.name?.toLowerCase().includes(q))) score = 1;
     if (score) scored.push({ c, score });
   }
-  // Within a relevance tier the original lists cakes by SKU (CC001, CC086, …).
+  // Within a relevance tier, cakes are listed in SKU order (DF001, DF002, …).
   return scored
     .sort((a, b) => b.score - a.score || a.c.sku.localeCompare(b.c.sku, 'en', { numeric: true }))
     .map(s => s.c);

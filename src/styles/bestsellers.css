@@ -1,0 +1,137 @@
+/* =================================================================
+ * Bestsellers: crown + "DESERT FOREST" eyebrow, italic serif title
+ * between gold laurels; arch-topped cards with a gold hairline, tinted
+ * top, cake on a marble plate, price, Add to Cart + wishlist heart.
+ * Per-card tint comes from --tint (inline).
+ * ================================================================= */
+.hm-best { position: relative; overflow: hidden; padding-block: clamp(3rem, 6vw, 4.5rem) clamp(1.5rem, 3vw, 2.25rem); }
+.hm-best__sprig { left: -1.5rem; top: 1rem; width: 8rem; height: 8rem; }
+
+/* ---------- Heading ---------- */
+.hm-best__head { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.hm-best__icon { width: 1.75rem; height: 1.75rem; color: #b7834a; }
+.hm-best__eyebrow { margin-top: .6rem; font: 600 .72rem/1 var(--font-sans); letter-spacing: .4em; text-transform: uppercase; color: var(--df-ink, #2e1608); }
+.hm-best__title-row { display: flex; align-items: center; gap: clamp(.75rem, 2vw, 1.5rem); margin-top: .35rem; }
+.hm-best__title { font: italic 700 clamp(2.6rem, 5.5vw, 4rem)/1.1 var(--df-serif, Georgia, serif); color: var(--df-ink, #2e1608); letter-spacing: -0.01em; }
+.hm-best__laurel { width: clamp(1.4rem, 2.6vw, 2.1rem); height: auto; color: #b7834a; }
+.hm-best__laurel.is-flip { transform: scaleX(-1); }
+.hm-best__sub { margin-top: .4rem; font: 500 clamp(.98rem, 1.5vw, 1.15rem)/1.4 var(--df-serif, Georgia, serif); color: #4a2a17; }
+.hm-best__all {
+  position: absolute; top: 2rem; right: 0;
+  display: inline-flex; align-items: center; gap: .55rem; height: 2.75rem; padding: 0 1.3rem;
+  border-radius: 999px; box-shadow: inset 0 0 0 1.5px #3f1f0d; color: #3f1f0d; background: rgba(255, 255, 255, .6);
+  font: 600 .9rem/1 var(--font-sans); transition: background-color .25s, color .25s;
+}
+.hm-best__all:hover { background: #3f1f0d; color: #fff; }
+.hm-best__all svg { transition: transform .25s var(--m-ease); }
+.hm-best__all:hover svg { transform: translateX(3px); }
+.hm-best__all:focus-visible { outline: 2px solid #b7834a; outline-offset: 3px; }
+
+/* ---------- Card row (4 visible on desktop; extra cards scroll) ---------- */
+.hm-best__row {
+  display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 3 * 1.25rem) / 4); gap: 1.25rem;
+  margin-top: clamp(1.5rem, 3vw, 2rem); padding: .5rem .25rem 1.5rem; margin-inline: -.25rem;
+  overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+}
+.hm-best__row::-webkit-scrollbar { display: none; }
+.hm-best__row > li { scroll-snap-align: start; }
+
+/* ---------- Card ---------- */
+.hm-best-card {
+  position: relative; display: flex; flex-direction: column; height: 100%;
+  border-radius: 50% 50% 22px 22px / 9.5rem 9.5rem 22px 22px; /* proper arch top */
+  background: linear-gradient(180deg, var(--tint) 0%, color-mix(in srgb, var(--tint) 35%, #fffaf4) 48%, #fffaf4 70%);
+  box-shadow: inset 0 0 0 1px rgba(183, 131, 74, .45), 0 20px 34px -26px rgba(72, 45, 24, .6);
+  transition: transform .35s var(--m-ease), box-shadow .35s var(--m-ease);
+}
+.hm-best-card:hover { transform: translateY(-5px); box-shadow: inset 0 0 0 1px rgba(183, 131, 74, .7), 0 28px 42px -26px rgba(72, 45, 24, .65); }
+
+.hm-best-card__stage { position: relative; display: block; width: 100%; aspect-ratio: 1 / .86; cursor: pointer; border-radius: inherit; }
+.hm-best-card__stage:focus-visible { outline: 2px solid #b7834a; outline-offset: 4px; }
+
+.hm-best-card__badge {
+  position: absolute; z-index: 3; top: 1.6rem; left: 50%;
+  display: inline-flex; align-items: center; gap: .3rem; padding: .38rem .85rem;
+  border-radius: 999px; transform: translateX(-70%) rotate(-8deg);
+  font: 700 .78rem/1 var(--font-sans); color: #fff; white-space: nowrap;
+  box-shadow: 0 6px 12px -6px rgba(72, 45, 24, .6);
+}
+.hm-best-card--caramel .hm-best-card__badge { background: linear-gradient(180deg, #8a4a22, #6b3416); }
+.hm-best-card--rose .hm-best-card__badge { background: linear-gradient(180deg, #e46b80, #cf4a63); transform: translateX(-50%) rotate(0); top: 1.4rem; }
+.hm-best-card--orange .hm-best-card__badge { background: linear-gradient(180deg, #f39a45, #e3781f); }
+.hm-best-card--violet .hm-best-card__badge { background: linear-gradient(180deg, #8f63d8, #7044c4); }
+
+/* Cake photo cropped from the design, edges feathered into the card's tint. */
+.hm-best-card__photo {
+  position: absolute; z-index: 2; left: 3%; bottom: 0; width: 94%; height: 84%;
+  object-fit: contain; object-position: center bottom;
+  -webkit-mask-image: radial-gradient(ellipse 60% 62% at 50% 56%, #000 70%, transparent 100%);
+  mask-image: radial-gradient(ellipse 60% 62% at 50% 56%, #000 70%, transparent 100%);
+  transition: transform .45s var(--m-ease);
+}
+.hm-best-card:hover .hm-best-card__photo { transform: translateY(-5px) scale(1.02); }
+
+/* Fallback for products without a design photo: marble plate + round crop. */
+.hm-best-card__plate {
+  position: absolute; z-index: 1; left: 12%; right: 12%; bottom: 6%; height: 17%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at 45% 30%, #ffffff 0%, #f1ece6 55%, #ddd3c8 100%);
+  box-shadow: 0 12px 18px -10px rgba(72, 45, 24, .45), inset 0 -3px 6px rgba(72, 45, 24, .1);
+}
+/* Circular, feathered crop of the top-down studio photo. */
+.hm-best-card__cake {
+  position: absolute; z-index: 2; left: 50%; bottom: 11%; width: 66%; aspect-ratio: 1;
+  transform: translateX(-50%); border-radius: 50%; overflow: hidden;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 60%, transparent 71%);
+  mask-image: radial-gradient(circle at 50% 50%, #000 60%, transparent 71%);
+  transition: transform .45s var(--m-ease);
+}
+.hm-best-card__cake img {
+  width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;
+  transform: scale(1.62) translate(2%, 1.5%); /* zoom past the cutlery and flowers onto the cake */
+}
+.hm-best-card:hover .hm-best-card__cake { transform: translateX(-50%) translateY(-5px) rotate(-3deg); }
+
+.hm-best-card__info { flex: 1; display: flex; flex-direction: column; align-items: center; padding: .4rem 1rem 1.25rem; text-align: center; }
+.hm-best-card__info h3 { font: 700 clamp(1.02rem, 1.35vw, 1.2rem)/1.2 var(--df-serif, Georgia, serif); color: var(--df-ink, #2e1608); }
+.hm-best-card__sizes { margin-top: .4rem; font-size: .85rem; color: #6b4c33; }
+.hm-best-card__price { display: flex; align-items: baseline; justify-content: center; gap: .6rem; margin-top: .5rem; }
+.hm-best-card__price strong { font: 700 clamp(1.3rem, 1.8vw, 1.55rem)/1 var(--df-serif, Georgia, serif); color: var(--df-ink, #2e1608); }
+.hm-best-card__price s { font-size: .9rem; color: #8a6f57; }
+.hm-best-card__actions { display: flex; align-items: center; justify-content: center; gap: .65rem; margin-top: auto; padding-top: 1rem; }
+.hm-best-card__add {
+  display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
+  height: 2.5rem; padding: 0 1.15rem; border-radius: 999px; cursor: pointer;
+  font: 600 .85rem/1 var(--font-sans); color: #fff;
+  background: linear-gradient(180deg, #6e3818 0%, #4e240c 100%);
+  box-shadow: 0 8px 14px -8px rgba(78, 36, 12, .8);
+  transition: transform .2s var(--m-ease), box-shadow .2s;
+}
+.hm-best-card__add:hover { transform: translateY(-2px); box-shadow: 0 12px 18px -8px rgba(78, 36, 12, .85); }
+.hm-best-card__fav {
+  display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: 999px; cursor: pointer;
+  color: #5a2e14; background: #fff; box-shadow: inset 0 0 0 1px rgba(90, 46, 20, .35);
+  transition: color .2s, background-color .2s, transform .2s var(--m-ease);
+}
+.hm-best-card__fav:hover { transform: scale(1.08); }
+.hm-best-card__fav.is-on { color: #c8354f; box-shadow: inset 0 0 0 1px rgba(200, 53, 79, .45); }
+.hm-best-card__add:focus-visible, .hm-best-card__fav:focus-visible { outline: 2px solid #b7834a; outline-offset: 3px; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1023px) {
+  .hm-best__all { position: static; margin-top: 1rem; height: 2.5rem; }
+  .hm-best__row { grid-auto-columns: calc((100% - 1.25rem) / 2.25); }
+}
+@media (max-width: 640px) {
+  .hm-best { padding-top: 2.5rem; }
+  .hm-best__sprig { width: 5rem; height: 5rem; }
+  .hm-best__title { font-size: 2.6rem; }
+  .hm-best__sub { font-size: .95rem; }
+  .hm-best__row { grid-auto-columns: 72%; gap: .9rem; margin-inline: -1rem; padding-inline: 1rem; scroll-padding-inline: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hm-best-card, .hm-best-card__cake, .hm-best-card__add, .hm-best-card__fav, .hm-best__all svg { transition: none; }
+  .hm-best-card:hover, .hm-best-card:hover .hm-best-card__cake { transform: none; }
+  .hm-best-card:hover .hm-best-card__cake { transform: translateX(-50%); }
+}

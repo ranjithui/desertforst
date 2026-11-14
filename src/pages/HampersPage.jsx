@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowUpDown, ChevronDown, Gift } from 'lucide-react';
 import { pages } from '../lib/data';
-import { useShop } from '../context/ShopContext';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import MenuProductCard from '../components/product/MenuProductCard';
 import NotFound from './NotFound';
@@ -18,13 +17,11 @@ const asProduct = h => ({ id: h.id, name: h.name, image_url: h.images[0], price_
 export default function HampersPage() {
   const { slug } = useParams();
   const [params, setParams] = useSearchParams();
-  const { store, exploring, picker, openPicker } = useShop();
   const tile = pages.gifting.tiles.find(t => t.link === `/gifting/${slug}`);
   const sort = params.get('sort') || 'featured';
 
   useEffect(() => {
     if (tile) document.title = `${tile.label} | Desert Forest`;
-    if (slug === 'hampers' && !store && !exploring && !picker) openPicker();
   }, [slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!tile) return <NotFound />;

@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ChevronDown, Menu, Search, ShoppingCart, User, X } from 'lucide-react';
+import { ChevronDown, Menu, Search, User, X } from 'lucide-react';
 import { cakeNav } from '../../lib/data';
-import { useShop } from '../../context/ShopContext';
 import SearchBox from './SearchBox';
 import MobileMenu from './MobileMenu';
 
@@ -36,7 +35,6 @@ const NAV = [
  */
 export default function Header() {
   const { pathname } = useLocation();
-  const { count, setCartOpen } = useShop();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -108,10 +106,6 @@ export default function Header() {
             <Link to="/login" aria-label="Login" className="hd__icon m-only-desktop">
               <User className="h-[22px] w-[22px]" />
             </Link>
-            <button type="button" className="hd__icon" aria-label="Open cart" onClick={() => setCartOpen(true)}>
-              <ShoppingCart className="h-[22px] w-[22px]" />
-              <span className="hd__badge">{count}</span>
-            </button>
             <button type="button" className="hd__icon m-only-mobile" aria-expanded={menuOpen} aria-controls="mobile-menu" aria-label="Open menu" onClick={() => setMenuOpen(true)}>
               <Menu className="h-6 w-6" />
             </button>

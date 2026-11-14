@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Check, ChevronDown, MapPin, ShoppingBag } from 'lucide-react';
+import { Check, ChevronDown } from 'lucide-react';
 import { cakes, cakeFlavours } from '../lib/data';
-import { useShop } from '../context/ShopContext';
+import { openWhatsApp, orderMessage, useBranch } from '../lib/whatsapp';
+import { WhatsAppIcon } from '../components/ui/Icons';
+import BranchField from '../components/product/BranchField';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { VegMark } from '../components/ui/Icons';
 import NotFound from './NotFound';
@@ -51,7 +53,8 @@ function FlavourSelect({ flavours, value, onChange }) {
 export default function CakePage() {
   const { slug } = useParams();
   const cake = cakes[slug];
-  const { store, requireStore, addToCart, setCartOpen } = useShop();
+  const [branch, setBranch] = useBranch();
+  const [branchError, setBranchError] = useState('');
   const flavours = cake ? cakeFlavours(cake) : [];
   const [weight, setWeight] = useState(cake?.weights[0]);
   const [flavour, setFlavour] = useState(flavours[0]?.id);
@@ -71,18 +74,20 @@ export default function CakePage() {
   const compare = Math.round(cake.compare_from_price * ratio);
   const images = cake.images?.length ? cake.images : [cake.image_url];
 
-  const order = () =>
-    requireStore(() => {
-      const fl = flavours.find(f => f.id === flavour);
-      addToCart({
-        key: `${cake.slug}|${weight}|${flavour}|${message}`,
-        name: cake.name,
-        meta: [`${weight} kg`, fl?.name, message && `“${message}”`].filter(Boolean).join(' · '),
-        price,
-        image: cake.image_url,
-      });
-      setCartOpen(true);
-    });
+  // Opens WhatsApp to the orders number with everything the customer picked.
+  const order = () => {
+    if (!branch.trim()) { setBranchError('Please enter the branch you want to order from.'); return; }
+    setBranchError('');
+    const fl = flavours.find(f => f.id === flavour);
+    openWhatsApp(orderMessage({
+      name: cake.name,
+      sku: cake.sku,
+      lines: [['Weight', `${weight} kg`], ['Flavour', fl?.name], ['Message on cake', message && `"${message}"`]],
+      total: price,
+      branch,
+      link: `${window.location.origin}/cakes/${cake.slug}`,
+    }));
+  };
 
   return (
     <div className="min-h-screen bg-bakery-bg">
@@ -146,12 +151,14 @@ export default function CakePage() {
                 </span>
                 <input maxLength={MAX_MSG} placeholder="Happy Birthday Aarav" value={message} onChange={e => setMessage(e.target.value)} className="h-11 w-full rounded-xl border border-pastel-sand/70 bg-white px-3 font-sans text-sm text-cocoa focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent" />
               </label>
+              <BranchField value={branch} onChange={v => { setBranch(v); if (v.trim()) setBranchError(''); }} error={branchError} />
             </div>
-            <button type="button" disabled={cake.sold_out} onClick={order} className="flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-xl border border-accent bg-cream font-sans text-sm font-bold tracking-wide text-accent-strong transition-colors duration-200 hover:bg-accent hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
-              {cake.sold_out ? 'Sold out' : store ? (<><ShoppingBag className="h-4 w-4" />Add to Cart · ₹{price}</>) : (<><MapPin className="h-4 w-4" />Pick a store to order</>)}
+            <button type="button" disabled={cake.sold_out} onClick={order} className="df-wa-btn h-12 w-full">
+              {cake.sold_out ? 'Sold out' : (<><WhatsAppIcon className="h-5 w-5" />Order on WhatsApp · ₹{price}</>)}
+              {!cake.sold_out && <span className="sr-only"> (opens WhatsApp)</span>}
             </button>
             <p className="rounded-xl bg-pastel-sand/30 px-4 py-3 font-sans text-xs leading-relaxed text-cocoa-light">
-              Baked to order. Please allow at least {cake.prep_hours} hours, and pick a delivery slot to match at checkout.
+              Baked to order. Please allow at least {cake.prep_hours} hours. Our team will confirm the price, delivery or pickup time on WhatsApp.
             </p>
           </div>
         </div>

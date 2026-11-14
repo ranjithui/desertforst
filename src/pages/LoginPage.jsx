@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { Reveal } from '../components/ui/Section';
 import { inputCls, labelCls, primaryBtnCls } from '../components/ui/form';
@@ -9,7 +9,6 @@ import { inputCls, labelCls, primaryBtnCls } from '../components/ui/form';
  * simulated locally (any 6-digit code), and the session is kept in localStorage.
  */
 export default function LoginPage() {
-  const [params] = useSearchParams();
   const nav = useNavigate();
   const [step, setStep] = useState('phone');
   const [phone, setPhone] = useState('');
@@ -33,7 +32,7 @@ export default function LoginPage() {
     e.preventDefault();
     if (!/^\d{6}$/.test(otp)) return setError('Enter the 6-digit code.');
     localStorage.setItem('ksb.user', JSON.stringify({ phone: digits }));
-    nav(params.get('next') === 'checkout' ? '/checkout' : '/', { replace: true });
+    nav('/', { replace: true });
   };
 
   return (

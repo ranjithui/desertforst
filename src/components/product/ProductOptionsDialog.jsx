@@ -3,7 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Check, Plus, X } from 'lucide-react';
 import { useShop } from '../../context/ShopContext';
 import { pages } from '../../lib/data';
+import { openWhatsApp, orderMessage, useBranch } from '../../lib/whatsapp';
 import Dialog from '../ui/Dialog';
+import { WhatsAppIcon } from '../ui/Icons';
+import BranchField from './BranchField';
 
 const QUICK_MESSAGES = ['Happy Birthday', 'Happy Anniversary', 'Congratulations', 'Thank You', 'Best Wishes', 'Get Well Soon'];
 const MAX_MSG = 34;
@@ -13,14 +16,16 @@ export const variantsOf = p =>
 
 /** Size / message / add-on picker for menu products (bottom sheet on mobile, centred card on desktop). */
 export default function ProductOptionsDialog() {
-  const { options: product, setOptions, addToCart, setCartOpen } = useShop();
+  const { options: product, setOptions } = useShop();
   const nav = useNavigate();
   const [variantId, setVariantId] = useState(null);
   const [message, setMessage] = useState('');
   const [addons, setAddons] = useState([]);
+  const [branch, setBranch] = useBranch();
+  const [branchError, setBranchError] = useState('');
 
   useEffect(() => {
-    if (product) { setVariantId(variantsOf(product)[0].id); setMessage(''); setAddons([]); }
+    if (product) { setVariantId(variantsOf(product)[0].id); setMessage(''); setAddons([]); setBranchError(''); }
   }, [product]);
 
   if (!product) return null;
@@ -33,20 +38,25 @@ export default function ProductOptionsDialog() {
   const close = () => setOptions(null);
   const toggleAddon = id => setAddons(a => (a.includes(id) ? a.filter(x => x !== id) : [...a, id]));
 
-  const add = () => {
-    addToCart({
-      key: `${variant.id}|${message}`,
-      name: product.name.trim(),
-      meta: [variant.variant_name, message && `“${message}”`].filter(Boolean).join(' · '),
-      price: variant.price_city,
-      image: variant.image_url || product.image_url,
-    });
-    for (const id of addons) {
-      const a = suggested.find(x => x.id === id);
-      addToCart({ key: `addon|${a.id}`, name: a.name, meta: 'Add-on', price: a.price, image: a.images[0] });
-    }
+  // Opens WhatsApp to the orders number with the size, message, add-ons, total and branch.
+  const order = () => {
+    if (!branch.trim()) { setBranchError('Please enter the branch you want to order from.'); return; }
+    setBranchError('');
+    const picked = addons.map(id => suggested.find(x => x.id === id)).filter(Boolean);
+    openWhatsApp(orderMessage({
+      name: product.name,
+      sku: variant.sku || product.sku,
+      lines: [
+        ['Size', variant.variant_name],
+        ['Item price', picked.length ? `₹${variant.price_city}` : null],
+        ['Message on cake', message && `"${message}"`],
+        ['Add-ons', picked.map(a => `${a.name} (₹${a.price})`).join(', ')],
+      ],
+      total,
+      totalLabel: picked.length ? 'Total' : 'Price',
+      branch,
+    }));
     close();
-    setCartOpen(true);
   };
 
   return (
@@ -129,6 +139,8 @@ export default function ProductOptionsDialog() {
             </fieldset>
           )}
 
+          <BranchField variant="dialog" value={branch} onChange={v => { setBranch(v); if (v.trim()) setBranchError(''); }} error={branchError} />
+
           {allowsAddons && (
             <div className="min-w-0 border-t border-pastel-sand/70 pt-6">
               <fieldset className="min-w-0 border-0 p-0">
@@ -172,8 +184,9 @@ export default function ProductOptionsDialog() {
             <p className="font-sans text-[11px] font-medium uppercase tracking-wide text-cocoa-light">Total</p>
             <p className="font-display text-2xl font-semibold leading-tight tabular-nums text-cocoa">₹{total}</p>
           </div>
-          <button onClick={add} className="inline-flex items-center justify-center text-sm duration-[320ms] ease-[cubic-bezier(0.22,1,0.36,1)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none active:scale-[0.98] bg-accent text-cream hover:bg-accent-hover focus-visible:ring-accent-soft py-2 h-12 min-h-[48px] flex-1 rounded-2xl px-6 font-semibold shadow-soft transition-shadow hover:shadow-soft-lg disabled:opacity-50">
-            Add to Cart
+          <button type="button" onClick={order} className="df-wa-btn h-12 min-h-[48px] flex-1">
+            <WhatsAppIcon className="h-5 w-5" /> Order on WhatsApp
+            <span className="sr-only"> (opens WhatsApp)</span>
           </button>
         </div>
       </div>

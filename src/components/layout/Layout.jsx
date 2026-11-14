@@ -4,8 +4,6 @@ import { CheckCircle2 } from 'lucide-react';
 import AnnouncementBar from './AnnouncementBar';
 import Header from './Header';
 import Footer from './Footer';
-import CartDrawer from './CartDrawer';
-import StorePickerDialog from '../product/StorePickerDialog';
 import ProductOptionsDialog from '../product/ProductOptionsDialog';
 import { useShop } from '../../context/ShopContext';
 
@@ -35,14 +33,12 @@ export default function Layout() {
   return (
     <>
       <ScrollManager />
-      <CartDrawer />
       <AnnouncementBar />
       <Header />
       <main>
         <Outlet />
       </main>
       <Footer />
-      <StorePickerDialog />
       <ProductOptionsDialog />
       <Toast />
     </>

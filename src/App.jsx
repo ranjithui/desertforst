@@ -18,7 +18,6 @@ import FeedbackPage from './pages/FeedbackPage';
 import CorporatePage from './pages/CorporatePage';
 import BlogPage from './pages/BlogPage';
 import LoginPage from './pages/LoginPage';
-import CheckoutPage from './pages/CheckoutPage';
 import PolicyPage from './pages/PolicyPage';
 import NotFound from './pages/NotFound';
 
@@ -57,7 +56,6 @@ export default function App() {
           <Route path="corporate-orders" element={<CorporatePage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="login" element={<LoginPage />} />
-          <Route path="checkout" element={<CheckoutPage />} />
           <Route path="privacy-policy" element={<PolicyPage slug="privacy-policy" />} />
           <Route path="terms-and-conditions" element={<PolicyPage slug="terms-and-conditions" />} />
           <Route path="cancellation-and-refund-policy" element={<PolicyPage slug="cancellation-and-refund-policy" />} />

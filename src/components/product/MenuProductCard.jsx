@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { MapPin, Plus } from 'lucide-react';
 import { useShop } from '../../context/ShopContext';
-import { VegMark } from '../ui/Icons';
+import { VegMark, WhatsAppIcon } from '../ui/Icons';
 import { variantsOf } from './ProductOptionsDialog';
 
 export function Tags({ product }) {
@@ -17,36 +16,26 @@ export function Tags({ product }) {
   );
 }
 
-/** Opens the store picker first, then the options dialog — the original's "Pick a store to order" flow. */
+/** Opens the options dialog (size, message, add-ons, branch), which sends the order on WhatsApp. */
 export function useOrder(product) {
-  const { store, requireStore, setOptions } = useShop();
-  return { store, order: () => requireStore(() => setOptions(product)) };
+  const { setOptions } = useShop();
+  return { order: () => setOptions(product) };
 }
 
 export function OrderButton({ product, className = '' }) {
-  const { store, order } = useOrder(product);
-  const from = Math.min(...variantsOf(product).map(v => v.price_city));
+  const { order } = useOrder(product);
   return (
     <button type="button" onClick={order} className={`flex h-11 w-full items-center justify-center gap-2 rounded-xl border border-accent bg-cream font-sans text-sm font-semibold text-accent-strong transition-colors duration-200 cursor-pointer hover:bg-accent hover:text-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 ${className}`}>
-      {store ? (
-        <>
-          <Plus className="h-4 w-4 shrink-0" />
-          <span>Add · ₹{from}</span>
-        </>
-      ) : (
-        <>
-          <MapPin className="h-4 w-4 shrink-0" />
-          <span className="sm:hidden">Pick a store</span>
-          <span className="hidden sm:inline">Pick a store to order</span>
-        </>
-      )}
+      <WhatsAppIcon className="h-4 w-4 shrink-0" />
+      <span className="sm:hidden">Order</span>
+      <span className="hidden sm:inline">Order on WhatsApp</span>
     </button>
   );
 }
 
 /** Product tile used for the home "Favourites" rail and the Our Menu grid. */
 export default function MenuProductCard({ product, showDescription = false }) {
-  const { store, order } = useOrder(product);
+  const { order } = useOrder(product);
   const [expanded, setExpanded] = useState(false);
   const variants = variantsOf(product);
   const from = Math.min(...variants.map(v => v.price_city));
@@ -91,7 +80,7 @@ export default function MenuProductCard({ product, showDescription = false }) {
           </div>
         </div>
         <button type="button" onClick={order} className="m-card__order">
-          {store ? <><Plus className="h-4 w-4 shrink-0" /> Add to cart</> : <><MapPin className="h-4 w-4 shrink-0" /> Pick a store to order</>}
+          <WhatsAppIcon className="h-4 w-4 shrink-0" /> Order on WhatsApp
         </button>
       </div>
     </div>

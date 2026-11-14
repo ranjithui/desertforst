@@ -1,0 +1,102 @@
+/* =================================================================
+ * Footer: chocolate panel with rounded top corners, leaf line-art,
+ * brand + contact on the left, three link columns, and a giant
+ * gradient "Desert Forest" wordmark over a wavy copper bottom edge.
+ * ================================================================= */
+.df-footer {
+  --df-page: #faf6f1;            /* page background the wave melts into */
+  --df-copper: #e7b07a;
+  position: relative; isolation: isolate; overflow: hidden;
+  margin-top: clamp(3rem, 6vw, 5rem);
+  border-radius: clamp(28px, 4vw, 56px) clamp(28px, 4vw, 56px) 0 0;
+  color: rgba(255, 244, 232, .86);
+  background:
+    radial-gradient(ellipse 55% 60% at 8% 55%, rgba(150, 70, 20, .45), transparent 70%),
+    radial-gradient(ellipse 45% 55% at 92% 20%, rgba(130, 62, 22, .4), transparent 70%),
+    linear-gradient(180deg, #4a240d 0%, #3d1d0a 55%, #4b250d 100%);
+}
+main:has(.hm) + .df-footer { margin-top: 0; }
+
+.df-footer__leaf {
+  position: absolute; z-index: -1; top: clamp(3rem, 6vw, 4.5rem); right: -1.5rem;
+  width: clamp(9rem, 15vw, 16rem); height: auto; color: var(--df-copper); opacity: .6;
+  pointer-events: none;
+}
+
+.df-footer__inner { position: relative; }
+.df-footer__top { display: grid; gap: 2.75rem; padding-top: clamp(3rem, 5.5vw, 4.5rem); }
+@media (min-width: 1024px) { .df-footer__top { grid-template-columns: 1.15fr 1.6fr; gap: 4rem; } }
+
+.df-footer__logo { display: inline-flex; padding: .55rem 1.1rem; border-radius: 16px; background: #fff; box-shadow: 0 10px 24px -14px rgba(0, 0, 0, .5); }
+.df-footer__logo img { height: 2.6rem; width: auto; }
+.df-footer__logo:focus-visible { outline: 2px solid var(--df-copper); outline-offset: 3px; }
+.df-footer__about { margin-top: 1.4rem; max-width: 29rem; font-size: .95rem; line-height: 1.6; color: rgba(255, 244, 232, .88); }
+
+.df-footer__contact { margin-top: 1.4rem; display: grid; gap: .55rem; }
+.df-footer__contact a { display: inline-flex; align-items: center; gap: .8rem; font-size: .95rem; color: #fff4e8; transition: color .2s; }
+.df-footer__contact a svg { color: rgba(255, 244, 232, .75); }
+.df-footer__contact a:hover { color: var(--df-copper); }
+
+.df-footer__social { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.5rem; }
+.df-footer__social a {
+  display: grid; place-items: center; width: 2.9rem; height: 2.9rem; border-radius: 999px;
+  color: #fff4e8; box-shadow: inset 0 0 0 1px rgba(255, 244, 232, .45);
+  transition: background-color .25s, color .25s, box-shadow .25s, transform .25s var(--m-ease);
+}
+.df-footer__social a:hover { background: #fff4e8; color: #4a240d; box-shadow: none; transform: translateY(-2px); }
+.df-footer__social a:focus-visible { outline: 2px solid var(--df-copper); outline-offset: 3px; }
+
+.df-footer__cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.25rem 2rem; }
+@media (min-width: 640px) { .df-footer__cols { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .df-footer__cols { padding-top: .5rem; } }
+.df-footer__cols h3 { font: 600 .8rem/1 var(--font-sans); letter-spacing: .26em; text-transform: uppercase; color: rgba(255, 236, 214, .82); }
+.df-footer__cols ul { margin-top: 1.4rem; display: grid; gap: .55rem; }
+.df-footer__cols a { display: inline-block; padding-block: .2rem; font-size: .98rem; color: #fff4e8; transition: color .2s, transform .25s var(--m-ease); }
+.df-footer__cols a:hover { color: var(--df-copper); transform: translateX(3px); }
+.df-footer__cols a:focus-visible, .df-footer__contact a:focus-visible { outline: 2px solid var(--df-copper); outline-offset: 2px; border-radius: 4px; }
+
+.df-footer__bottom {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem;
+  margin-top: clamp(2rem, 4vw, 3rem); padding-top: 1.4rem; border-top: 1px solid rgba(255, 244, 232, .18);
+  font-size: .88rem; color: rgba(255, 244, 232, .85);
+}
+
+/* Giant wordmark as a background layer: oversized, faded copper, behind the
+   columns and copyright, rising out of the wavy bottom edge. */
+.df-footer__word {
+  position: absolute; z-index: -1; left: 50%; bottom: clamp(1.5rem, 4vw, 4rem);
+  transform: translateX(-50%); white-space: nowrap; pointer-events: none; user-select: none;
+  font: 700 clamp(3.5rem, 15vw, 17rem)/.8 var(--font-serif); letter-spacing: -0.04em;
+  color: transparent;
+  background: linear-gradient(180deg, rgba(255, 210, 160, .26) 0%, rgba(231, 160, 100, .16) 55%, rgba(201, 122, 62, .04) 100%);
+  -webkit-background-clip: text; background-clip: text;
+}
+/* Keep the content above the wordmark. */
+.df-footer__inner { z-index: 1; }
+
+.df-footer__mark { position: relative; z-index: 2; margin-top: clamp(1.5rem, 3vw, 2.5rem); }
+.df-footer__wave { display: block; width: 100%; height: clamp(3.5rem, 8vw, 7.5rem); }
+
+@media (max-width: 640px) {
+  .df-footer { border-radius: 28px 28px 0 0; }
+  .df-footer__leaf { width: 6.5rem; top: 1.5rem; right: -1.25rem; opacity: .4; }
+  .df-footer__top { gap: 2rem; padding-top: 2.5rem; }
+  .df-footer__logo img { height: 2.2rem; }
+  .df-footer__about { margin-top: 1rem; font-size: .86rem; }
+  .df-footer__contact a { font-size: .88rem; }
+  .df-footer__social { gap: .5rem; margin-top: 1.1rem; }
+  .df-footer__social a { width: 2.5rem; height: 2.5rem; }
+  .df-footer__cols { gap: 1.75rem 1rem; }
+  .df-footer__cols > div:last-child { grid-column: span 2; }
+  .df-footer__cols ul { margin-top: .9rem; gap: .3rem; }
+  .df-footer__cols a { font-size: .9rem; }
+  .df-footer__bottom { flex-direction: column; font-size: .78rem; }
+  /* Phone: stack "Desert / Forest" so the word fills the panel as a backdrop. */
+  .df-footer__word { width: min-content; white-space: normal; text-align: center; font-size: 29vw; line-height: .82; bottom: 3rem; }
+  .df-footer__wave { height: 3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .df-footer__social a, .df-footer__cols a { transition: none; }
+  .df-footer__social a:hover, .df-footer__cols a:hover { transform: none; }
+}

@@ -17,41 +17,39 @@ const ok = (cond, msg) => { console.log(`${cond ? '  ✓' : '  ✗'} ${msg}`); i
 const browser = await chromium.launch();
 const fresh = async (vp = { width: 1440, height: 900 }) => (await browser.newContext({ viewport: vp })).newPage();
 
-console.log('Ordering flow');
+console.log('WhatsApp ordering');
 {
   const p = await fresh();
+  // Capture the WhatsApp link instead of opening a new tab.
+  await p.addInitScript(() => { window.__wa = []; window.open = u => { window.__wa.push(u); return null; }; });
+  const lastMessage = async () => p.evaluate(() => { const u = window.__wa.at(-1); return u ? { to: u.split('?')[0], text: decodeURIComponent(u.split('text=')[1]) } : null; });
+
   await p.goto(BASE + '/');
+  ok(!(await p.getByRole('button', { name: 'Open cart' }).count()), 'no cart button in the header');
   await p.getByRole('button', { name: /Butterscotch Cake - Eggless.*open options/ }).click();
-  ok(await p.getByRole('heading', { name: 'Welcome to our menu' }).isVisible(), 'store picker opens before ordering');
-  await p.getByRole('button', { name: /Shop now/ }).click();
-  ok(await p.getByRole('heading', { name: 'Set up your order' }).isVisible(), '"Shop now" shows order setup');
-  ok(await p.getByRole('button', { name: 'Select a store' }).isDisabled(), 'store button disabled until an area is chosen');
-  await p.getByRole('button', { name: 'Deliver to' }).click();
-  await p.getByRole('option', { name: 'Kukatpally' }).click();
-  await p.getByRole('button', { name: 'Shop from Kukatpally' }).click();
   await p.getByRole('heading', { name: /Butterscotch Cake - Eggless/ }).waitFor();
-  ok(true, 'options dialog opens after choosing a store');
+  ok(true, 'options dialog opens straight away (no store picker)');
   await p.getByText('1 kg', { exact: true }).click();
   await p.getByRole('button', { name: 'Happy Birthday' }).click();
   await p.getByRole('button', { name: /Add Choco Tales Hamper/ }).click();
   ok((await p.locator('text=₹1398').count()) > 0, 'total updates with size + add-on (₹999 + ₹399)');
-  await p.getByRole('button', { name: 'Add to Cart' }).click();
-  ok(await p.getByRole('heading', { name: 'Your Cart' }).isVisible(), 'cart drawer opens');
-  ok((await p.locator('aside').getByText('Butterscotch Cake - Eggless').count()) > 0, 'cake is in the cart');
-  ok((await p.locator('aside').getByText('Choco Tales Hamper').count()) > 0, 'add-on is in the cart');
-  await p.getByRole('button', { name: 'Increase quantity' }).first().click();
-  ok((await p.locator('aside').getByText('₹1998').count()) > 0, 'quantity stepper updates line total');
-  await p.getByRole('button', { name: 'Checkout' }).click();
-  await p.waitForURL(/\/login/);
-  await p.fill('#phone', '9876543210');
-  await p.getByRole('button', { name: 'Send OTP' }).click();
-  await p.fill('#otp', '123456');
-  await p.getByRole('button', { name: /Verify/ }).click();
-  await p.waitForURL(/\/checkout/);
-  await p.fill('#co-name', 'Test Customer');
-  await p.fill('#co-address', 'Road 1, Kukatpally');
-  await p.getByRole('button', { name: /Place order/ }).click();
-  ok(await p.getByRole('heading', { name: 'Order placed' }).isVisible(), 'checkout completes');
+  const dialog = p.getByRole('dialog');
+  await dialog.getByRole('button', { name: /Order on WhatsApp/ }).click();
+  ok(await dialog.getByRole('alert').isVisible(), 'branch is required');
+  await dialog.getByLabel('Branch').fill('Peelamedu');
+  await dialog.getByRole('button', { name: /Order on WhatsApp/ }).click();
+  const m1 = await lastMessage();
+  ok(m1?.to.startsWith('https://wa.me/'), 'opens WhatsApp to the orders number');
+  ok(['Butterscotch Cake - Eggless', 'Size: 1 kg', 'Happy Birthday', 'Choco Tales Hamper', 'Total: ₹1398', 'Branch: Peelamedu'].every(t => m1?.text.includes(t)),
+    'message has product, size, cake message, add-on, total and branch');
+
+  await p.goto(BASE + '/cakes/mermaid-photo-cake');
+  await p.getByPlaceholder('Happy Birthday Aarav').fill('Hi Mia');
+  ok((await p.getByLabel('Branch').inputValue()) === 'Peelamedu', 'branch is remembered between products');
+  await p.getByRole('button', { name: /Order on WhatsApp/ }).click();
+  const m2 = await lastMessage();
+  ok(['Mermaid Photo Cake', 'SKU DF', 'Weight: 1 kg', 'Flavour:', '"Hi Mia"', 'Price: ₹1299', 'Branch: Peelamedu', '/cakes/mermaid-photo-cake'].every(t => m2?.text.includes(t)),
+    'cake page message has weight, flavour, message, price, branch and link');
   await p.context().close();
 }
 
@@ -72,18 +70,18 @@ console.log('Listing + search');
 {
   const p = await fresh();
   await p.goto(BASE + '/birthday-cakes');
-  ok(await p.getByText('107 cakes to choose from').isVisible(), 'category count');
+  ok(await p.getByText('107 designs to choose from').isVisible(), 'category count');
   await p.selectOption('select[aria-label="Sort by"]', 'price-desc');
   await p.waitForURL(/sort=price-desc/);
   await p.waitForTimeout(300);
   const prices = await p.$$eval('a[href^="/cakes/"] .text-accent-strong', els => els.slice(0, 5).map(e => parseFloat(e.textContent.replace(/[^\d.]/g, ''))));
   ok(prices.every((v, i) => !i || prices[i - 1] >= v), 'sort by price (high → low)');
   await p.locator('main').getByRole('link', { name: 'Kids Birthday', exact: true }).click();
-  ok(await p.getByText('32 cakes to choose from').waitFor({ timeout: 5000 }).then(() => true, () => false), 'sub-category chip navigates');
+  ok(await p.getByText('32 designs to choose from').waitFor({ timeout: 5000 }).then(() => true, () => false), 'sub-category chip navigates');
   await p.goto(BASE + '/search?q=choco');
   ok(await p.getByRole('heading', { name: /results for/ }).isVisible(), 'search results page');
   await p.goto(BASE + '/stores');
-  await p.fill('input[aria-label^="Search outlets"]', 'Miyapur');
+  await p.fill('input[aria-label^="Search outlets"]', 'Peelamedu');
   ok(await p.getByText('1 outlet', { exact: true }).isVisible(), 'store search filters');
   await p.goto(BASE + '/faq');
   const q = p.getByRole('button', { name: /same-day delivery/ });

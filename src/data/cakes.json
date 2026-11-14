@@ -71,7 +71,7 @@
  },
  "cakes": {
   "unicorn-rainbow-butterfly-cake": {
-   "sku": "CC128",
+   "sku": "DF060",
    "slug": "unicorn-rainbow-butterfly-cake",
    "name": "Unicorn Rainbow Butterfly Cake",
    "type": "CREAM",
@@ -130,7 +130,7 @@
    }
   },
   "jungle-animals-1st-birthday-cake": {
-   "sku": "CC130",
+   "sku": "DF061",
    "slug": "jungle-animals-1st-birthday-cake",
    "name": "Jungle Animals 1st Birthday Cake",
    "type": "CREAM",
@@ -199,7 +199,7 @@
    }
   },
   "gym-fitness-theme-cake": {
-   "sku": "CC131",
+   "sku": "DF062",
    "slug": "gym-fitness-theme-cake",
    "name": "Gym Fitness Theme Cake",
    "type": "CREAM",
@@ -258,7 +258,7 @@
    }
   },
   "blue-butterfly-theme-cake": {
-   "sku": "CC090",
+   "sku": "DF045",
    "slug": "blue-butterfly-theme-cake",
    "name": "Blue Butterfly Theme Cake",
    "type": "CREAM",
@@ -317,7 +317,7 @@
    }
   },
   "purple-cartoon-bee-theme-cake": {
-   "sku": "CC092",
+   "sku": "DF047",
    "slug": "purple-cartoon-bee-theme-cake",
    "name": "Purple Cartoon Bee Theme Cake",
    "type": "CREAM",
@@ -376,7 +376,7 @@
    }
   },
   "pink-butterfly-rose-cake": {
-   "sku": "CC091",
+   "sku": "DF046",
    "slug": "pink-butterfly-rose-cake",
    "name": "Pink Butterfly Rose Cake",
    "type": "CREAM",
@@ -435,7 +435,7 @@
    }
   },
   "purple-floral-designer-cake": {
-   "sku": "CC106",
+   "sku": "DF050",
    "slug": "purple-floral-designer-cake",
    "name": "Purple Floral Designer Cake",
    "type": "CREAM",
@@ -494,7 +494,7 @@
    }
   },
   "blue-coral-ocean-theme-cake": {
-   "sku": "CC105",
+   "sku": "DF049",
    "slug": "blue-coral-ocean-theme-cake",
    "name": "Blue Coral Ocean Theme Cake",
    "type": "CREAM",
@@ -553,7 +553,7 @@
    }
   },
   "father-s-day-cake": {
-   "sku": "CC102",
+   "sku": "DF048",
    "slug": "father-s-day-cake",
    "name": "Father’s Day Cake",
    "type": "CREAM",
@@ -612,7 +612,7 @@
    }
   },
   "spider-man-4th-birthday-cake": {
-   "sku": "CC136",
+   "sku": "DF064",
    "slug": "spider-man-4th-birthday-cake",
    "name": "Spider-Man 4th Birthday Cake",
    "type": "CREAM",
@@ -701,7 +701,7 @@
    }
   },
   "blue-white-rose-designer-cake": {
-   "sku": "CC138",
+   "sku": "DF066",
    "slug": "blue-white-rose-designer-cake",
    "name": "Blue & White Rose Designer Cake",
    "type": "CREAM",
@@ -760,7 +760,7 @@
    }
   },
   "pink-daisy-heart-cake": {
-   "sku": "CC143",
+   "sku": "DF070",
    "slug": "pink-daisy-heart-cake",
    "name": "Pink Daisy Heart Cake",
    "type": "CREAM",
@@ -819,7 +819,7 @@
    }
   },
   "romantic-teddy-bear-birthday-cake": {
-   "sku": "CC142",
+   "sku": "DF069",
    "slug": "romantic-teddy-bear-birthday-cake",
    "name": "Romantic Teddy Bear Birthday Cake",
    "type": "CREAM",
@@ -888,7 +888,7 @@
    }
   },
   "blue-butterfly-pearl-cake": {
-   "sku": "CC139",
+   "sku": "DF067",
    "slug": "blue-butterfly-pearl-cake",
    "name": "Blue Butterfly Pearl Cake",
    "type": "CREAM",
@@ -947,7 +947,7 @@
    }
   },
   "romantic-couple-anniversary-cake": {
-   "sku": "CC137",
+   "sku": "DF065",
    "slug": "romantic-couple-anniversary-cake",
    "name": "Romantic Couple Anniversary Cake",
    "type": "CREAM",
@@ -1016,7 +1016,7 @@
    }
   },
   "panda-bamboo-theme-cake": {
-   "sku": "CC133",
+   "sku": "DF063",
    "slug": "panda-bamboo-theme-cake",
    "name": "Panda Bamboo Theme Cake",
    "type": "CREAM",
@@ -1075,7 +1075,7 @@
    }
   },
   "pink-butterfly-birthday-cake": {
-   "sku": "CC144",
+   "sku": "DF071",
    "slug": "pink-butterfly-birthday-cake",
    "name": "Pink Butterfly Birthday Cake",
    "type": "CREAM",
@@ -1144,7 +1144,7 @@
    }
   },
   "superhero-theme-birthday-cake": {
-   "sku": "CC121",
+   "sku": "DF057",
    "slug": "superhero-theme-birthday-cake",
    "name": "Superhero Theme Birthday Cake",
    "type": "CREAM",
@@ -1213,7 +1213,7 @@
    }
   },
   "dance-theme-rosette-cake": {
-   "sku": "CC108",
+   "sku": "DF052",
    "slug": "dance-theme-rosette-cake",
    "name": "Dance Theme Rosette Cake",
    "type": "CREAM",
@@ -1272,7 +1272,7 @@
    }
   },
   "watermelon-cartoon-cake": {
-   "sku": "CC109",
+   "sku": "DF053",
    "slug": "watermelon-cartoon-cake",
    "name": "Watermelon Cartoon Cake",
    "type": "CREAM",
@@ -1331,7 +1331,7 @@
    }
   },
   "jungle-safari-theme-cake": {
-   "sku": "CC110",
+   "sku": "DF054",
    "slug": "jungle-safari-theme-cake",
    "name": "Jungle Safari Theme Cake",
    "type": "CREAM",
@@ -1390,7 +1390,7 @@
    }
   },
   "little-singham-theme-cake": {
-   "sku": "CC120",
+   "sku": "DF056",
    "slug": "little-singham-theme-cake",
    "name": "Little Singham Theme Cake",
    "type": "CREAM",
@@ -1459,7 +1459,7 @@
    }
   },
   "uno-game-theme-cake": {
-   "sku": "CC119",
+   "sku": "DF055",
    "slug": "uno-game-theme-cake",
    "name": "UNO Game Theme Cake",
    "type": "CREAM",
@@ -1518,7 +1518,7 @@
    }
   },
   "blue-cartoon-dog-birthday-cake": {
-   "sku": "CC122",
+   "sku": "DF058",
    "slug": "blue-cartoon-dog-birthday-cake",
    "name": "Blue Cartoon Dog Birthday Cake",
    "type": "CREAM",
@@ -1587,7 +1587,7 @@
    }
   },
   "dragon-4th-birthday-cake": {
-   "sku": "CC141",
+   "sku": "DF068",
    "slug": "dragon-4th-birthday-cake",
    "name": "Dragon 4th Birthday Cake",
    "type": "CREAM",
@@ -1656,7 +1656,7 @@
    }
   },
   "butterfly-8th-birthday-cake": {
-   "sku": "CC145",
+   "sku": "DF072",
    "slug": "butterfly-8th-birthday-cake",
    "name": "Butterfly 8th Birthday Cake",
    "type": "CREAM",
@@ -1725,7 +1725,7 @@
    }
   },
   "gentleman-face-cake": {
-   "sku": "CC055",
+   "sku": "DF024",
    "slug": "gentleman-face-cake",
    "name": "Gentleman Face Cake",
    "type": "CREAM",
@@ -1795,7 +1795,7 @@
    }
   },
   "diya-cake": {
-   "sku": "CC251",
+   "sku": "DF149",
    "slug": "diya-cake",
    "name": "Diya Cake",
    "type": "CREAM",
@@ -1855,7 +1855,7 @@
    }
   },
   "road-track-theme-cake": {
-   "sku": "CC235",
+   "sku": "DF138",
    "slug": "road-track-theme-cake",
    "name": "Road Track Theme Cake",
    "type": "CREAM",
@@ -1915,7 +1915,7 @@
    }
   },
   "blue-floral-couple-anniversary-cake": {
-   "sku": "CC147",
+   "sku": "DF074",
    "slug": "blue-floral-couple-anniversary-cake",
    "name": "Blue Floral Couple Anniversary Cake",
    "type": "CREAM",
@@ -1984,7 +1984,7 @@
    }
   },
   "romantic-couple-anniversary-cake-cc146": {
-   "sku": "CC146",
+   "sku": "DF073",
    "slug": "romantic-couple-anniversary-cake-cc146",
    "name": "Romantic Couple Anniversary Cake",
    "type": "CREAM",
@@ -2053,7 +2053,7 @@
    }
   },
   "jungle-animals-theme-cake": {
-   "sku": "CC125",
+   "sku": "DF059",
    "slug": "jungle-animals-theme-cake",
    "name": "Jungle Animals Theme Cake",
    "type": "CREAM",
@@ -2122,7 +2122,7 @@
    }
   },
   "red-rose-anniversary-cake": {
-   "sku": "CC161",
+   "sku": "DF083",
    "slug": "red-rose-anniversary-cake",
    "name": "Red Rose Anniversary Cake",
    "type": "CREAM",
@@ -2191,7 +2191,7 @@
    }
   },
   "couple-silhouette-anniversary-cake": {
-   "sku": "CC148",
+   "sku": "DF075",
    "slug": "couple-silhouette-anniversary-cake",
    "name": "Couple Silhouette Anniversary Cake",
    "type": "CREAM",
@@ -2260,7 +2260,7 @@
    }
   },
   "superhero-icons-cake": {
-   "sku": "CC150",
+   "sku": "DF076",
    "slug": "superhero-icons-cake",
    "name": "Superhero Icons Cake",
    "type": "CREAM",
@@ -2329,7 +2329,7 @@
    }
   },
   "captain-america-shield-cake": {
-   "sku": "CC157",
+   "sku": "DF080",
    "slug": "captain-america-shield-cake",
    "name": "Captain America Shield Cake",
    "type": "CREAM",
@@ -2388,7 +2388,7 @@
    }
   },
   "007-secret-agent-cake": {
-   "sku": "CC151",
+   "sku": "DF077",
    "slug": "007-secret-agent-cake",
    "name": "007 Secret Agent Cake",
    "type": "CREAM",
@@ -2447,7 +2447,7 @@
    }
   },
   "hello-kitty-pink-cake": {
-   "sku": "CC158",
+   "sku": "DF081",
    "slug": "hello-kitty-pink-cake",
    "name": "Hello Kitty Pink Cake",
    "type": "CREAM",
@@ -2516,7 +2516,7 @@
    }
   },
   "panda-face-cake": {
-   "sku": "CC160",
+   "sku": "DF082",
    "slug": "panda-face-cake",
    "name": "Panda Face Cake",
    "type": "CREAM",
@@ -2575,7 +2575,7 @@
    }
   },
   "minecraft-9th-birthday-cake": {
-   "sku": "CC156",
+   "sku": "DF079",
    "slug": "minecraft-9th-birthday-cake",
    "name": "Minecraft 9th Birthday Cake",
    "type": "CREAM",
@@ -2644,7 +2644,7 @@
    }
   },
   "purple-rose-designer-cake": {
-   "sku": "CC162",
+   "sku": "DF084",
    "slug": "purple-rose-designer-cake",
    "name": "Purple Rose Designer Cake",
    "type": "CREAM",
@@ -2703,7 +2703,7 @@
    }
   },
   "pink-rose-floral-designer-cake": {
-   "sku": "CC174",
+   "sku": "DF090",
    "slug": "pink-rose-floral-designer-cake",
    "name": "Pink Rose Floral Designer Cake",
    "type": "CREAM",
@@ -2762,7 +2762,7 @@
    }
   },
   "pink-blue-baby-shower-cake": {
-   "sku": "CC155",
+   "sku": "DF078",
    "slug": "pink-blue-baby-shower-cake",
    "name": "Pink & Blue Baby Shower Cake",
    "type": "CREAM",
@@ -2831,7 +2831,7 @@
    }
   },
   "blue-butterfly-floral-cake": {
-   "sku": "CC163",
+   "sku": "DF085",
    "slug": "blue-butterfly-floral-cake",
    "name": "Blue Butterfly Floral Cake",
    "type": "CREAM",
@@ -2890,7 +2890,7 @@
    }
   },
   "among-us-8th-birthday-cake": {
-   "sku": "CC165",
+   "sku": "DF086",
    "slug": "among-us-8th-birthday-cake",
    "name": "Among Us 8th Birthday Cake",
    "type": "CREAM",
@@ -2959,7 +2959,7 @@
    }
   },
   "panda-face-birthday-cake": {
-   "sku": "CC172",
+   "sku": "DF089",
    "slug": "panda-face-birthday-cake",
    "name": "Panda Face Birthday Cake",
    "type": "CREAM",
@@ -3028,7 +3028,7 @@
    }
   },
   "unicorn-5th-birthday-cake": {
-   "sku": "CC170",
+   "sku": "DF087",
    "slug": "unicorn-5th-birthday-cake",
    "name": "Unicorn 5th Birthday Cake",
    "type": "CREAM",
@@ -3097,7 +3097,7 @@
    }
   },
   "lion-face-cake": {
-   "sku": "CC171",
+   "sku": "DF088",
    "slug": "lion-face-cake",
    "name": "Lion Face Cake",
    "type": "CREAM",
@@ -3156,7 +3156,7 @@
    }
   },
   "hello-kitty-floral-cake-fc051": {
-   "sku": "FC051",
+   "sku": "DF199",
    "slug": "hello-kitty-floral-cake-fc051",
    "name": "Hello Kitty Floral Cake",
    "type": "FONDANT",
@@ -3216,7 +3216,7 @@
    }
   },
   "farm-animals-birthday-cake": {
-   "sku": "FC056",
+   "sku": "DF202",
    "slug": "farm-animals-birthday-cake",
    "name": "Farm Animals Birthday Cake",
    "type": "FONDANT",
@@ -3286,7 +3286,7 @@
    }
   },
   "watch-theme-cake-for-dad": {
-   "sku": "FC013",
+   "sku": "DF173",
    "slug": "watch-theme-cake-for-dad",
    "name": "Watch Theme Cake for Dad",
    "type": "FONDANT",
@@ -3345,7 +3345,7 @@
    }
   },
   "pink-crown-rose-cake": {
-   "sku": "CC175",
+   "sku": "DF091",
    "slug": "pink-crown-rose-cake",
    "name": "Pink Crown Rose Cake",
    "type": "CREAM",
@@ -3404,7 +3404,7 @@
    }
   },
   "mermaid-underwater-theme-cake": {
-   "sku": "FC048",
+   "sku": "DF197",
    "slug": "mermaid-underwater-theme-cake",
    "name": "Mermaid Underwater Theme Cake",
    "type": "FONDANT",
@@ -3464,7 +3464,7 @@
    }
   },
   "school-theme-cake": {
-   "sku": "FC054",
+   "sku": "DF200",
    "slug": "school-theme-cake",
    "name": "School Theme Cake",
    "type": "FONDANT",
@@ -3524,7 +3524,7 @@
    }
   },
   "40th-birthday-star-cake": {
-   "sku": "FC055",
+   "sku": "DF201",
    "slug": "40th-birthday-star-cake",
    "name": "40th Birthday Star Cake",
    "type": "FONDANT",
@@ -3594,7 +3594,7 @@
    }
   },
   "moon-and-teddy-bear-cake": {
-   "sku": "FC050",
+   "sku": "DF198",
    "slug": "moon-and-teddy-bear-cake",
    "name": "Moon and Teddy Bear Cake",
    "type": "FONDANT",
@@ -3654,7 +3654,7 @@
    }
   },
   "roulette-king-theme-cake": {
-   "sku": "FC057",
+   "sku": "DF203",
    "slug": "roulette-king-theme-cake",
    "name": "Roulette King Theme Cake",
    "type": "FONDANT",
@@ -3714,7 +3714,7 @@
    }
   },
   "mermaid-underwater-theme-cake-fc059": {
-   "sku": "FC059",
+   "sku": "DF204",
    "slug": "mermaid-underwater-theme-cake-fc059",
    "name": "Mermaid Underwater Theme Cake",
    "type": "FONDANT",
@@ -3774,7 +3774,7 @@
    }
   },
   "blackpink-theme-cake": {
-   "sku": "FC063",
+   "sku": "DF207",
    "slug": "blackpink-theme-cake",
    "name": "Blackpink Theme Cake",
    "type": "FONDANT",
@@ -3834,7 +3834,7 @@
    }
   },
   "lavender-rose-designer-cake": {
-   "sku": "CC003",
+   "sku": "DF003",
    "slug": "lavender-rose-designer-cake",
    "name": "Lavender Rose Designer Cake",
    "type": "CREAM",
@@ -3894,7 +3894,7 @@
    }
   },
   "fox-moon-1st-birthday-cake": {
-   "sku": "FC068",
+   "sku": "DF209",
    "slug": "fox-moon-1st-birthday-cake",
    "name": "Fox & Moon 1st Birthday Cake",
    "type": "FONDANT",
@@ -3964,7 +3964,7 @@
    }
   },
   "doll-floral-designer-cake": {
-   "sku": "CC086",
+   "sku": "DF042",
    "slug": "doll-floral-designer-cake",
    "name": "Doll Floral Designer Cake",
    "type": "CREAM",
@@ -4034,7 +4034,7 @@
    }
   },
   "doctor-theme-cake-fc066": {
-   "sku": "FC066",
+   "sku": "DF208",
    "slug": "doctor-theme-cake-fc066",
    "name": "Doctor Theme Cake",
    "type": "FONDANT",
@@ -4094,7 +4094,7 @@
    }
   },
   "doctor-theme-cake": {
-   "sku": "FC061",
+   "sku": "DF205",
    "slug": "doctor-theme-cake",
    "name": "Doctor Theme Cake",
    "type": "FONDANT",
@@ -4154,7 +4154,7 @@
    }
   },
   "pink-butterfly-birthday-cake-cc045": {
-   "sku": "CC045",
+   "sku": "DF016",
    "slug": "pink-butterfly-birthday-cake-cc045",
    "name": "Pink Butterfly Birthday Cake",
    "type": "CREAM",
@@ -4214,7 +4214,7 @@
    }
   },
   "pink-heart-rose-cake": {
-   "sku": "CC005",
+   "sku": "DF005",
    "slug": "pink-heart-rose-cake",
    "name": "Pink Heart Rose Cake",
    "type": "CREAM",
@@ -4284,7 +4284,7 @@
    }
   },
   "teddy-bear-half-birthday-cake": {
-   "sku": "FC002",
+   "sku": "DF163",
    "slug": "teddy-bear-half-birthday-cake",
    "name": "Teddy Bear Half Birthday Cake",
    "type": "FONDANT",
@@ -4354,7 +4354,7 @@
    }
   },
   "under-the-sea-theme-cake": {
-   "sku": "SF007",
+   "sku": "DF227",
    "slug": "under-the-sea-theme-cake",
    "name": "Under The Sea Theme Cake",
    "type": "SEMI_FONDANT",
@@ -4424,7 +4424,7 @@
    }
   },
   "purple-rose-butterfly-cake": {
-   "sku": "CC176",
+   "sku": "DF092",
    "slug": "purple-rose-butterfly-cake",
    "name": "Purple Rose Butterfly Cake",
    "type": "CREAM",
@@ -4483,7 +4483,7 @@
    }
   },
   "rainbow-unicorn-birthday-cake": {
-   "sku": "CC177",
+   "sku": "DF093",
    "slug": "rainbow-unicorn-birthday-cake",
    "name": "Rainbow Unicorn Birthday Cake",
    "type": "CREAM",
@@ -4552,7 +4552,7 @@
    }
   },
   "romantic-heart-couple-cake": {
-   "sku": "FC007",
+   "sku": "DF167",
    "slug": "romantic-heart-couple-cake",
    "name": "Romantic Heart Couple Cake",
    "type": "FONDANT",
@@ -4622,7 +4622,7 @@
    }
   },
   "red-doll-dress-cake": {
-   "sku": "CC087",
+   "sku": "DF043",
    "slug": "red-doll-dress-cake",
    "name": "Red Doll Dress Cake",
    "type": "CREAM",
@@ -4692,7 +4692,7 @@
    }
   },
   "pink-rose-heart-cake": {
-   "sku": "CC178",
+   "sku": "DF094",
    "slug": "pink-rose-heart-cake",
    "name": "Pink Rose Heart Cake",
    "type": "CREAM",
@@ -4761,7 +4761,7 @@
    }
   },
   "pink-floral-celebration-cake": {
-   "sku": "CC179",
+   "sku": "DF095",
    "slug": "pink-floral-celebration-cake",
    "name": "Pink Floral Celebration Cake",
    "type": "CREAM",
@@ -4820,7 +4820,7 @@
    }
   },
   "lavender-swirl-designer-cake": {
-   "sku": "CC180",
+   "sku": "DF096",
    "slug": "lavender-swirl-designer-cake",
    "name": "Lavender Swirl Designer Cake",
    "type": "CREAM",
@@ -4879,7 +4879,7 @@
    }
   },
   "doll-dress-birthday-cake": {
-   "sku": "CC185",
+   "sku": "DF099",
    "slug": "doll-dress-birthday-cake",
    "name": "Doll Dress Birthday Cake",
    "type": "CREAM",
@@ -4948,7 +4948,7 @@
    }
   },
   "blue-doll-dress-cake": {
-   "sku": "CC186",
+   "sku": "DF100",
    "slug": "blue-doll-dress-cake",
    "name": "Blue Doll Dress Cake",
    "type": "CREAM",
@@ -5017,7 +5017,7 @@
    }
   },
   "pink-and-purple-doll-dress-cake": {
-   "sku": "CC187",
+   "sku": "DF101",
    "slug": "pink-and-purple-doll-dress-cake",
    "name": "Pink and Purple Doll Dress Cake",
    "type": "CREAM",
@@ -5086,7 +5086,7 @@
    }
   },
   "red-and-white-doll-dress-cake": {
-   "sku": "CC189",
+   "sku": "DF103",
    "slug": "red-and-white-doll-dress-cake",
    "name": "Red and White Doll Dress Cake",
    "type": "CREAM",
@@ -5155,7 +5155,7 @@
    }
   },
   "rainbow-doll-dress-cake": {
-   "sku": "CC188",
+   "sku": "DF102",
    "slug": "rainbow-doll-dress-cake",
    "name": "Rainbow Doll Dress Cake",
    "type": "CREAM",
@@ -5224,7 +5224,7 @@
    }
   },
   "blue-and-purple-doll-dress-cake": {
-   "sku": "CC190",
+   "sku": "DF104",
    "slug": "blue-and-purple-doll-dress-cake",
    "name": "Blue and Purple Doll Dress Cake",
    "type": "CREAM",
@@ -5293,7 +5293,7 @@
    }
   },
   "pink-ruffle-doll-dress-cake": {
-   "sku": "CC191",
+   "sku": "DF105",
    "slug": "pink-ruffle-doll-dress-cake",
    "name": "Pink Ruffle Doll Dress Cake",
    "type": "CREAM",
@@ -5362,7 +5362,7 @@
    }
   },
   "pink-doll-dress-cake-with-roses": {
-   "sku": "CC192",
+   "sku": "DF106",
    "slug": "pink-doll-dress-cake-with-roses",
    "name": "Pink Doll Dress Cake with Roses",
    "type": "CREAM",
@@ -5431,7 +5431,7 @@
    }
   },
   "pink-butterfly-floral-cake": {
-   "sku": "CC184",
+   "sku": "DF098",
    "slug": "pink-butterfly-floral-cake",
    "name": "Pink Butterfly Floral Cake",
    "type": "CREAM",
@@ -5500,7 +5500,7 @@
    }
   },
   "blue-floral-doll-dress-cake": {
-   "sku": "CC194",
+   "sku": "DF107",
    "slug": "blue-floral-doll-dress-cake",
    "name": "Blue Floral Doll Dress Cake",
    "type": "CREAM",
@@ -5569,7 +5569,7 @@
    }
   },
   "girl-with-balloons-theme-cake": {
-   "sku": "CC197",
+   "sku": "DF109",
    "slug": "girl-with-balloons-theme-cake",
    "name": "Girl with Balloons Theme Cake",
    "type": "CREAM",
@@ -5628,7 +5628,7 @@
    }
   },
   "ladybug-1st-birthday-cake": {
-   "sku": "CC183",
+   "sku": "DF097",
    "slug": "ladybug-1st-birthday-cake",
    "name": "Ladybug 1st Birthday Cake",
    "type": "CREAM",
@@ -5697,7 +5697,7 @@
    }
   },
   "elegant-blue-and-gold-birthday-cake": {
-   "sku": "CC198",
+   "sku": "DF110",
    "slug": "elegant-blue-and-gold-birthday-cake",
    "name": "Elegant Blue and Gold Birthday Cake",
    "type": "CREAM",
@@ -5756,7 +5756,7 @@
    }
   },
   "fairy-birthday-cake-with-butterflies": {
-   "sku": "CC196",
+   "sku": "DF108",
    "slug": "fairy-birthday-cake-with-butterflies",
    "name": "Fairy Birthday Cake with Butterflies",
    "type": "CREAM",
@@ -5825,7 +5825,7 @@
    }
   },
   "romantic-couple-rose-butterfly-cake": {
-   "sku": "CC199",
+   "sku": "DF111",
    "slug": "romantic-couple-rose-butterfly-cake",
    "name": "Romantic Couple Rose & Butterfly Cake",
    "type": "CREAM",
@@ -5884,7 +5884,7 @@
    }
   },
   "mermaid-ocean-theme-cake": {
-   "sku": "SF001",
+   "sku": "DF221",
    "slug": "mermaid-ocean-theme-cake",
    "name": "Mermaid Ocean Theme Cake",
    "type": "SEMI_FONDANT",
@@ -5944,7 +5944,7 @@
    }
   },
   "black-and-white-heart-cake": {
-   "sku": "CC006",
+   "sku": "DF006",
    "slug": "black-and-white-heart-cake",
    "name": "Black and White Heart Cake",
    "type": "CREAM",
@@ -6004,7 +6004,7 @@
    }
   },
   "pink-rose-birthday-cake": {
-   "sku": "CC007",
+   "sku": "DF007",
    "slug": "pink-rose-birthday-cake",
    "name": "Pink Rose Birthday Cake",
    "type": "CREAM",
@@ -6064,7 +6064,7 @@
    }
   },
   "solar-system-theme-cake": {
-   "sku": "CC010",
+   "sku": "DF009",
    "slug": "solar-system-theme-cake",
    "name": "Solar System Theme Cake",
    "type": "CREAM",
@@ -6124,7 +6124,7 @@
    }
   },
   "just-engaged-rose-cake": {
-   "sku": "CC200",
+   "sku": "DF112",
    "slug": "just-engaged-rose-cake",
    "name": "Just Engaged Rose Cake",
    "type": "CREAM",
@@ -6183,7 +6183,7 @@
    }
   },
   "butterfly-floral-cake": {
-   "sku": "CC011",
+   "sku": "DF010",
    "slug": "butterfly-floral-cake",
    "name": "Butterfly Floral Cake",
    "type": "CREAM",
@@ -6243,7 +6243,7 @@
    }
   },
   "ice-cream-cone-theme-cake": {
-   "sku": "CC075",
+   "sku": "DF036",
    "slug": "ice-cream-cone-theme-cake",
    "name": "Ice Cream Cone Theme Cake",
    "type": "CREAM",
@@ -6303,7 +6303,7 @@
    }
   },
   "12th-birthday-pink-cake": {
-   "sku": "CC065",
+   "sku": "DF030",
    "slug": "12th-birthday-pink-cake",
    "name": "12th Birthday Pink Cake",
    "type": "CREAM",
@@ -6363,7 +6363,7 @@
    }
   },
   "doraemon-theme-cake": {
-   "sku": "CC077",
+   "sku": "DF037",
    "slug": "doraemon-theme-cake",
    "name": "Doraemon Theme Cake",
    "type": "CREAM",
@@ -6423,7 +6423,7 @@
    }
   },
   "pink-barbie-doll-cake": {
-   "sku": "CC085",
+   "sku": "DF041",
    "slug": "pink-barbie-doll-cake",
    "name": "Pink Barbie Doll Cake",
    "type": "CREAM",
@@ -6483,7 +6483,7 @@
    }
   },
   "purple-barbie-doll-cake": {
-   "sku": "CC088",
+   "sku": "DF044",
    "slug": "purple-barbie-doll-cake",
    "name": "Purple Barbie Doll Cake",
    "type": "CREAM",
@@ -6543,7 +6543,7 @@
    }
   },
   "pastel-daisy-cake": {
-   "sku": "CC084",
+   "sku": "DF040",
    "slug": "pastel-daisy-cake",
    "name": "Pastel Daisy Cake",
    "type": "CREAM",
@@ -6603,7 +6603,7 @@
    }
   },
   "shirt-cap-birthday-cake": {
-   "sku": "FC072",
+   "sku": "DF212",
    "slug": "shirt-cap-birthday-cake",
    "name": "Shirt & Cap Birthday Cake",
    "type": "FONDANT",
@@ -6673,7 +6673,7 @@
    }
   },
   "wedding-couple-theme-cake": {
-   "sku": "FC070",
+   "sku": "DF210",
    "slug": "wedding-couple-theme-cake",
    "name": "Wedding Couple Theme Cake",
    "type": "FONDANT",
@@ -6743,7 +6743,7 @@
    }
   },
   "transport-theme-1st-birthday-cake": {
-   "sku": "FC074",
+   "sku": "DF213",
    "slug": "transport-theme-1st-birthday-cake",
    "name": "Transport Theme 1st Birthday Cake",
    "type": "FONDANT",
@@ -6813,7 +6813,7 @@
    }
   },
   "tooth-shaped-dentist-cake": {
-   "sku": "FC079",
+   "sku": "DF216",
    "slug": "tooth-shaped-dentist-cake",
    "name": "Tooth Shaped Dentist Cake",
    "type": "FONDANT",
@@ -6873,7 +6873,7 @@
    }
   },
   "traditional-wedding-couple-cake": {
-   "sku": "FC071",
+   "sku": "DF211",
    "slug": "traditional-wedding-couple-cake",
    "name": "Traditional Wedding Couple Cake",
    "type": "FONDANT",
@@ -6943,7 +6943,7 @@
    }
   },
   "polar-bear-number-cake": {
-   "sku": "SF013",
+   "sku": "DF232",
    "slug": "polar-bear-number-cake",
    "name": "Polar Bear Number Cake",
    "type": "SEMI_FONDANT",
@@ -7022,7 +7022,7 @@
    }
   },
   "blue-motorcycle-theme-cake": {
-   "sku": "FC076",
+   "sku": "DF215",
    "slug": "blue-motorcycle-theme-cake",
    "name": "Blue Motorcycle Theme Cake",
    "type": "FONDANT",
@@ -7082,7 +7082,7 @@
    }
   },
   "minnie-mouse-theme-cake": {
-   "sku": "FC075",
+   "sku": "DF214",
    "slug": "minnie-mouse-theme-cake",
    "name": "Minnie Mouse Theme Cake",
    "type": "FONDANT",
@@ -7142,7 +7142,7 @@
    }
   },
   "pink-gold-first-birthday-cake": {
-   "sku": "CC210",
+   "sku": "DF121",
    "slug": "pink-gold-first-birthday-cake",
    "name": "Pink & Gold First Birthday Cake",
    "type": "CREAM",
@@ -7221,7 +7221,7 @@
    }
   },
   "romantic-heart-rose-couple-cake": {
-   "sku": "CC202",
+   "sku": "DF114",
    "slug": "romantic-heart-rose-couple-cake",
    "name": "Romantic Heart & Rose Couple Cake",
    "type": "CREAM",
@@ -7290,7 +7290,7 @@
    }
   },
   "blue-purple-butterfly-floral-cake": {
-   "sku": "CC205",
+   "sku": "DF117",
    "slug": "blue-purple-butterfly-floral-cake",
    "name": "Blue & Purple Butterfly Floral Cake",
    "type": "CREAM",
@@ -7359,7 +7359,7 @@
    }
   },
   "teddy-bear-green-drip-cake": {
-   "sku": "CC206",
+   "sku": "DF118",
    "slug": "teddy-bear-green-drip-cake",
    "name": "Teddy Bear Green Drip Cake",
    "type": "CREAM",
@@ -7428,7 +7428,7 @@
    }
   },
   "romantic-rose-proposal-cake": {
-   "sku": "CC207",
+   "sku": "DF119",
    "slug": "romantic-rose-proposal-cake",
    "name": "Romantic Rose Proposal Cake",
    "type": "CREAM",
@@ -7507,7 +7507,7 @@
    }
   },
   "panda-garden-theme-cake": {
-   "sku": "CC209",
+   "sku": "DF120",
    "slug": "panda-garden-theme-cake",
    "name": "Panda Garden Theme Cake",
    "type": "CREAM",
@@ -7586,7 +7586,7 @@
    }
   },
   "butterfly-floral-garden-cake": {
-   "sku": "CC203",
+   "sku": "DF115",
    "slug": "butterfly-floral-garden-cake",
    "name": "Butterfly & Floral Garden Cake",
    "type": "CREAM",
@@ -7655,7 +7655,7 @@
    }
   },
   "rose-macaron-floral-cake": {
-   "sku": "CC201",
+   "sku": "DF113",
    "slug": "rose-macaron-floral-cake",
    "name": "Rose & Macaron Floral Cake",
    "type": "CREAM",
@@ -7734,7 +7734,7 @@
    }
   },
   "lavender-gold-balloon-cake": {
-   "sku": "CC211",
+   "sku": "DF122",
    "slug": "lavender-gold-balloon-cake",
    "name": "Lavender Gold Balloon Cake",
    "type": "CREAM",
@@ -7803,7 +7803,7 @@
    }
   },
   "pink-ruffle-first-birthday-cake": {
-   "sku": "SF014",
+   "sku": "DF233",
    "slug": "pink-ruffle-first-birthday-cake",
    "name": "Pink Ruffle First Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -7882,7 +7882,7 @@
    }
   },
   "golden-floral-couple-cake": {
-   "sku": "SF024",
+   "sku": "DF242",
    "slug": "golden-floral-couple-cake",
    "name": "Golden Floral Couple Cake",
    "type": "SEMI_FONDANT",
@@ -7961,7 +7961,7 @@
    }
   },
   "butterfly-5th-birthday-cake": {
-   "sku": "CC204",
+   "sku": "DF116",
    "slug": "butterfly-5th-birthday-cake",
    "name": "Butterfly 5th Birthday Cake",
    "type": "CREAM",
@@ -8030,7 +8030,7 @@
    }
   },
   "roller-skate-9th-birthday-cake": {
-   "sku": "SF015",
+   "sku": "DF234",
    "slug": "roller-skate-9th-birthday-cake",
    "name": "Roller Skate 9th Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -8099,7 +8099,7 @@
    }
   },
   "yin-yang-floral-cake": {
-   "sku": "SF020",
+   "sku": "DF238",
    "slug": "yin-yang-floral-cake",
    "name": "Yin Yang Floral Cake",
    "type": "SEMI_FONDANT",
@@ -8168,7 +8168,7 @@
    }
   },
   "pink-elephant-birthday-cake": {
-   "sku": "SF023",
+   "sku": "DF241",
    "slug": "pink-elephant-birthday-cake",
    "name": "Pink Elephant Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -8247,7 +8247,7 @@
    }
   },
   "naruto-birthday-cake": {
-   "sku": "SF019",
+   "sku": "DF237",
    "slug": "naruto-birthday-cake",
    "name": "Naruto Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -8326,7 +8326,7 @@
    }
   },
   "cricket-ground-theme-cake": {
-   "sku": "SF025",
+   "sku": "DF243",
    "slug": "cricket-ground-theme-cake",
    "name": "Cricket Ground Theme Cake",
    "type": "SEMI_FONDANT",
@@ -8385,7 +8385,7 @@
    }
   },
   "lavender-daisy-birthday-cake": {
-   "sku": "SF026",
+   "sku": "DF244",
    "slug": "lavender-daisy-birthday-cake",
    "name": "Lavender Daisy Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -8464,7 +8464,7 @@
    }
   },
   "happy-birthday-husband-cake": {
-   "sku": "SF027",
+   "sku": "DF245",
    "slug": "happy-birthday-husband-cake",
    "name": "Happy Birthday Husband Cake",
    "type": "SEMI_FONDANT",
@@ -8533,7 +8533,7 @@
    }
   },
   "baby-shark-birthday-cake": {
-   "sku": "CC216",
+   "sku": "DF123",
    "slug": "baby-shark-birthday-cake",
    "name": "Baby Shark Birthday Cake",
    "type": "CREAM",
@@ -8603,7 +8603,7 @@
    }
   },
   "baby-shark-underwater-birthday-cake": {
-   "sku": "CC220",
+   "sku": "DF125",
    "slug": "baby-shark-underwater-birthday-cake",
    "name": "Baby Shark Underwater Birthday Cake",
    "type": "CREAM",
@@ -8673,7 +8673,7 @@
    }
   },
   "pink-unicorn-cake": {
-   "sku": "SF028",
+   "sku": "DF246",
    "slug": "pink-unicorn-cake",
    "name": "Pink Unicorn Cake",
    "type": "SEMI_FONDANT",
@@ -8752,7 +8752,7 @@
    }
   },
   "rainbow-butterfly-cake": {
-   "sku": "CC223",
+   "sku": "DF127",
    "slug": "rainbow-butterfly-cake",
    "name": "Rainbow Butterfly Cake",
    "type": "CREAM",
@@ -8822,7 +8822,7 @@
    }
   },
   "masha-and-the-bear-theme-cake": {
-   "sku": "SF022",
+   "sku": "DF240",
    "slug": "masha-and-the-bear-theme-cake",
    "name": "Masha and the Bear Theme Cake",
    "type": "SEMI_FONDANT",
@@ -8901,7 +8901,7 @@
    }
   },
   "car-cartoon-5th-birthday-cake": {
-   "sku": "SF016",
+   "sku": "DF235",
    "slug": "car-cartoon-5th-birthday-cake",
    "name": "Car Cartoon 5th Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -8970,7 +8970,7 @@
    }
   },
   "airplane-journey-cake": {
-   "sku": "SF018",
+   "sku": "DF236",
    "slug": "airplane-journey-cake",
    "name": "Airplane Journey Cake",
    "type": "SEMI_FONDANT",
@@ -9049,7 +9049,7 @@
    }
   },
   "cute-puppy-treats-cake": {
-   "sku": "SF021",
+   "sku": "DF239",
    "slug": "cute-puppy-treats-cake",
    "name": "Cute Puppy Treats Cake",
    "type": "SEMI_FONDANT",
@@ -9118,7 +9118,7 @@
    }
   },
   "20th-anniversary-heart-cake": {
-   "sku": "CC228",
+   "sku": "DF131",
    "slug": "20th-anniversary-heart-cake",
    "name": "20th Anniversary Heart Cake",
    "type": "CREAM",
@@ -9188,7 +9188,7 @@
    }
   },
   "pink-floral-celebration-cake-cc226": {
-   "sku": "CC226",
+   "sku": "DF129",
    "slug": "pink-floral-celebration-cake-cc226",
    "name": "Pink Floral Celebration Cake",
    "type": "CREAM",
@@ -9268,7 +9268,7 @@
    }
   },
   "squid-game-18th-birthday-cake": {
-   "sku": "CC217",
+   "sku": "DF124",
    "slug": "squid-game-18th-birthday-cake",
    "name": "Squid Game 18th Birthday Cake",
    "type": "CREAM",
@@ -9338,7 +9338,7 @@
    }
   },
   "classic-floral-tiered-cake": {
-   "sku": "CC227",
+   "sku": "DF130",
    "slug": "classic-floral-tiered-cake",
    "name": "Classic Floral Tiered Cake",
    "type": "CREAM",
@@ -9418,7 +9418,7 @@
    }
   },
   "romantic-couple-photo-cake": {
-   "sku": "CC225",
+   "sku": "DF128",
    "slug": "romantic-couple-photo-cake",
    "name": "Romantic Couple Photo Cake",
    "type": "CREAM",
@@ -9488,7 +9488,7 @@
    }
   },
   "floral-9th-birthday-cake": {
-   "sku": "CC230",
+   "sku": "DF133",
    "slug": "floral-9th-birthday-cake",
    "name": "Floral 9th Birthday Cake",
    "type": "CREAM",
@@ -9558,7 +9558,7 @@
    }
   },
   "red-velvet-celebration-cake": {
-   "sku": "CC229",
+   "sku": "DF132",
    "slug": "red-velvet-celebration-cake",
    "name": "Red Velvet Celebration Cake",
    "type": "CREAM",
@@ -9628,7 +9628,7 @@
    }
   },
   "whiskey-label-birthday-cake": {
-   "sku": "CC236",
+   "sku": "DF139",
    "slug": "whiskey-label-birthday-cake",
    "name": "Whiskey Label Birthday Cake",
    "type": "CREAM",
@@ -9698,7 +9698,7 @@
    }
   },
   "proposal-heart-cake": {
-   "sku": "CC231",
+   "sku": "DF134",
    "slug": "proposal-heart-cake",
    "name": "Proposal Heart Cake",
    "type": "CREAM",
@@ -9768,7 +9768,7 @@
    }
   },
   "minecraft-theme-birthday-cake": {
-   "sku": "CC233",
+   "sku": "DF136",
    "slug": "minecraft-theme-birthday-cake",
    "name": "Minecraft Theme Birthday Cake",
    "type": "CREAM",
@@ -9838,7 +9838,7 @@
    }
   },
   "pink-rose-birthday-cake-cc232": {
-   "sku": "CC232",
+   "sku": "DF135",
    "slug": "pink-rose-birthday-cake-cc232",
    "name": "Pink Rose Birthday Cake",
    "type": "CREAM",
@@ -9908,7 +9908,7 @@
    }
   },
   "chocolate-heart-floral-cake": {
-   "sku": "CC234",
+   "sku": "DF137",
    "slug": "chocolate-heart-floral-cake",
    "name": "Chocolate Heart Floral Cake",
    "type": "CREAM",
@@ -9978,7 +9978,7 @@
    }
   },
   "ballet-girl-theme-cake": {
-   "sku": "SF050",
+   "sku": "DF260",
    "slug": "ballet-girl-theme-cake",
    "name": "Ballet Girl Theme Cake",
    "type": "SEMI_FONDANT",
@@ -10037,7 +10037,7 @@
    }
   },
   "first-birthday-jungle-animals-cake": {
-   "sku": "SF052",
+   "sku": "DF262",
    "slug": "first-birthday-jungle-animals-cake",
    "name": "First Birthday Jungle Animals Cake",
    "type": "SEMI_FONDANT",
@@ -10096,7 +10096,7 @@
    }
   },
   "pink-donut-drip-cake": {
-   "sku": "SF051",
+   "sku": "DF261",
    "slug": "pink-donut-drip-cake",
    "name": "Pink Donut Drip Cake",
    "type": "SEMI_FONDANT",
@@ -10155,7 +10155,7 @@
    }
   },
   "football-cake-cc238": {
-   "sku": "CC238",
+   "sku": "DF140",
    "slug": "football-cake-cc238",
    "name": "Football Cake",
    "type": "CREAM",
@@ -10215,7 +10215,7 @@
    }
   },
   "airplane-theme-cake": {
-   "sku": "FC009",
+   "sku": "DF169",
    "slug": "airplane-theme-cake",
    "name": "Airplane Theme Cake",
    "type": "FONDANT",
@@ -10274,7 +10274,7 @@
    }
   },
   "rainbow-unicorn-cake": {
-   "sku": "SF054",
+   "sku": "DF264",
    "slug": "rainbow-unicorn-cake",
    "name": "Rainbow Unicorn Cake",
    "type": "SEMI_FONDANT",
@@ -10333,7 +10333,7 @@
    }
   },
   "two-tier-cream-cake": {
-   "sku": "CC246",
+   "sku": "DF145",
    "slug": "two-tier-cream-cake",
    "name": "Two-Tier Cream Cake",
    "type": "CREAM",
@@ -10393,7 +10393,7 @@
    }
   },
   "happy-diwali-celebration-cake": {
-   "sku": "FC010",
+   "sku": "DF170",
    "slug": "happy-diwali-celebration-cake",
    "name": "Happy Diwali Celebration Cake",
    "type": "FONDANT",
@@ -10452,7 +10452,7 @@
    }
   },
   "fashion-dress-designer-cake": {
-   "sku": "FC008",
+   "sku": "DF168",
    "slug": "fashion-dress-designer-cake",
    "name": "Fashion Dress Designer Cake",
    "type": "FONDANT",
@@ -10511,7 +10511,7 @@
    }
   },
   "bunny-face-cake": {
-   "sku": "SF053",
+   "sku": "DF263",
    "slug": "bunny-face-cake",
    "name": "Bunny Face Cake",
    "type": "SEMI_FONDANT",
@@ -10570,7 +10570,7 @@
    }
   },
   "football-field-cake": {
-   "sku": "SF055",
+   "sku": "DF265",
    "slug": "football-field-cake",
    "name": "Football Field Cake",
    "type": "SEMI_FONDANT",
@@ -10629,7 +10629,7 @@
    }
   },
   "cricket-theme-cake": {
-   "sku": "FC011",
+   "sku": "DF171",
    "slug": "cricket-theme-cake",
    "name": "Cricket Theme Cake",
    "type": "FONDANT",
@@ -10688,7 +10688,7 @@
    }
   },
   "rainbow-sprinkle-cake": {
-   "sku": "FC012",
+   "sku": "DF172",
    "slug": "rainbow-sprinkle-cake",
    "name": "Rainbow Sprinkle Cake",
    "type": "FONDANT",
@@ -10747,7 +10747,7 @@
    }
   },
   "chhota-bheem-birthday-cake": {
-   "sku": "CC242",
+   "sku": "DF144",
    "slug": "chhota-bheem-birthday-cake",
    "name": "Chhota Bheem Birthday Cake",
    "type": "CREAM",
@@ -10817,7 +10817,7 @@
    }
   },
   "music-notes-birthday-cake": {
-   "sku": "CC241",
+   "sku": "DF143",
    "slug": "music-notes-birthday-cake",
    "name": "Music Notes Birthday Cake",
    "type": "CREAM",
@@ -10887,7 +10887,7 @@
    }
   },
   "captain-america-shield-cake-cc240": {
-   "sku": "CC240",
+   "sku": "DF142",
    "slug": "captain-america-shield-cake-cc240",
    "name": "Captain America Shield Cake",
    "type": "CREAM",
@@ -10957,7 +10957,7 @@
    }
   },
   "lol-doll-7th-birthday-cake": {
-   "sku": "CC239",
+   "sku": "DF141",
    "slug": "lol-doll-7th-birthday-cake",
    "name": "LOL Doll 7th Birthday Cake",
    "type": "CREAM",
@@ -11027,7 +11027,7 @@
    }
   },
   "ladybug-1st-birthday-cake-cc249": {
-   "sku": "CC249",
+   "sku": "DF148",
    "slug": "ladybug-1st-birthday-cake-cc249",
    "name": "Ladybug 1st Birthday Cake",
    "type": "CREAM",
@@ -11097,7 +11097,7 @@
    }
   },
   "rainbow-sprinkle-drip-cake": {
-   "sku": "CC248",
+   "sku": "DF147",
    "slug": "rainbow-sprinkle-drip-cake",
    "name": "Rainbow Sprinkle Drip Cake",
    "type": "CREAM",
@@ -11157,7 +11157,7 @@
    }
   },
   "doll-dress-cake": {
-   "sku": "CC260",
+   "sku": "DF153",
    "slug": "doll-dress-cake",
    "name": "Doll Dress Cake",
    "type": "CREAM",
@@ -11217,7 +11217,7 @@
    }
   },
   "pink-rose-anniversary-cake": {
-   "sku": "CC259",
+   "sku": "DF152",
    "slug": "pink-rose-anniversary-cake",
    "name": "Pink Rose Anniversary Cake",
    "type": "CREAM",
@@ -11287,7 +11287,7 @@
    }
   },
   "blue-star-number-cake": {
-   "sku": "CC254",
+   "sku": "DF150",
    "slug": "blue-star-number-cake",
    "name": "Blue Star Number Cake",
    "type": "CREAM",
@@ -11357,7 +11357,7 @@
    }
   },
   "floral-number-cake": {
-   "sku": "CC247",
+   "sku": "DF146",
    "slug": "floral-number-cake",
    "name": "Floral Number Cake",
    "type": "CREAM",
@@ -11427,7 +11427,7 @@
    }
   },
   "blue-floral-doll-cake": {
-   "sku": "CC264",
+   "sku": "DF156",
    "slug": "blue-floral-doll-cake",
    "name": "Blue Floral Doll Cake",
    "type": "CREAM",
@@ -11487,7 +11487,7 @@
    }
   },
   "teddy-bear-number-cake-": {
-   "sku": "CC257",
+   "sku": "DF151",
    "slug": "teddy-bear-number-cake-",
    "name": "Teddy Bear Number Cake",
    "type": "CREAM",
@@ -11557,7 +11557,7 @@
    }
   },
   "pink-rose-doll-birthday-cake": {
-   "sku": "CC262",
+   "sku": "DF155",
    "slug": "pink-rose-doll-birthday-cake",
    "name": "Pink Rose Doll Birthday Cake",
    "type": "CREAM",
@@ -11627,7 +11627,7 @@
    }
   },
   "floral-doll-1st-birthday-cake": {
-   "sku": "CC261",
+   "sku": "DF154",
    "slug": "floral-doll-1st-birthday-cake",
    "name": "Floral Doll 1st Birthday Cake",
    "type": "CREAM",
@@ -11697,7 +11697,7 @@
    }
   },
   "pink-orange-floral-doll-cake": {
-   "sku": "CC265",
+   "sku": "DF157",
    "slug": "pink-orange-floral-doll-cake",
    "name": "Pink Orange Floral Doll Cake",
    "type": "CREAM",
@@ -11757,7 +11757,7 @@
    }
   },
   "red-floral-doll-cake": {
-   "sku": "CC266",
+   "sku": "DF158",
    "slug": "red-floral-doll-cake",
    "name": "Red Floral Doll Cake",
    "type": "CREAM",
@@ -11817,7 +11817,7 @@
    }
   },
   "red-flower-doll-cake": {
-   "sku": "CC267",
+   "sku": "DF159",
    "slug": "red-flower-doll-cake",
    "name": "Red Flower Doll Cake",
    "type": "CREAM",
@@ -11877,7 +11877,7 @@
    }
   },
   "jungle-animal-adventure-cake": {
-   "sku": "FC028",
+   "sku": "DF186",
    "slug": "jungle-animal-adventure-cake",
    "name": "Jungle Animal Adventure Cake",
    "type": "FONDANT",
@@ -11937,7 +11937,7 @@
    }
   },
   "blue-double-doll-cake": {
-   "sku": "CC268",
+   "sku": "DF160",
    "slug": "blue-double-doll-cake",
    "name": "Blue Double Doll Cake",
    "type": "CREAM",
@@ -11997,7 +11997,7 @@
    }
   },
   "jungle-safari-1st-birthday-cake": {
-   "sku": "FC031",
+   "sku": "DF189",
    "slug": "jungle-safari-1st-birthday-cake",
    "name": "Jungle Safari 1st Birthday Cake",
    "type": "FONDANT",
@@ -12067,7 +12067,7 @@
    }
   },
   "airplane-pilot-cake": {
-   "sku": "FC029",
+   "sku": "DF187",
    "slug": "airplane-pilot-cake",
    "name": "Airplane Pilot Cake",
    "type": "FONDANT",
@@ -12127,7 +12127,7 @@
    }
   },
   "building-block-9th-birthday-cake": {
-   "sku": "FC030",
+   "sku": "DF188",
    "slug": "building-block-9th-birthday-cake",
    "name": "Building Block 9th Birthday Cake",
    "type": "FONDANT",
@@ -12197,7 +12197,7 @@
    }
   },
   "romantic-proposal-heart-cake": {
-   "sku": "FC032",
+   "sku": "DF190",
    "slug": "romantic-proposal-heart-cake",
    "name": "Romantic Proposal Heart Cake",
    "type": "FONDANT",
@@ -12267,7 +12267,7 @@
    }
   },
   "fitness-theme-birthday-cake": {
-   "sku": "FC033",
+   "sku": "DF191",
    "slug": "fitness-theme-birthday-cake",
    "name": "Fitness Theme Birthday Cake",
    "type": "FONDANT",
@@ -12337,7 +12337,7 @@
    }
   },
   "basketball-10th-birthday-cake": {
-   "sku": "SF031",
+   "sku": "DF248",
    "slug": "basketball-10th-birthday-cake",
    "name": "Basketball 10th Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -12406,7 +12406,7 @@
    }
   },
   "50th-birthday-cricket-tv-theme-cake": {
-   "sku": "SF030",
+   "sku": "DF247",
    "slug": "50th-birthday-cricket-tv-theme-cake",
    "name": "50th Birthday Cricket & TV Theme Cake",
    "type": "SEMI_FONDANT",
@@ -12475,7 +12475,7 @@
    }
   },
   "jungle-animal-cake": {
-   "sku": "SF036",
+   "sku": "DF251",
    "slug": "jungle-animal-cake",
    "name": "Jungle Animal Cake",
    "type": "SEMI_FONDANT",
@@ -12544,7 +12544,7 @@
    }
   },
   "unicorn-6th-birthday-cake": {
-   "sku": "SF038",
+   "sku": "DF252",
    "slug": "unicorn-6th-birthday-cake",
    "name": "Unicorn 6th Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -12613,7 +12613,7 @@
    }
   },
   "boo-ghost-4th-birthday-cake": {
-   "sku": "SF034",
+   "sku": "DF250",
    "slug": "boo-ghost-4th-birthday-cake",
    "name": "Boo Ghost 4th Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -12682,7 +12682,7 @@
    }
   },
   "floral-doll-designer-cake": {
-   "sku": "SF032",
+   "sku": "DF249",
    "slug": "floral-doll-designer-cake",
    "name": "Floral Doll Designer Cake",
    "type": "SEMI_FONDANT",
@@ -12751,7 +12751,7 @@
    }
   },
   "hello-kitty-floral-cake": {
-   "sku": "SF042",
+   "sku": "DF256",
    "slug": "hello-kitty-floral-cake",
    "name": "Hello Kitty Floral Cake",
    "type": "SEMI_FONDANT",
@@ -12810,7 +12810,7 @@
    }
   },
   "rainbow-sprinkle-designer-cake": {
-   "sku": "SF045",
+   "sku": "DF257",
    "slug": "rainbow-sprinkle-designer-cake",
    "name": "Rainbow Sprinkle Designer Cake",
    "type": "SEMI_FONDANT",
@@ -12869,7 +12869,7 @@
    }
   },
   "baby-booties-celebration-cake": {
-   "sku": "SF047",
+   "sku": "DF258",
    "slug": "baby-booties-celebration-cake",
    "name": "Baby Booties Celebration Cake",
    "type": "SEMI_FONDANT",
@@ -12928,7 +12928,7 @@
    }
   },
   "cricket-champion-theme-cake": {
-   "sku": "SF039",
+   "sku": "DF253",
    "slug": "cricket-champion-theme-cake",
    "name": "Cricket Champion Theme Cake",
    "type": "SEMI_FONDANT",
@@ -12997,7 +12997,7 @@
    }
   },
   "jungle-animals-cake": {
-   "sku": "SF057",
+   "sku": "DF267",
    "slug": "jungle-animals-cake",
    "name": "Jungle Animals Cake",
    "type": "SEMI_FONDANT",
@@ -13056,7 +13056,7 @@
    }
   },
   "blue-balloon-birthday-cake": {
-   "sku": "SF048",
+   "sku": "DF259",
    "slug": "blue-balloon-birthday-cake",
    "name": "Blue Balloon Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -13115,7 +13115,7 @@
    }
   },
   "sheep-theme-cake": {
-   "sku": "SF058",
+   "sku": "DF268",
    "slug": "sheep-theme-cake",
    "name": "Sheep Theme Cake",
    "type": "SEMI_FONDANT",
@@ -13174,7 +13174,7 @@
    }
   },
   "dinosaur-theme-cake": {
-   "sku": "SF056",
+   "sku": "DF266",
    "slug": "dinosaur-theme-cake",
    "name": "Dinosaur Theme Cake",
    "type": "SEMI_FONDANT",
@@ -13233,7 +13233,7 @@
    }
   },
   "jungle-animal-birthday-cake": {
-   "sku": "SF060",
+   "sku": "DF270",
    "slug": "jungle-animal-birthday-cake",
    "name": "Jungle Animal Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -13292,7 +13292,7 @@
    }
   },
   "peppa-pig-family-cake": {
-   "sku": "SF059",
+   "sku": "DF269",
    "slug": "peppa-pig-family-cake",
    "name": "Peppa Pig Family Cake",
    "type": "SEMI_FONDANT",
@@ -13351,7 +13351,7 @@
    }
   },
   "purple-doll-dress-cake": {
-   "sku": "FC014",
+   "sku": "DF174",
    "slug": "purple-doll-dress-cake",
    "name": "Purple Doll Dress Cake",
    "type": "FONDANT",
@@ -13420,7 +13420,7 @@
    }
   },
   "christmas-elf-sprinkle-cake": {
-   "sku": "SF041",
+   "sku": "DF255",
    "slug": "christmas-elf-sprinkle-cake",
    "name": "Christmas Elf Sprinkle Cake",
    "type": "SEMI_FONDANT",
@@ -13489,7 +13489,7 @@
    }
   },
   "jungle-lion-1st-birthday-cake": {
-   "sku": "FC015",
+   "sku": "DF175",
    "slug": "jungle-lion-1st-birthday-cake",
    "name": "Jungle Lion 1st Birthday Cake",
    "type": "FONDANT",
@@ -13558,7 +13558,7 @@
    }
   },
   "rose-heart-anniversary-cake": {
-   "sku": "FC016",
+   "sku": "DF176",
    "slug": "rose-heart-anniversary-cake",
    "name": "Rose Heart Anniversary Cake",
    "type": "FONDANT",
@@ -13627,7 +13627,7 @@
    }
   },
   "red-race-car-birthday-cake": {
-   "sku": "SF040",
+   "sku": "DF254",
    "slug": "red-race-car-birthday-cake",
    "name": "Red Race Car Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -13696,7 +13696,7 @@
    }
   },
   "welcome-baby-unicorn-cake": {
-   "sku": "SF061",
+   "sku": "DF271",
    "slug": "welcome-baby-unicorn-cake",
    "name": "Welcome Baby Unicorn Cake",
    "type": "SEMI_FONDANT",
@@ -13755,7 +13755,7 @@
    }
   },
   "orange-rose-floral-cake": {
-   "sku": "FC017",
+   "sku": "DF177",
    "slug": "orange-rose-floral-cake",
    "name": "Orange Rose Floral Cake",
    "type": "FONDANT",
@@ -13814,7 +13814,7 @@
    }
   },
   "jungle-animals-1st-birthday-cake-fc018": {
-   "sku": "FC018",
+   "sku": "DF178",
    "slug": "jungle-animals-1st-birthday-cake-fc018",
    "name": "Jungle Animals 1st Birthday Cake",
    "type": "FONDANT",
@@ -13883,7 +13883,7 @@
    }
   },
   "beer-mug-30th-birthday-cake": {
-   "sku": "FC020",
+   "sku": "DF180",
    "slug": "beer-mug-30th-birthday-cake",
    "name": "Beer Mug 30th Birthday Cake",
    "type": "FONDANT",
@@ -13952,7 +13952,7 @@
    }
   },
   "romantic-couple-heart-cake": {
-   "sku": "FC023",
+   "sku": "DF182",
    "slug": "romantic-couple-heart-cake",
    "name": "Romantic Couple Heart Cake",
    "type": "FONDANT",
@@ -14021,7 +14021,7 @@
    }
   },
   "green-badminton-birthday-cake": {
-   "sku": "FC021",
+   "sku": "DF181",
    "slug": "green-badminton-birthday-cake",
    "name": "Green Badminton Birthday Cake",
    "type": "FONDANT",
@@ -14080,7 +14080,7 @@
    }
   },
   "prince-or-princess-baby-shower-cake": {
-   "sku": "FC026",
+   "sku": "DF185",
    "slug": "prince-or-princess-baby-shower-cake",
    "name": "Prince or Princess Baby Shower Cake",
    "type": "FONDANT",
@@ -14149,7 +14149,7 @@
    }
   },
   "whiskey-bottle-theme-cake": {
-   "sku": "FC024",
+   "sku": "DF183",
    "slug": "whiskey-bottle-theme-cake",
    "name": "Whiskey Bottle Theme Cake",
    "type": "FONDANT",
@@ -14208,7 +14208,7 @@
    }
   },
   "papa-shirt-theme-cake": {
-   "sku": "FC025",
+   "sku": "DF184",
    "slug": "papa-shirt-theme-cake",
    "name": "Papa Shirt Theme Cake",
    "type": "FONDANT",
@@ -14277,7 +14277,7 @@
    }
   },
   "makeup-artist-theme-cake": {
-   "sku": "FC035",
+   "sku": "DF192",
    "slug": "makeup-artist-theme-cake",
    "name": "Makeup Artist Theme Cake",
    "type": "FONDANT",
@@ -14337,7 +14337,7 @@
    }
   },
   "teddy-bear-cloud-theme-cake": {
-   "sku": "FC041",
+   "sku": "DF195",
    "slug": "teddy-bear-cloud-theme-cake",
    "name": "Teddy Bear Cloud Theme Cake",
    "type": "FONDANT",
@@ -14397,7 +14397,7 @@
    }
   },
   "green-teddy-bear-birthday-cake": {
-   "sku": "FC036",
+   "sku": "DF193",
    "slug": "green-teddy-bear-birthday-cake",
    "name": "Green Teddy Bear Birthday Cake",
    "type": "FONDANT",
@@ -14467,7 +14467,7 @@
    }
   },
   "jungle-animal-birthday-cake-fc042": {
-   "sku": "FC042",
+   "sku": "DF196",
    "slug": "jungle-animal-birthday-cake-fc042",
    "name": "Jungle Animal Birthday Cake",
    "type": "FONDANT",
@@ -14537,7 +14537,7 @@
    }
   },
   "music-cat-5th-birthday-cake": {
-   "sku": "FC019",
+   "sku": "DF179",
    "slug": "music-cat-5th-birthday-cake",
    "name": "Music Cat 5th birthday Cake",
    "type": "FONDANT",
@@ -14606,7 +14606,7 @@
    }
   },
   "teddy-bear-heart-cake-fc084": {
-   "sku": "FC084",
+   "sku": "DF217",
    "slug": "teddy-bear-heart-cake-fc084",
    "name": "Teddy Bear Heart Cake",
    "type": "FONDANT",
@@ -14676,7 +14676,7 @@
    }
   },
   "fashion-theme-cake": {
-   "sku": "FC093",
+   "sku": "DF220",
    "slug": "fashion-theme-cake",
    "name": "Fashion Theme Cake",
    "type": "FONDANT",
@@ -14736,7 +14736,7 @@
    }
   },
   "house-theme-cake": {
-   "sku": "FC089",
+   "sku": "DF219",
    "slug": "house-theme-cake",
    "name": "House Theme Cake",
    "type": "FONDANT",
@@ -14796,7 +14796,7 @@
    }
   },
   "vehicle-2nd-birthday-cake": {
-   "sku": "FC037",
+   "sku": "DF194",
    "slug": "vehicle-2nd-birthday-cake",
    "name": "Vehicle 2nd Birthday Cake",
    "type": "FONDANT",
@@ -14866,7 +14866,7 @@
    }
   },
   "space-7th-birthday-cake": {
-   "sku": "FC062",
+   "sku": "DF206",
    "slug": "space-7th-birthday-cake",
    "name": "Space 7th birthday Cake",
    "type": "FONDANT",
@@ -14936,7 +14936,7 @@
    }
   },
   "pink-pearl-bow-cake": {
-   "sku": "CCP030",
+   "sku": "DF161",
    "slug": "pink-pearl-bow-cake",
    "name": "Pink Pearl Bow Cake",
    "type": "CREAM",
@@ -14996,7 +14996,7 @@
    }
   },
   "pink-bow-heart-cake": {
-   "sku": "SFP021",
+   "sku": "DF272",
    "slug": "pink-bow-heart-cake",
    "name": "Pink Bow Heart Cake",
    "type": "CREAM",
@@ -15056,7 +15056,7 @@
    }
   },
   "cartoon-number-cake": {
-   "sku": "FC086",
+   "sku": "DF218",
    "slug": "cartoon-number-cake",
    "name": "Cartoon Number Cake",
    "type": "FONDANT",
@@ -15126,7 +15126,7 @@
    }
   },
   "blue-white-floral-cake": {
-   "sku": "CC107",
+   "sku": "DF051",
    "slug": "blue-white-floral-cake",
    "name": "Blue & White Floral Cake",
    "type": "CREAM",
@@ -15195,7 +15195,7 @@
    }
   },
   "lavender-heart-celebration-cake": {
-   "sku": "SF004",
+   "sku": "DF224",
    "slug": "lavender-heart-celebration-cake",
    "name": "Lavender Heart Celebration Cake",
    "type": "SEMI_FONDANT",
@@ -15265,7 +15265,7 @@
    }
   },
   "jungle-animals-cake-cc222": {
-   "sku": "CC222",
+   "sku": "DF126",
    "slug": "jungle-animals-cake-cc222",
    "name": "Jungle Animals Number Cake",
    "type": "CREAM",
@@ -15325,7 +15325,7 @@
    }
   },
   "mermaid-photo-cake": {
-   "sku": "CC040",
+   "sku": "DF014",
    "slug": "mermaid-photo-cake",
    "name": "Mermaid Photo Cake",
    "type": "CREAM",
@@ -15385,7 +15385,7 @@
    }
   },
   "baby-shark-1st-birthday-cake": {
-   "sku": "CC014",
+   "sku": "DF012",
    "slug": "baby-shark-1st-birthday-cake",
    "name": "Baby Shark 1st Birthday Cake",
    "type": "CREAM",
@@ -15455,7 +15455,7 @@
    }
   },
   "colourful-chocolate-candy-cake": {
-   "sku": "CC031",
+   "sku": "DF013",
    "slug": "colourful-chocolate-candy-cake",
    "name": "Colourful Chocolate Candy Cake",
    "type": "CREAM",
@@ -15515,7 +15515,7 @@
    }
   },
   "little-singham-2nd-birthday-cake": {
-   "sku": "CC041",
+   "sku": "DF015",
    "slug": "little-singham-2nd-birthday-cake",
    "name": "Little Singham 2nd Birthday Cake",
    "type": "CREAM",
@@ -15585,7 +15585,7 @@
    }
   },
   "football-cake-cc058": {
-   "sku": "CC058",
+   "sku": "DF026",
    "slug": "football-cake-cc058",
    "name": "Football Cake",
    "type": "CREAM",
@@ -15645,7 +15645,7 @@
    }
   },
   "pink-butterfly-cake": {
-   "sku": "CC048",
+   "sku": "DF018",
    "slug": "pink-butterfly-cake",
    "name": "Pink Butterfly Cake",
    "type": "CREAM",
@@ -15705,7 +15705,7 @@
    }
   },
   "watermelon-character-cake": {
-   "sku": "CC051",
+   "sku": "DF020",
    "slug": "watermelon-character-cake",
    "name": "Watermelon Character Cake",
    "type": "CREAM",
@@ -15765,7 +15765,7 @@
    }
   },
   "rose-bow-red-white-cake": {
-   "sku": "CC057",
+   "sku": "DF025",
    "slug": "rose-bow-red-white-cake",
    "name": "Rose Bow Red White Cake",
    "type": "CREAM",
@@ -15825,7 +15825,7 @@
    }
   },
   "purple-butterfly-floral-cake": {
-   "sku": "CC047",
+   "sku": "DF017",
    "slug": "purple-butterfly-floral-cake",
    "name": "Purple Butterfly Floral Cake",
    "type": "CREAM",
@@ -15885,7 +15885,7 @@
    }
   },
   "bride-to-be-cake": {
-   "sku": "CC049",
+   "sku": "DF019",
    "slug": "bride-to-be-cake",
    "name": "Bride To Be Cake",
    "type": "CREAM",
@@ -15955,7 +15955,7 @@
    }
   },
   "blue-white-rose-cake": {
-   "sku": "CC054",
+   "sku": "DF023",
    "slug": "blue-white-rose-cake",
    "name": "Blue White Rose Cake",
    "type": "CREAM",
@@ -16015,7 +16015,7 @@
    }
   },
   "baby-shoes-cake": {
-   "sku": "CC053",
+   "sku": "DF022",
    "slug": "baby-shoes-cake",
    "name": "Baby Shoes Cake",
    "type": "CREAM",
@@ -16085,7 +16085,7 @@
    }
   },
   "coral-ocean-theme-cake": {
-   "sku": "CC074",
+   "sku": "DF035",
    "slug": "coral-ocean-theme-cake",
    "name": "Coral Ocean Theme Cake",
    "type": "CREAM",
@@ -16145,7 +16145,7 @@
    }
   },
   "airplane-theme-cake-cc061": {
-   "sku": "CC061",
+   "sku": "DF028",
    "slug": "airplane-theme-cake-cc061",
    "name": "Airplane Theme Cake",
    "type": "CREAM",
@@ -16205,7 +16205,7 @@
    }
   },
   "baby-rainbow-character-cake": {
-   "sku": "CC052",
+   "sku": "DF021",
    "slug": "baby-rainbow-character-cake",
    "name": "Baby Rainbow Character Cake",
    "type": "CREAM",
@@ -16275,7 +16275,7 @@
    }
   },
   "red-rose-designer-cake": {
-   "sku": "CC069",
+   "sku": "DF031",
    "slug": "red-rose-designer-cake",
    "name": "Red Rose Designer Cake",
    "type": "CREAM",
@@ -16335,7 +16335,7 @@
    }
   },
   "pink-heart-buttercream-cake": {
-   "sku": "CC070",
+   "sku": "DF032",
    "slug": "pink-heart-buttercream-cake",
    "name": "Pink Heart Buttercream Cake",
    "type": "CREAM",
@@ -16395,7 +16395,7 @@
    }
   },
   "red-rose-heart-cake": {
-   "sku": "CC064",
+   "sku": "DF029",
    "slug": "red-rose-heart-cake",
    "name": "Red Rose Heart Cake",
    "type": "CREAM",
@@ -16455,7 +16455,7 @@
    }
   },
   "blue-basket-weave-cake": {
-   "sku": "CC080",
+   "sku": "DF038",
    "slug": "blue-basket-weave-cake",
    "name": "Blue Basket Weave Cake",
    "type": "CREAM",
@@ -16515,7 +16515,7 @@
    }
   },
   "super-duper-thatha-cake": {
-   "sku": "CC060",
+   "sku": "DF027",
    "slug": "super-duper-thatha-cake",
    "name": "Super Duper Thatha Cake",
    "type": "CREAM",
@@ -16585,7 +16585,7 @@
    }
   },
   "cricket-stadium-cake": {
-   "sku": "FC005",
+   "sku": "DF165",
    "slug": "cricket-stadium-cake",
    "name": "Cricket Stadium Cake",
    "type": "FONDANT",
@@ -16645,7 +16645,7 @@
    }
   },
   "moon-and-sun-theme-cake": {
-   "sku": "SF002",
+   "sku": "DF222",
    "slug": "moon-and-sun-theme-cake",
    "name": "Moon and Sun Theme Cake",
    "type": "SEMI_FONDANT",
@@ -16705,7 +16705,7 @@
    }
   },
   "floral-16-birthday-cake": {
-   "sku": "SF005",
+   "sku": "DF225",
    "slug": "floral-16-birthday-cake",
    "name": "Floral 16 Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -16765,7 +16765,7 @@
    }
   },
   "red-car-theme-cake": {
-   "sku": "SF003",
+   "sku": "DF223",
    "slug": "red-car-theme-cake",
    "name": "Red Car Theme Cake",
    "type": "SEMI_FONDANT",
@@ -16825,7 +16825,7 @@
    }
   },
   "teddy-bear-cloud-cake": {
-   "sku": "FC001",
+   "sku": "DF162",
    "slug": "teddy-bear-cloud-cake",
    "name": "Teddy Bear Cloud Cake",
    "type": "CREAM",
@@ -16885,7 +16885,7 @@
    }
   },
   "youtube-theme-cake": {
-   "sku": "SF008",
+   "sku": "DF228",
    "slug": "youtube-theme-cake",
    "name": "YouTube Theme Cake",
    "type": "SEMI_FONDANT",
@@ -16945,7 +16945,7 @@
    }
   },
   "teddy-bear-12-birthday-cake": {
-   "sku": "SF006",
+   "sku": "DF226",
    "slug": "teddy-bear-12-birthday-cake",
    "name": "Teddy Bear 12 Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -17015,7 +17015,7 @@
    }
   },
   "teddy-bear-number-cake": {
-   "sku": "FC003",
+   "sku": "DF164",
    "slug": "teddy-bear-number-cake",
    "name": "Teddy Bear Number 12 Cake",
    "type": "FONDANT",
@@ -17075,7 +17075,7 @@
    }
   },
   "unicorn-10th-birthday-cake": {
-   "sku": "SF009",
+   "sku": "DF229",
    "slug": "unicorn-10th-birthday-cake",
    "name": "Unicorn 10th Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -17145,7 +17145,7 @@
    }
   },
   "angry-birds-theme-cake": {
-   "sku": "CC082",
+   "sku": "DF039",
    "slug": "angry-birds-theme-cake",
    "name": "Angry Birds Red Character Cake",
    "type": "CREAM",
@@ -17204,7 +17204,7 @@
    }
   },
   "golden-number-1-cake": {
-   "sku": "FC006",
+   "sku": "DF166",
    "slug": "golden-number-1-cake",
    "name": "Golden Number 1 Cake",
    "type": "FONDANT",
@@ -17264,7 +17264,7 @@
    }
   },
   "couple-character-cake": {
-   "sku": "CC001",
+   "sku": "DF001",
    "slug": "couple-character-cake",
    "name": "Couple Character Cake",
    "type": "CREAM",
@@ -17323,7 +17323,7 @@
    }
   },
   "blue-bow-designer-cake": {
-   "sku": "CC002",
+   "sku": "DF002",
    "slug": "blue-bow-designer-cake",
    "name": "Blue Bow Designer Cake",
    "type": "CREAM",
@@ -17382,7 +17382,7 @@
    }
   },
   "pastel-rainbow-drip-cake": {
-   "sku": "CC004",
+   "sku": "DF004",
    "slug": "pastel-rainbow-drip-cake",
    "name": "Pastel Rainbow Drip Cake",
    "type": "CREAM",
@@ -17441,7 +17441,7 @@
    }
   },
   "teddy-bear-half-birthday-cake-sf012": {
-   "sku": "SF012",
+   "sku": "DF231",
    "slug": "teddy-bear-half-birthday-cake-sf012",
    "name": "Teddy Bear Half Birthday Cake",
    "type": "SEMI_FONDANT",
@@ -17511,7 +17511,7 @@
    }
   },
   "red-rose-heart-cake-sf011": {
-   "sku": "SF011",
+   "sku": "DF230",
    "slug": "red-rose-heart-cake-sf011",
    "name": "Red Rose Heart Cake",
    "type": "SEMI_FONDANT",
@@ -17581,7 +17581,7 @@
    }
   },
   "pink-heart-rose-cake-cc008": {
-   "sku": "CC008",
+   "sku": "DF008",
    "slug": "pink-heart-rose-cake-cc008",
    "name": "Pink Heart Rose Cake",
    "type": "CREAM",
@@ -17640,7 +17640,7 @@
    }
   },
   "pink-butterfly-cake-cc013": {
-   "sku": "CC013",
+   "sku": "DF011",
    "slug": "pink-butterfly-cake-cc013",
    "name": "Pink Butterfly Cake",
    "type": "CREAM",
@@ -17699,7 +17699,7 @@
    }
   },
   "dinosaur-theme-cake-cc073": {
-   "sku": "CC073",
+   "sku": "DF034",
    "slug": "dinosaur-theme-cake-cc073",
    "name": "Dinosaur Theme Cake",
    "type": "CREAM",
@@ -17758,7 +17758,7 @@
    }
   },
   "hello-kitty-pink-cake-cc071": {
-   "sku": "CC071",
+   "sku": "DF033",
    "slug": "hello-kitty-pink-cake-cc071",
    "name": "Hello Kitty Pink Cake",
    "type": "CREAM",

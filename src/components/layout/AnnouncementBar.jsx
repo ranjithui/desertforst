@@ -1,14 +1,25 @@
-import { layout } from '../../lib/data';
+import { Link } from 'react-router-dom';
+import { MapPin, Store, Truck, Wheat } from 'lucide-react';
 
-// Infinite marquee: the message set is repeated 6x and the track scrolls -50% (see .marquee-track).
+const ITEMS = [
+  { Icon: MapPin, text: 'Coimbatore, Tamil Nadu' },
+  { Icon: Truck, text: 'Same-day Delivery*' },
+  { Icon: Wheat, text: 'Freshly Baked, Every Day' },
+];
+
+/** Slim chocolate info bar above the header: location + promises, store locator on the right. */
 export default function AnnouncementBar() {
-  const items = Array.from({ length: 6 }, () => layout.announcements).flat();
   return (
-    <div className="m-announce" role="region" aria-label="Announcements">
-      <div className="marquee-track flex w-max whitespace-nowrap" style={{ animationDuration: '90s' }}>
-        {items.map((text, i) => (
-          <span key={i} aria-hidden={i >= layout.announcements.length}>{text}</span>
-        ))}
+    <div className="df-topbar" role="region" aria-label="Store information">
+      <div className="m-wrap df-topbar__inner">
+        <ul className="df-topbar__list" role="list">
+          {ITEMS.map(({ Icon, text }) => (
+            <li key={text}><Icon className="h-4 w-4" strokeWidth={1.7} aria-hidden="true" /> {text}</li>
+          ))}
+        </ul>
+        <Link to="/stores" className="df-topbar__link">
+          <Store className="h-4 w-4" strokeWidth={1.7} aria-hidden="true" /> Store Locator
+        </Link>
       </div>
     </div>
   );
