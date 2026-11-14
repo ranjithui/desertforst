@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="m-footer__top">
           <div>
             <Link className="block w-fit rounded" aria-label="Desert Forest — Home" to="/">
-              <img alt="Desert Forest" loading="lazy" width="180" height="72" decoding="async" className="h-14 w-auto brightness-0 invert" src="/desert-forest-logo.svg" />
+              <img alt="Desert Forest" loading="lazy" width="180" height="72" decoding="async" className="h-14 w-auto rounded-2xl bg-white px-3 py-2" src="/desert-forest-logo.svg" />
             </Link>
             <p className="mt-6 max-w-md text-[0.95rem] leading-relaxed">{f.about_text}</p>
             <div className="m-footer__contact mt-6 flex flex-col">

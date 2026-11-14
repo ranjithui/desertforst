@@ -155,7 +155,7 @@ function PromiseStrip() {
         {PROMISES.map(({ Icon, text }) => (
           <li key={text[0]}>
             <Icon className="h-9 w-9 shrink-0" strokeWidth={1.3} aria-hidden="true" />
-            <span>{text[0]}<br />{text[1]}</span>
+            <span>{text[0]} <br />{text[1]}</span>
           </li>
         ))}
       </ul>
