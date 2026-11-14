@@ -1,0 +1,10 @@
+import { chromium } from 'playwright'; import fs from 'fs';
+const out = process.argv[2];
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('https://ksbakers.com/', { waitUntil: 'networkidle' });
+await p.locator('text=Pick a store to order').first().click(); await p.waitForTimeout(700);
+await p.locator('text=Shop now').first().click(); await p.waitForTimeout(2500);
+const h = await p.evaluate(() => [...document.querySelectorAll('[role=dialog]')].map(e => e.outerHTML).join('\n'));
+fs.writeFileSync(out + '/shopnow.html', h.replace(/<svg[^>]*class="([^"]*)"[^>]*>[\s\S]*?<\/svg>/g, (m, c) => `<SVG "${c}"/>`).replace(/></g, '>\n<'));
+await p.screenshot({ path: out + '/shopnow.png' });
+await b.close();

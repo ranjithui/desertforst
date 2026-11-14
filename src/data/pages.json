@@ -1,0 +1,624 @@
+{
+ "about": {
+  "content": {
+   "id": "6793fe90-1670-4411-bc31-10f2d19818c4",
+   "story_heading": "Our Story",
+   "story_subheading": "A little forest of desserts in the heart of Coimbatore.",
+   "story_tagline": "Born in Kovai. Inspired by the Western Ghats.",
+   "story_body": "Desert Forest started with a simple idea: Coimbatore deserves a bakery that feels as fresh and green as the hills around it. From our kitchen in Coimbatore we bake cakes, pastries, breads, brownies and savoury snacks every day, in small batches, so what reaches you is always fresh.\n\nThe city has always had a sweet tooth, from palkova to plum cake. We bring that love together with forest-inspired flavours — honey, cocoa, coffee from the Nilgiris, jackfruit, coconut and berries — into cakes for birthdays, anniversaries and every small celebration in between.\n\nWhether you walk into one of our outlets in R.S. Puram, Gandhipuram, Peelamedu, Saravanampatti or Race Course, or order online for delivery anywhere in the city, you'll find the same thing: honest ingredients, careful baking and people who are happy to see you.",
+   "vision_label": "FROM THE FOREST",
+   "vision_text": "TO YOUR TABLE",
+   "mission_label": "Our Mission",
+   "mission_text": "To make every Coimbatore celebration sweeter with fresh, honest desserts baked close to home.",
+   "values_heading": "Core Values",
+   "strengths_eyebrow": "Why Choose Us",
+   "strengths_heading": "Our Strengths",
+   "team_heading": "Our Team",
+   "team_subheading": "Bakers, decorators and store teams across Coimbatore who get fresh desserts on the shelf every day.",
+   "accolades_heading": "Accolades",
+   "press_heading": "Press Coverage",
+   "press_note": "",
+   "team_quote": "\"Sharing the joy of baking with Coimbatore\"",
+   "closing_cta_text": "See What We Bake",
+   "closing_cta_url": "",
+   "updated_at": "2026-09-25T14:59:49.959Z"
+  },
+  "values": [
+   {
+    "id": "a6103229-0c59-4987-84fc-fb9b0024fd3b",
+    "section": "values",
+    "icon": "Shield",
+    "image_url": "",
+    "title": "Integrity",
+    "subtitle": "",
+    "description": "",
+    "link_url": "",
+    "display_order": 0
+   },
+   {
+    "id": "aff8209c-0196-477b-9db1-643f3212994a",
+    "section": "values",
+    "icon": "Users",
+    "image_url": "",
+    "title": "Respect",
+    "subtitle": "",
+    "description": "",
+    "link_url": "",
+    "display_order": 1
+   },
+   {
+    "id": "da2f57f4-19d3-455b-97ae-b98a2e716366",
+    "section": "values",
+    "icon": "CheckCircle",
+    "image_url": "",
+    "title": "Responsibility",
+    "subtitle": "",
+    "description": "",
+    "link_url": "",
+    "display_order": 2
+   },
+   {
+    "id": "ad302b66-f6b6-4126-aec6-47d8649b4b79",
+    "section": "values",
+    "icon": "BookOpen",
+    "image_url": "",
+    "title": "Learning",
+    "subtitle": "",
+    "description": "",
+    "link_url": "",
+    "display_order": 3
+   },
+   {
+    "id": "3da8c27e-0b03-4906-bd98-87339060ef0d",
+    "section": "values",
+    "icon": "HeartHandshake",
+    "image_url": "",
+    "title": "Synergy",
+    "subtitle": "",
+    "description": "",
+    "link_url": "",
+    "display_order": 4
+   }
+  ],
+  "strengths": [
+   {
+    "icon": "Sparkles",
+    "image_url": "",
+    "title": "Fresh Every Day",
+    "subtitle": "",
+    "description": "We bake in batches through the day, so what you take home was made hours ago, not days.",
+    "link_url": ""
+   },
+   {
+    "icon": "Heart",
+    "image_url": "",
+    "title": "In-house Expertise",
+    "subtitle": "",
+    "description": "Breads, cakes, pastries, savouries. Our own bakers make all of it, under one roof and one standard.",
+    "link_url": ""
+   },
+   {
+    "icon": "Globe",
+    "image_url": "",
+    "title": "Local & Global Ingredients",
+    "subtitle": "",
+    "description": "Nilgiri coffee, Kongu-region coconut and honey alongside the finest cocoa and butter we can find.",
+    "link_url": ""
+   },
+   {
+    "icon": "Lightbulb",
+    "image_url": "",
+    "title": "Innovation",
+    "subtitle": "",
+    "description": "We keep the recipes people love and still try new things, because tastes move on and so do we.",
+    "link_url": ""
+   },
+   {
+    "icon": "ShieldCheck",
+    "image_url": "",
+    "title": "Food Safety",
+    "subtitle": "",
+    "description": "Hygiene and quality checks at every stage. That part is not negotiable.",
+    "link_url": ""
+   },
+   {
+    "icon": "Smile",
+    "image_url": "",
+    "title": "Customer First",
+    "subtitle": "",
+    "description": "Before anything reaches a store, we ask one simple thing. Will people love it?",
+    "link_url": ""
+   }
+  ],
+  "team": [],
+  "accolades": [],
+  "press": []
+ },
+ "stores": {
+  "page": {
+   "heading": "Locate Us",
+   "subheading": "There's a Desert Forest close to you in Coimbatore.",
+   "intro": "With outlets across Coimbatore, from R.S. Puram to Saravanampatti, there's always a Desert Forest nearby. Walk in, pick out a cake in person, or sit down for something fresh off the tray. Every outlet is run by us, so it tastes the same wherever you are in the city.",
+   "list_heading": "Desert Forest near me",
+   "cta_heading": "Can't find an outlet near you?",
+   "cta_text": "Suggest us where we should go next.",
+   "cta_label": "Chat on WhatsApp",
+   "cta_url": "https://wa.me/914220000000",
+   "cta_phone": "",
+   "cta_email": "",
+   "slug": "locations",
+   "updated_at": "2026-09-25T15:05:02.107Z"
+  },
+  "outlets": [
+   {
+    "id": "83ca1405-63bf-4257-8288-467a5a385cd2",
+    "name": "Desert Forest R.S. Puram",
+    "address": "D.B. Road, R.S. Puram, Coimbatore, Tamil Nadu - 641002",
+    "phone": "+91 422 000 0000",
+    "fssai_no": "",
+    "opened_year": 2026,
+    "hours": "10:00 AM to 11:00 PM",
+    "directions_url": "https://www.google.com/maps/search/D.B.+Road,+R.S.+Puram,+Coimbatore,+Tamil+Nadu+-+641002",
+    "description": "Our first home in Coimbatore. On D.B. Road, it's the place for morning bread runs, evening coffee and cake, and last-minute birthday pickups."
+   },
+   {
+    "id": "b8070228-82ab-49ab-a05e-d426f41376dd",
+    "name": "Desert Forest Gandhipuram",
+    "address": "Cross Cut Road, Gandhipuram, Coimbatore, Tamil Nadu - 641012",
+    "phone": "+91 422 000 0000",
+    "fssai_no": "",
+    "opened_year": 2026,
+    "hours": "10:00 AM to 11:00 PM",
+    "directions_url": "https://www.google.com/maps/search/Cross+Cut+Road,+Gandhipuram,+Coimbatore,+Tamil+Nadu+-+641012",
+    "description": "Right in the busiest part of the city, our Gandhipuram outlet is a quick stop for shoppers and families out on Cross Cut Road."
+   },
+   {
+    "id": "9390910b-8045-4f7d-893d-80f2920e8a78",
+    "name": "Desert Forest Peelamedu",
+    "address": "Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu - 641004",
+    "phone": "+91 422 000 0000",
+    "fssai_no": "",
+    "opened_year": 2026,
+    "hours": "10:00 AM to 11:00 PM",
+    "directions_url": "https://www.google.com/maps/search/Avinashi+Road,+Peelamedu,+Coimbatore,+Tamil+Nadu+-+641004",
+    "description": "Close to colleges and offices on Avinashi Road, Peelamedu is where students and teams pick up snacks, pastries and celebration cakes."
+   },
+   {
+    "id": "e1154b45-c3b6-445f-bd4e-fcb7c6637728",
+    "name": "Desert Forest Saravanampatti",
+    "address": "Sathy Road, Saravanampatti, Coimbatore, Tamil Nadu - 641035",
+    "phone": "+91 422 000 0000",
+    "fssai_no": "",
+    "opened_year": 2026,
+    "hours": "10:00 AM to 11:00 PM",
+    "directions_url": "https://www.google.com/maps/search/Sathy+Road,+Saravanampatti,+Coimbatore,+Tamil+Nadu+-+641035",
+    "description": "Serving the IT corridor on Sathy Road with office-party cakes, quick bites and fresh coffee through the day."
+   },
+   {
+    "id": "a75a9a1d-6f86-4388-9a34-10f94b42facc",
+    "name": "Desert Forest Race Course",
+    "address": "Race Course Road, Coimbatore, Tamil Nadu - 641018",
+    "phone": "+91 422 000 0000",
+    "fssai_no": "",
+    "opened_year": 2026,
+    "hours": "10:00 AM to 11:00 PM",
+    "directions_url": "https://www.google.com/maps/search/Race+Course+Road,+Coimbatore,+Tamil+Nadu+-+641018",
+    "description": "A calm stop after a walk around Race Course — fresh desserts, breads and a cosy corner to sit for a while."
+   }
+  ]
+ },
+ "faq": {
+  "page": {
+   "heading": "Frequently Asked Questions",
+   "subheading": "Everything Coimbatore usually asks us, in one place.",
+   "intro": "Whether you're ordering a cake for a birthday, picking up your favourite bakery treats, or planning something special, here are answers to some of the questions customers ask us most often.",
+   "list_heading": "",
+   "cta_heading": "Still have a question?",
+   "cta_text": "Couldn't find the answer you're looking for? We're happy to help. Message us on WhatsApp and our team will assist you with your order or query.",
+   "cta_label": "Chat on WhatsApp",
+   "cta_url": "https://wa.me/914220000000",
+   "cta_phone": "+91 422 000 0000",
+   "cta_email": "hello@desertforest.in",
+   "slug": "faq"
+  },
+  "faqs": [
+   {
+    "id": "80b64ae4-a7a0-4ec7-9cd4-efa447a1ee3a",
+    "category": "Ordering",
+    "question": "Do I need to create an account to place an order?",
+    "answer": "Yes. You need to create an account on the Desert Forest website or app to place an order.\nA valid phone number is mandatory for ordering. This allows us to confirm your order, contact you about delivery or pickup, and share important updates."
+   },
+   {
+    "id": "5296ae32-eb01-4c74-9c88-128a9e4ad3ab",
+    "category": "Ordering",
+    "question": "Why do I need to provide my phone number?",
+    "answer": "Your phone number helps us keep you updated throughout the ordering process. We may use it to:\n• Confirm your order\n• Contact you about delivery or pickup\n• Clarify any order or customisation requirements\n• Share important updates about your order\nPlease make sure you provide an active phone number that you can access after placing your order."
+   },
+   {
+    "id": "b5458903-ddd3-4068-a0aa-d3006237b594",
+    "category": "Ordering",
+    "question": "Can I order a cake for same-day delivery?",
+    "answer": "Yes. Same-day availability depends on the cake, outlet, availability, and design requirements.\nPlain and semi-custom cakes may be available for same-day delivery from selected outlets. For fully custom cakes, we recommend placing your order at least 24 to 48 hours in advance so our team has enough time to prepare it properly."
+   },
+   {
+    "id": "025ff0a2-815c-4c2a-a56d-aeb074378e9c",
+    "category": "Ordering",
+    "question": "Can I customise a cake from the Desert Forest menu?",
+    "answer": "Yes. Most cakes can be customised to some extent, including the flavour, size, message, and basic design.\nIf you have a specific theme or want a completely personalised cake, you can explore our Custom Cakes section or contact us directly on WhatsApp."
+   },
+   {
+    "id": "5658682a-520f-42cc-93b3-fce57f57b9fb",
+    "category": "Ordering",
+    "question": "Can I add a message to my cake?",
+    "answer": "Yes. A cake message can be added to most cakes where customisation is available.\nPlease check your message carefully before placing the order, especially names, spellings, dates, and other personal details."
+   },
+   {
+    "id": "5197f7c9-5436-4b28-a6dc-b514ef301e51",
+    "category": "Ordering",
+    "question": "Can I order a completely custom-designed cake?",
+    "answer": "Yes. We accept requests for custom and personalised cakes.\nCustom cakes can vary in design, size, flavour, finishing, and preparation time. For a fully customised cake, we recommend contacting our team in advance so we can understand your requirements and confirm what is possible."
+   },
+   {
+    "id": "ed9d70a3-de13-41db-8ffc-f956c053d9e0",
+    "category": "Delivery and pickup",
+    "question": "Does Desert Forest offer home delivery?",
+    "answer": "Yes. You can either collect your order from a Desert Forest outlet or choose home delivery if your location is within our serviceable area."
+   },
+   {
+    "id": "f5d696b0-6031-457b-82e3-76ea60d68a4d",
+    "category": "Delivery and pickup",
+    "question": "How can I check if my area is covered for delivery?",
+    "answer": "Enter your delivery address during checkout.\nIf your location is outside our delivery service area, you will be informed during checkout and can choose store pickup instead."
+   },
+   {
+    "id": "43c2087c-90e5-46a9-bdef-9b2e497ebcaa",
+    "category": "Delivery and pickup",
+    "question": "What happens if I am not available when my order is delivered?",
+    "answer": "Our delivery partner will try to contact you using the phone number provided with your order.\nPlease keep your phone reachable around the expected delivery window and make sure someone is available to receive the order. This is especially important for cakes and other fresh products."
+   },
+   {
+    "id": "5fd1f6a7-dd1d-4b54-8579-f6d1c32bcf3e",
+    "category": "Delivery and pickup",
+    "question": "Can someone else receive my order for me?",
+    "answer": "Yes. Someone else can receive your order at the delivery address.\nWe recommend informing the person in advance, particularly when the order contains a cake or another product that needs to be handled carefully."
+   },
+   {
+    "id": "c24e7c55-e443-49d3-ba76-9210720af509",
+    "category": "Delivery and pickup",
+    "question": "What happens if the delivery cannot be completed because I am unavailable?",
+    "answer": "Our delivery partner will make reasonable attempts to contact you.\nHowever, an order may not be eligible for a refund solely because delivery could not be completed due to the customer being unavailable, providing an incorrect or incomplete address, or another issue caused by the customer."
+   },
+   {
+    "id": "93f16ffa-03e7-45c9-b68c-7d94e9cd5a48",
+    "category": "Payments",
+    "question": "What payment methods does Desert Forest accept?",
+    "answer": "Depending on the options available at checkout, you can pay using:\n• Credit and debit cards\n• UPI\n• Net banking\n• Popular digital wallets\nThe payment options available for your order will be shown at checkout."
+   },
+   {
+    "id": "254a1cfb-eb91-4bd9-85da-1805922339b0",
+    "category": "Payments",
+    "question": "Is it safe to pay online?",
+    "answer": "Yes. Online payments are processed through a secure, encrypted third-party payment gateway.\nDesert Forest does not store your card details on its own servers."
+   },
+   {
+    "id": "1ef6fb0a-db5f-47a3-b4a7-a4bb93a107e9",
+    "category": "Payments",
+    "question": "What should I do if my payment is successful but my order is not confirmed?",
+    "answer": "If the payment has been deducted but your order confirmation has not been received, please check your account or order history first.\nIf the order is still not visible, contact Desert Forest with your payment details or transaction reference and registered phone number, and our team can help check the status."
+   },
+   {
+    "id": "6517e28b-17f9-4d62-aff9-1913555dee0a",
+    "category": "Cancellations and refunds",
+    "question": "Can I cancel my order after placing it?",
+    "answer": "Cancellation depends on the type of product and the stage of preparation.\nFor standard products, cancellation may be possible within the applicable cancellation window.\nFor custom, personalised, or made-to-order cakes, cancellation is not possible once preparation has started.\nIf you need to cancel an order, please contact us as early as possible."
+   },
+   {
+    "id": "cc2a0198-cd7a-4bcd-8c85-3e16f78f1a61",
+    "category": "Cancellations and refunds",
+    "question": "Can I cancel a custom cake after preparation has started?",
+    "answer": "No. Once preparation of a custom or made-to-order cake has started, the order cannot be cancelled and the amount paid will not be refundable.\nCustom cakes are prepared specifically for each customer and may involve ingredients, materials, designs, and preparation work that have already been committed to the order."
+   },
+   {
+    "id": "3081941c-1b6f-4504-a2bc-12184025f1bb",
+    "category": "Cancellations and refunds",
+    "question": "Can I cancel a custom cake on the day of delivery?",
+    "answer": "Cancellation may not be possible, particularly if preparation has already started.\nWe recommend requesting cancellation at least 24 hours before the scheduled delivery or pickup time.\nHowever, the key factor is whether preparation has already begun. Once preparation has started, a custom cake cannot be cancelled or refunded."
+   },
+   {
+    "id": "2254321c-4d47-44a5-9534-508c14b203fc",
+    "category": "Cancellations and refunds",
+    "question": "What if I need to change my custom cake order?",
+    "answer": "Please contact us as early as possible.\nWe will review requests based on the type of change and the stage of preparation. Once preparation has started, some changes may no longer be possible."
+   },
+   {
+    "id": "c170c810-c8cf-4a72-b538-c0a89a649a98",
+    "category": "Cancellations and refunds",
+    "question": "Will I get a refund if my cancellation is approved?",
+    "answer": "If your cancellation is approved and the order is eligible for a refund, the refund will generally be made to the original payment method used for the order, unless otherwise agreed.\nThe applicable cancellation or processing charges, if any, may be deducted from the refund."
+   },
+   {
+    "id": "5f7901d5-21cf-4193-8aea-4a125688d53f",
+    "category": "Cancellations and refunds",
+    "question": "What if my cake arrives damaged?",
+    "answer": "Please contact us within a reasonable time after delivery or pickup and share photographs of the cake and the issue, wherever possible.\nAfter reviewing the concern, Desert Forest may provide an appropriate resolution, which may include a replacement, refund, or store credit, depending on the circumstances."
+   },
+   {
+    "id": "435a7da4-a27b-4b01-b1aa-ad042d689352",
+    "category": "Cancellations and refunds",
+    "question": "What if I receive the wrong cake?",
+    "answer": "Please contact us as soon as possible after receiving your order.\nShare your Order ID and photographs of the product, where possible. Our team will review the issue and work towards an appropriate resolution."
+   },
+   {
+    "id": "6a670748-a3e7-4a77-b27d-92cc6c2d1238",
+    "category": "Cancellations and refunds",
+    "question": "What if my order is significantly different from what I ordered?",
+    "answer": "If your order is significantly different from the product you ordered, please contact us within a reasonable time of delivery or pickup.\nPlease provide your Order ID and photographs where possible so our team can review the concern."
+   },
+   {
+    "id": "7d055479-2961-469b-8972-ec898678d37f",
+    "category": "Cakes and customisation",
+    "question": "How far in advance should I order a custom cake?",
+    "answer": "For fully custom cakes, we recommend ordering at least 24 to 48 hours in advance.\nMore detailed or complex designs may require additional preparation time. Availability also depends on the outlet and the requirements of your cake."
+   },
+   {
+    "id": "ab8b793b-7268-44e2-b2d5-6b00d24e939c",
+    "category": "Cakes and customisation",
+    "question": "Can I choose the flavour and size of my cake?",
+    "answer": "Most cakes allow customisation of flavour and size, depending on the product and availability.\nAvailable options will be shown while placing or customising your order."
+   },
+   {
+    "id": "e0df83da-ee33-411f-8540-1feae529728c",
+    "category": "Cakes and customisation",
+    "question": "Can I request a specific cake design?",
+    "answer": "Yes, you can request a custom design.\nThe final design will depend on the requirements, preparation time, ingredients, materials, and feasibility. For a fully bespoke design, please contact our custom cake team in advance."
+   },
+   {
+    "id": "f641bcc5-be55-46f6-9b15-10ce46557f07",
+    "category": "Allergens and dietary needs",
+    "question": "Does Desert Forest offer eggless cakes?",
+    "answer": "Yes. Most of our cakes are available in an eggless version.\nWhere an eggless option is available, you can select it while customising your cake."
+   },
+   {
+    "id": "00add4d4-2df1-4553-8034-bf8767325f43",
+    "category": "Allergens and dietary needs",
+    "question": "Do Desert Forest products contain nuts, dairy, egg, or gluten?",
+    "answer": "Our kitchens handle common allergens, including nuts, dairy, egg, and gluten.\nIf you have a serious food allergy, please check with your nearest Desert Forest outlet before placing your order."
+   },
+   {
+    "id": "e246624c-c73d-4a6f-b2f2-d614c759e3b2",
+    "category": "Allergens and dietary needs",
+    "question": "Can I order a cake based on specific dietary requirements?",
+    "answer": "Availability depends on the cake and the specific dietary requirement.\nIf you have an allergy or dietary restriction, we recommend contacting the nearest Desert Forest outlet before ordering so our team can guide you on the available options."
+   },
+   {
+    "id": "5f525e97-0f71-471f-8f1e-3a77a94c6e74",
+    "category": "Corporate and bulk orders",
+    "question": "Does Desert Forest accept bulk or corporate orders?",
+    "answer": "Yes. We accept bulk orders for office celebrations, corporate gifting, events, and other occasions.\nFor bulk requirements and pricing, you can contact us on WhatsApp or explore our Gifting section."
+   },
+   {
+    "id": "513907c1-2d85-4d5c-bf1d-fa9c8eac206c",
+    "category": "Corporate and bulk orders",
+    "question": "Can I place a large order in advance?",
+    "answer": "Yes. For larger orders, we recommend contacting our team in advance.\nThis gives us time to understand your quantity, product requirements, customisation, delivery or pickup requirements, and preferred date."
+   },
+   {
+    "id": "950c7cf6-ebe2-4782-b0c9-843438d9ee49",
+    "category": "Corporate and bulk orders",
+    "question": "Does Desert Forest offer corporate gifting?",
+    "answer": "Yes. Desert Forest can cater to corporate gifting and event requirements.\nFor larger gifting requirements, please contact our team through WhatsApp or our Gifting section to discuss your requirements."
+   },
+   {
+    "id": "e0b3bd37-9d81-4823-890f-72370cd4132a",
+    "category": "Order support",
+    "question": "How can I check the status of my order?",
+    "answer": "You can check your order through your Desert Forest account.\nYour registered phone number may also be used to contact you regarding important order updates."
+   },
+   {
+    "id": "fd6c5a41-e5e5-4912-bd6b-101b0f15ad0d",
+    "category": "Order support",
+    "question": "What should I do if I entered the wrong delivery address?",
+    "answer": "Please contact Desert Forest as soon as possible.\nIf the order has not yet been dispatched or prepared for delivery, our team will check whether the address can be updated.\nFor orders that have already been prepared or dispatched, changes may not be possible."
+   },
+   {
+    "id": "5e00454b-3cbe-42c4-b27c-9017b3124b69",
+    "category": "Order support",
+    "question": "What should I do if I have a problem with my order?",
+    "answer": "If there is an issue with your order, please contact us as soon as possible with your Order ID and registered phone number.\nIf the issue concerns the product itself, photographs can also help our team understand and resolve the concern faster."
+   }
+  ]
+ },
+ "gifting": {
+  "banners": [
+   {
+    "id": "2ebe323c-0df5-4fb0-bdc6-f499549d8a8a",
+    "image_url": "/media/ksbakers/uploads/472576c3-8501-4f9e-9ba8-ad0b9b40a275.jpg",
+    "image_url_hd": null,
+    "mobile_image_url": "/media/ksbakers/uploads/7a3d475c-ec06-4409-8704-10f2e32e7ee9.jpg",
+    "mobile_image_url_hd": "/media/ksbakers/uploads/0baad85e-c9a2-4ef1-ac7a-37a92e15fb38.jpg",
+    "alt_text": "Gifting",
+    "link_url": "/gifting"
+   }
+  ],
+  "tiles": [
+   {
+    "id": "955a5d05-85b5-450a-8586-f5bfa66fa462",
+    "image_url": "/media/ksbakers/uploads/0420831f-ccb6-4319-b667-c10e2df8d2d8.jpg",
+    "label": "Hampers",
+    "link": "/gifting/hampers"
+   },
+   {
+    "id": "064b9576-70b9-473f-90d6-100dcdf58d3a",
+    "image_url": "",
+    "label": "Snack Boxes",
+    "link": "/gifting/snack-boxes"
+   },
+   {
+    "id": "3d670c00-369b-4927-87a8-35a7592b2387",
+    "image_url": "",
+    "label": "DIY Hampers",
+    "link": "/gifting/diy-hampers"
+   },
+   {
+    "id": "98a87281-60c6-4a4a-a6ed-7da1297c7771",
+    "image_url": "",
+    "label": "DIY Snack Boxes",
+    "link": "/gifting/diy-snack-boxes"
+   }
+  ]
+ },
+ "hampers": {
+  "name": "Hampers",
+  "slug": "hampers",
+  "hampers": [
+   {
+    "id": "188d19bc-5cb3-475d-8651-2a7f7eddb7a2",
+    "name": "Choco Tales",
+    "price": 399,
+    "images": [
+     "/media/ksbakers/uploads/81bf03e4-5086-4c9b-b438-9cfd7c526266.jpg"
+    ]
+   },
+   {
+    "id": "9954f1f1-0eaa-4b7b-99f5-ea62fd9698dd",
+    "name": "Choco Delight",
+    "price": 499,
+    "images": [
+     "/media/ksbakers/uploads/9c248c08-0d5f-42c5-9b75-fde8da1a0cd1.jpg"
+    ]
+   },
+   {
+    "id": "c468aa2a-eaf0-4a5f-8af5-cf6194c2f32a",
+    "name": "The Mithai Ritual",
+    "price": 699,
+    "images": [
+     "/media/ksbakers/uploads/8f1e4761-1151-466c-871f-f79a0cad6f46.png"
+    ]
+   },
+   {
+    "id": "5656e3b7-3eba-4644-bb5a-4290964622ce",
+    "name": "The Diya Box",
+    "price": 999,
+    "images": [
+     "/media/ksbakers/uploads/9c38916d-3dcd-4cbd-ac0b-1c959ba4bd9b.png"
+    ]
+   },
+   {
+    "id": "9d382a7d-e599-425f-8942-0a9b82edba5d",
+    "name": "The Grand Utsav",
+    "price": 1199,
+    "images": [
+     "/media/ksbakers/uploads/566b4748-61f9-4d1b-abfd-a32cfc267f5b.png"
+    ]
+   }
+  ],
+  "snack_boxes": []
+ },
+ "addons": {
+  "categories": [
+   {
+    "name": "Hamper",
+    "slug": "hamper"
+   }
+  ],
+  "addons": [
+   {
+    "id": "bb7681c6-e03b-4a85-aed4-38c21c3c9b7f",
+    "name": "Choco Delight Hamper",
+    "description": "",
+    "price": 499,
+    "images": [
+     "/media/ksbakers/uploads/39fc9d6b-c88e-4411-bdc4-5c7c915984c4.jpg"
+    ],
+    "category": "hamper"
+   },
+   {
+    "id": "09ca1d62-460b-4ddd-8cfc-72bb350acac9",
+    "name": "Choco Tales Hamper",
+    "description": "",
+    "price": 399,
+    "images": [
+     "/media/ksbakers/uploads/fcd4958e-92ea-4095-8dff-c6755f83b888.jpg"
+    ],
+    "category": "hamper"
+   },
+   {
+    "id": "833c7b1a-49a1-4624-869c-cf65e7e50018",
+    "name": "THE MITHAI RITUAL",
+    "description": "",
+    "price": 699,
+    "images": [
+     "/media/ksbakers/uploads/6eb42747-e9ef-40e6-a47d-534a4e39ed0b.png"
+    ],
+    "category": "hamper"
+   },
+   {
+    "id": "bbc80ddd-3db3-41f6-8a95-e4e7768cf056",
+    "name": "THE DIYA BOX",
+    "description": "",
+    "price": 999,
+    "images": [
+     "/media/ksbakers/uploads/a1c45da8-a0f8-4b70-a461-0d4f02b7218c.png"
+    ],
+    "category": "hamper"
+   },
+   {
+    "id": "f6ca8cde-378d-4b7e-b3b8-d45e06e3da74",
+    "name": "THE GRAND UTSAV",
+    "description": "",
+    "price": 1199,
+    "images": [
+     "/media/ksbakers/uploads/b6a51d40-4d40-43a9-918f-96a48cb0af32.png"
+    ],
+    "category": "hamper"
+   }
+  ]
+ },
+ "suggestedAddons": [
+  {
+   "id": "09ca1d62-460b-4ddd-8cfc-72bb350acac9",
+   "name": "Choco Tales Hamper",
+   "description": "",
+   "price": 399,
+   "images": [
+    "/media/ksbakers/uploads/fcd4958e-92ea-4095-8dff-c6755f83b888.jpg"
+   ]
+  },
+  {
+   "id": "bb7681c6-e03b-4a85-aed4-38c21c3c9b7f",
+   "name": "Choco Delight Hamper",
+   "description": "",
+   "price": 499,
+   "images": [
+    "/media/ksbakers/uploads/39fc9d6b-c88e-4411-bdc4-5c7c915984c4.jpg"
+   ]
+  },
+  {
+   "id": "833c7b1a-49a1-4624-869c-cf65e7e50018",
+   "name": "THE MITHAI RITUAL",
+   "description": "",
+   "price": 699,
+   "images": [
+    "/media/ksbakers/uploads/6eb42747-e9ef-40e6-a47d-534a4e39ed0b.png"
+   ]
+  },
+  {
+   "id": "bbc80ddd-3db3-41f6-8a95-e4e7768cf056",
+   "name": "THE DIYA BOX",
+   "description": "",
+   "price": 999,
+   "images": [
+    "/media/ksbakers/uploads/a1c45da8-a0f8-4b70-a461-0d4f02b7218c.png"
+   ]
+  },
+  {
+   "id": "f6ca8cde-378d-4b7e-b3b8-d45e06e3da74",
+   "name": "THE GRAND UTSAV",
+   "description": "",
+   "price": 1199,
+   "images": [
+    "/media/ksbakers/uploads/b6a51d40-4d40-43a9-918f-96a48cb0af32.png"
+   ]
+  }
+ ]
+}

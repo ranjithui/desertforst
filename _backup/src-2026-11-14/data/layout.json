@@ -1,0 +1,225 @@
+{
+ "navLinks": [
+  {
+   "label": "Classic Cakes",
+   "url": "/products"
+  },
+  {
+   "label": "Customised cakes",
+   "url": "/custom-cakes"
+  }
+ ],
+ "cakeNav": [
+  {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes",
+   "children": [
+    {
+     "name": "Kids Birthday",
+     "slug": "kids-birthday"
+    },
+    {
+     "name": "Age-Specific",
+     "slug": "age-specific"
+    },
+    {
+     "name": "1st Birthday",
+     "slug": "1st-birthday"
+    },
+    {
+     "name": "Adult Birthday",
+     "slug": "adult-birthday"
+    },
+    {
+     "name": "Milestone Birthday",
+     "slug": "milestone-birthday"
+    }
+   ]
+  },
+  {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes",
+   "children": [
+    {
+     "name": "Number & Alphabet",
+     "slug": "number-alphabet"
+    },
+    {
+     "name": "Kids",
+     "slug": "kids"
+    },
+    {
+     "name": "Photo Cakes",
+     "slug": "photo-cakes"
+    },
+    {
+     "name": "Cartoon",
+     "slug": "cartoon"
+    },
+    {
+     "name": "Designer",
+     "slug": "designer"
+    },
+    {
+     "name": "Floral",
+     "slug": "floral"
+    },
+    {
+     "name": "Character",
+     "slug": "character"
+    },
+    {
+     "name": "Sports",
+     "slug": "sports"
+    }
+   ]
+  },
+  {
+   "name": "Anniversary Cakes",
+   "slug": "anniversary-cakes",
+   "children": [
+    {
+     "name": "Couple Anniversary",
+     "slug": "couple-anniversary"
+    }
+   ]
+  },
+  {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes",
+   "children": [
+    {
+     "name": "Festivals",
+     "slug": "festivals"
+    },
+    {
+     "name": "Designer",
+     "slug": "designer"
+    },
+    {
+     "name": "Farewell",
+     "slug": "farewell"
+    },
+    {
+     "name": "Special Days",
+     "slug": "special-days"
+    },
+    {
+     "name": "Baby Shower",
+     "slug": "baby-shower"
+    }
+   ]
+  },
+  {
+   "name": "Gifting",
+   "slug": "gifting",
+   "children": [
+    {
+     "name": "Hampers",
+     "slug": "hampers",
+     "href": "$undefined"
+    }
+   ]
+  }
+ ],
+ "announcements": [
+  "Free delivery across Coimbatore on orders above ₹999",
+  "Now open in R.S. Puram, Coimbatore — come say hello!",
+  "Eggless options available on most of our cakes and desserts"
+ ],
+ "footer": {
+  "about_text": "Desert Forest is a Coimbatore bakery and dessert house inspired by the Western Ghats on our doorstep. We bake cakes, pastries, breads and desserts fresh every day, with the same care whether it's a single slice or a celebration cake.",
+  "link_columns": [
+   {
+    "links": [
+     {
+      "url": "/about",
+      "label": "Our Story"
+     },
+     {
+      "url": "/stores",
+      "label": "Locate Us"
+     },
+     {
+      "url": "/blog",
+      "label": "Blog"
+     },
+     {
+      "url": "/queries",
+      "label": "Careers"
+     }
+    ],
+    "heading": "Know us"
+   },
+   {
+    "links": [
+     {
+      "url": "/queries",
+      "label": "Contact Us"
+     },
+     {
+      "url": "/faq",
+      "label": "FAQ"
+     },
+     {
+      "url": "/privacy-policy",
+      "label": "Privacy Policy"
+     },
+     {
+      "url": "/terms-and-conditions",
+      "label": "Terms and Conditions"
+     },
+     {
+      "url": "/cancellation-and-refund-policy",
+      "label": "Cancellation and Refund"
+     }
+    ],
+    "heading": "Need help"
+   },
+   {
+    "links": [
+     {
+      "url": "/corporate-orders",
+      "label": "Corporate Orders"
+     },
+     {
+      "url": "/gifting",
+      "label": "Gifting"
+     },
+     {
+      "url": "/custom-cakes",
+      "label": "Custom Cakes"
+     }
+    ],
+    "heading": "More info"
+   }
+  ],
+  "phone": "+91 422 000 0000",
+  "email": "hello@desertforest.in",
+  "social_links": [
+   {
+    "url": "#",
+    "icon": "instagram"
+   },
+   {
+    "url": "#",
+    "icon": "facebook"
+   },
+   {
+    "url": "#",
+    "icon": "x"
+   },
+   {
+    "url": "#",
+    "icon": "youtube"
+   },
+   {
+    "url": "#",
+    "icon": "whatsapp"
+   }
+  ],
+  "copyright_text": "Copyright {year}. Desert Forest, Coimbatore, Tamil Nadu.",
+  "id": "1486cf72-af9a-4549-84e6-b437697e3840",
+  "updated_at": "2026-11-09T08:15:28.302Z"
+ }
+}

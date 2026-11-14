@@ -1,0 +1,414 @@
+{
+ "heroBanners": [
+  {
+   "id": "652df676-1c26-4d79-b34a-8fd5f44bf87b",
+   "image_url": "/media/ksbakers/uploads/739815be-1d57-4342-a1fe-4accdb27a041.jpg",
+   "image_url_hd": "/media/ksbakers/uploads/9820d32f-36b5-42a9-bab9-0d97626b47ea.jpg",
+   "mobile_image_url": "/media/ksbakers/uploads/546c6be5-1fab-4c37-a3aa-2e40303a175e.jpg",
+   "mobile_image_url_hd": "/media/ksbakers/uploads/58c14c3e-9a83-4530-ae35-5babd7d42ff3.jpg",
+   "alt_text": null,
+   "link_url": "/birthday-cakes"
+  }
+ ],
+ "promoBanners": [
+  {
+   "id": "cdce47ae-7b9c-4a1f-be5a-87f9a7dccb8b",
+   "image_url": "/media/ksbakers/uploads/e74a6105-4dd7-4d56-98df-22de4fc966dc.jpg",
+   "image_url_hd": null,
+   "mobile_image_url": "/media/ksbakers/uploads/19c11390-afaf-41d6-b6b2-063a015bb88a.jpg",
+   "mobile_image_url_hd": "/media/ksbakers/uploads/e212a41b-570c-499b-b66b-1e5a5e8097f6.jpg",
+   "alt_text": "Gifting",
+   "link_url": "/gifting"
+  }
+ ],
+ "homeStats": [
+  {
+   "id": "0cb7e02b-6f4b-4bad-9eb8-de7812ca6810",
+   "icon": "Award",
+   "count_text": "2000",
+   "label": "Baking in Coimbatore since"
+  },
+  {
+   "id": "2d6c4850-03cc-48b6-a6fa-797ea6e2405b",
+   "icon": "Store",
+   "count_text": "5",
+   "label": "Outlets across Coimbatore"
+  },
+  {
+   "id": "eca420ed-d54e-4996-af3d-1105a7e77c8b",
+   "icon": "Factory",
+   "count_text": "100%",
+   "label": "Baked In-house"
+  },
+  {
+   "id": "43b36a0a-7c71-4a2a-9c9a-fa0b7a0f9216",
+   "icon": "Users",
+   "count_text": "Fresh",
+   "label": "Every Single Day"
+  }
+ ],
+ "categoryTiles": [
+  {
+   "id": "08f29a79-457d-4296-99d0-563f5cdbbfec",
+   "image_url": "/media/ksbakers/uploads/b9fbf741-4114-4fea-b8f3-c58cca5ef5b7.jpg",
+   "label": "Classic cakes",
+   "link": "/products#cakes"
+  },
+  {
+   "id": "e1219cf7-3cac-481e-a040-14bee64c5d6b",
+   "image_url": "/media/ksbakers/uploads/98a2ffdb-9f55-40e0-8047-31b4b7887969.jpg",
+   "label": "Birthday",
+   "link": "/birthday-cakes"
+  },
+  {
+   "id": "ea8ef904-0119-4bbc-a672-5eea478315c8",
+   "image_url": "/media/ksbakers/uploads/aeb79620-ffdf-4caf-89db-0cf07ff6b86c.jpg",
+   "label": "Anniversary",
+   "link": "/anniversary-cakes"
+  },
+  {
+   "id": "ccd7dc63-3305-4526-b6ae-ad8d0019c381",
+   "image_url": "/media/ksbakers/uploads/5dd9d00e-263c-43cf-94a1-bd70cec5897e.jpg",
+   "label": "Theme Cakes",
+   "link": "/theme-cakes"
+  },
+  {
+   "id": "9ea25949-048f-489b-8c8e-faba9dca5494",
+   "image_url": "/media/ksbakers/uploads/930113c8-0547-4367-8927-3dc1b95d2402.jpg",
+   "label": "Occasion",
+   "link": "/occasion-cakes"
+  },
+  {
+   "id": "f3eafa7f-0923-4de5-b30b-c23ca8cea79d",
+   "image_url": "/media/ksbakers/uploads/ce06bf0f-50fb-4a71-a064-7b8686a1d731.jpg",
+   "label": "Gifting",
+   "link": "/gifting"
+  }
+ ],
+ "testimonials": [],
+ "blogPosts": [],
+ "homeCta": {
+  "id": "c7c514aa-13c1-4abd-8970-81df6216a7b2",
+  "heading": "Corporate gifting, the Desert Forest way.",
+  "subheading": "Dessert hampers and goodie boxes for teams across Coimbatore.",
+  "cta_text": "Enquire Now",
+  "cta_url": "/queries",
+  "updated_at": "2026-09-18T05:59:34.723Z"
+ },
+ "featured": [
+  {
+   "id": "ed4b41db-50e7-4772-b376-2b2152149c92",
+   "name": "Butterscotch Cake - Eggless ",
+   "slug": "butterscotch-cake-eggless",
+   "description": "A creamy butterscotch-flavoured cake with a rich, sweet profile. A delightful choice for birthdays, anniversaries and special occasions.",
+   "sku": null,
+   "image_url": "/media/ksbakers/uploads/f0a22f40-d2da-483e-b246-9a82e51f4a55.jpg",
+   "price_city": 0,
+   "price_outskirts": 0,
+   "compare_at_price_city": null,
+   "compare_at_price_outskirts": null,
+   "custom_tag": null,
+   "show_savings_tag": true,
+   "show_customisable_tag": false,
+   "is_veg": true,
+   "category": {
+    "id": "435dc86f-72d8-42c5-964b-cd72325f5483",
+    "name": "Cakes",
+    "slug": "cakes",
+    "allows_addons": true
+   },
+   "variants": [
+    {
+     "id": "44508e39-8ff2-43b0-b6cf-4c037437b8b6",
+     "name": "Butterscotch Cake - Eggless 500 g",
+     "variant_name": "500 g",
+     "price_city": 599,
+     "price_outskirts": 579,
+     "compare_at_price_city": 799,
+     "compare_at_price_outskirts": 699,
+     "gofrugal_item_id": "1407",
+     "image_url": "/media/ksbakers/uploads/bd7e4280-2303-4caa-9cdc-0bb7ceef0e1b.jpg",
+     "sku": "1407"
+    },
+    {
+     "id": "0e6371b3-7a1a-42ad-8868-0251a89e755e",
+     "name": "Butterscotch Cake - Eggless 1 kg",
+     "variant_name": "1 kg",
+     "price_city": 999,
+     "price_outskirts": 849,
+     "compare_at_price_city": 1149,
+     "compare_at_price_outskirts": 999,
+     "gofrugal_item_id": "503",
+     "image_url": "/media/ksbakers/uploads/f0a22f40-d2da-483e-b246-9a82e51f4a55.jpg",
+     "sku": "503"
+    }
+   ],
+   "customisations": [
+    {
+     "id": "05afa36c-712b-4820-b308-d48cead527f9",
+     "name": "Text on cake",
+     "display_label": "Message on cake",
+     "type": "TEXT_INPUT",
+     "is_required": false,
+     "options": []
+    }
+   ]
+  },
+  {
+   "id": "9caaec92-2cc6-4684-951c-e8e4d8f08930",
+   "name": "Black Forest Cake - Eggless",
+   "slug": "black-forest-cake-eggless",
+   "description": "A classic chocolate cake with creamy layers and a delicious Black Forest-inspired flavour. A favourite for birthdays and special celebrations.",
+   "sku": null,
+   "image_url": "/media/ksbakers/uploads/46dcebe9-8676-4b31-83de-438101197bc4.jpg",
+   "price_city": 0,
+   "price_outskirts": 0,
+   "compare_at_price_city": null,
+   "compare_at_price_outskirts": null,
+   "custom_tag": null,
+   "show_savings_tag": true,
+   "show_customisable_tag": true,
+   "is_veg": true,
+   "category": {
+    "id": "435dc86f-72d8-42c5-964b-cd72325f5483",
+    "name": "Cakes",
+    "slug": "cakes",
+    "allows_addons": true
+   },
+   "variants": [
+    {
+     "id": "a3a369c5-b83c-4bcf-a1bf-d8474b35bdd6",
+     "name": "Black Forest Cake - Eggless 500 g",
+     "variant_name": "500 g",
+     "price_city": 599,
+     "price_outskirts": 579,
+     "compare_at_price_city": 799,
+     "compare_at_price_outskirts": 599,
+     "gofrugal_item_id": "1408",
+     "image_url": "/media/ksbakers/uploads/7ceaa349-c47a-4dcf-8f62-e82498d3aa30.jpg",
+     "sku": "1408"
+    },
+    {
+     "id": "272a9bf0-5a56-4530-bb0c-48280fe653d6",
+     "name": "Black Forest Cake - Eggless 1 kg",
+     "variant_name": "1 kg",
+     "price_city": 999,
+     "price_outskirts": 849,
+     "compare_at_price_city": 1199,
+     "compare_at_price_outskirts": 999,
+     "gofrugal_item_id": "504",
+     "image_url": "/media/ksbakers/uploads/46dcebe9-8676-4b31-83de-438101197bc4.jpg",
+     "sku": "504"
+    }
+   ],
+   "customisations": [
+    {
+     "id": "05afa36c-712b-4820-b308-d48cead527f9",
+     "name": "Text on cake",
+     "display_label": "Message on cake",
+     "type": "TEXT_INPUT",
+     "is_required": false,
+     "options": []
+    }
+   ]
+  },
+  {
+   "id": "ec9872c3-73fc-477c-910c-56cb613464fa",
+   "name": "Almond Delight Cake - Eggless",
+   "slug": "almond-delight-cake-eggless",
+   "description": "A creamy almond-flavoured cake with a rich nutty taste. A delicious choice for birthdays, anniversaries and special occasions.",
+   "sku": null,
+   "image_url": "/media/ksbakers/uploads/9a5984e7-db00-4542-9759-cce1c71f213b.jpg",
+   "price_city": 0,
+   "price_outskirts": 0,
+   "compare_at_price_city": null,
+   "compare_at_price_outskirts": null,
+   "custom_tag": null,
+   "show_savings_tag": true,
+   "show_customisable_tag": false,
+   "is_veg": true,
+   "category": {
+    "id": "435dc86f-72d8-42c5-964b-cd72325f5483",
+    "name": "Cakes",
+    "slug": "cakes",
+    "allows_addons": true
+   },
+   "variants": [
+    {
+     "id": "017fff60-22c9-4bd1-b990-5ab31814253e",
+     "name": "Almond Delight Cake - Eggless 500 g",
+     "variant_name": "500 g",
+     "price_city": 799,
+     "price_outskirts": 749,
+     "compare_at_price_city": 820,
+     "compare_at_price_outskirts": 820,
+     "gofrugal_item_id": "1513",
+     "image_url": "/media/ksbakers/uploads/160493ae-a8a7-440f-af99-5a4902dad0bf.jpg",
+     "sku": "1513"
+    },
+    {
+     "id": "e5ddde1c-b1bd-43b3-b824-cd412e347b95",
+     "name": "Almond Delight Cake - Eggless 1 kg",
+     "variant_name": "1 kg",
+     "price_city": 1199,
+     "price_outskirts": 1099,
+     "compare_at_price_city": 1399,
+     "compare_at_price_outskirts": 1067,
+     "gofrugal_item_id": "513",
+     "image_url": "/media/ksbakers/uploads/9a5984e7-db00-4542-9759-cce1c71f213b.jpg",
+     "sku": "513"
+    }
+   ],
+   "customisations": [
+    {
+     "id": "05afa36c-712b-4820-b308-d48cead527f9",
+     "name": "Text on cake",
+     "display_label": "Message on cake",
+     "type": "TEXT_INPUT",
+     "is_required": false,
+     "options": []
+    }
+   ]
+  },
+  {
+   "id": "5a29ec53-94cd-494a-bed3-2f5f4558dd25",
+   "name": "Choco Truffle Cake - Eggless",
+   "slug": "choco-truffle-cake-eggless",
+   "description": "A rich chocolate truffle cake with smooth, creamy layers and an indulgent chocolate finish. Perfect for birthdays, anniversaries and chocolate lovers.",
+   "sku": null,
+   "image_url": "/media/ksbakers/uploads/ef6b6167-de4f-4aa1-8b53-a80ede69690f.jpg",
+   "price_city": 0,
+   "price_outskirts": 0,
+   "compare_at_price_city": null,
+   "compare_at_price_outskirts": null,
+   "custom_tag": null,
+   "show_savings_tag": true,
+   "show_customisable_tag": false,
+   "is_veg": true,
+   "category": {
+    "id": "435dc86f-72d8-42c5-964b-cd72325f5483",
+    "name": "Cakes",
+    "slug": "cakes",
+    "allows_addons": true
+   },
+   "variants": [
+    {
+     "id": "ff59e0e5-eb6f-45fd-8d45-568d274f005a",
+     "name": "Choco Truffle Cake - Eggless 500 g",
+     "variant_name": "500 g",
+     "price_city": 799,
+     "price_outskirts": 749,
+     "compare_at_price_city": 839,
+     "compare_at_price_outskirts": 820,
+     "gofrugal_item_id": "1531",
+     "image_url": "/media/ksbakers/uploads/15ea4082-46c5-4654-944e-795cd359c56c.jpg",
+     "sku": "1531"
+    },
+    {
+     "id": "ddfc2fe6-f0da-43f1-97d3-1e83812b3427",
+     "name": "Choco Truffle Cake - Eggless 1 kg",
+     "variant_name": "1 kg",
+     "price_city": 1199,
+     "price_outskirts": 1099,
+     "compare_at_price_city": 1399,
+     "compare_at_price_outskirts": 1299,
+     "gofrugal_item_id": "531",
+     "image_url": "/media/ksbakers/uploads/ef6b6167-de4f-4aa1-8b53-a80ede69690f.jpg",
+     "sku": "531"
+    }
+   ],
+   "customisations": [
+    {
+     "id": "05afa36c-712b-4820-b308-d48cead527f9",
+     "name": "Text on cake",
+     "display_label": "Message on cake",
+     "type": "TEXT_INPUT",
+     "is_required": false,
+     "options": []
+    }
+   ]
+  },
+  {
+   "id": "1c82b833-86e3-48e8-ba92-068c7a930971",
+   "name": "Red Velvet Cream Cheese Cake - Eggless ",
+   "slug": "red-velvet-cream-cheese-cake-eggless",
+   "description": "Soft red velvet layers paired with creamy cream-cheese-style frosting. An elegant choice for birthdays, anniversaries and special celebrations.",
+   "sku": null,
+   "image_url": "/media/ksbakers/uploads/75a78219-420d-4a8c-9bd1-545c42c93248.jpg",
+   "price_city": 0,
+   "price_outskirts": 0,
+   "compare_at_price_city": null,
+   "compare_at_price_outskirts": null,
+   "custom_tag": null,
+   "show_savings_tag": true,
+   "show_customisable_tag": false,
+   "is_veg": true,
+   "category": {
+    "id": "435dc86f-72d8-42c5-964b-cd72325f5483",
+    "name": "Cakes",
+    "slug": "cakes",
+    "allows_addons": true
+   },
+   "variants": [
+    {
+     "id": "0df42aa6-9729-4719-a2cf-2ce4662f5fe6",
+     "name": "Red Velvet Cream Cheese Cake - Eggless 500 g",
+     "variant_name": "500 g",
+     "price_city": 799,
+     "price_outskirts": 749,
+     "compare_at_price_city": 839,
+     "compare_at_price_outskirts": 839,
+     "gofrugal_item_id": "1467",
+     "image_url": "/media/ksbakers/uploads/6936b9e6-b938-40b3-8027-f3f8a3fd9db0.jpg",
+     "sku": "1467"
+    },
+    {
+     "id": "aa985f52-0b58-4e55-aa37-84f618633350",
+     "name": "Red Velvet Cream Cheese Cake - Eggless 1 kg",
+     "variant_name": "1 kg",
+     "price_city": 1199,
+     "price_outskirts": 1099,
+     "compare_at_price_city": 1399,
+     "compare_at_price_outskirts": 1067,
+     "gofrugal_item_id": "567",
+     "image_url": "/media/ksbakers/uploads/75a78219-420d-4a8c-9bd1-545c42c93248.jpg",
+     "sku": "567"
+    }
+   ],
+   "customisations": [
+    {
+     "id": "05afa36c-712b-4820-b308-d48cead527f9",
+     "name": "Text on cake",
+     "display_label": "Message on cake",
+     "type": "TEXT_INPUT",
+     "is_required": false,
+     "options": []
+    }
+   ]
+  },
+  {
+   "id": "14c1cc6e-f69e-40a4-9bf7-bd5ba447882c",
+   "name": "Pineapple cake - Eggless 500g",
+   "slug": "pineapplecake-500g",
+   "description": "A refreshing pineapple-flavoured cake with soft, creamy layers. A popular choice for birthdays, family celebrations and everyday dessert cravings.",
+   "sku": "409",
+   "image_url": "/media/ksbakers/uploads/d5318c84-45a2-4c5e-a9ac-3a77bf4127ea.jpg",
+   "price_city": 599,
+   "price_outskirts": 579,
+   "compare_at_price_city": 799,
+   "compare_at_price_outskirts": 699,
+   "custom_tag": null,
+   "show_savings_tag": true,
+   "show_customisable_tag": false,
+   "is_veg": true,
+   "category": {
+    "id": "435dc86f-72d8-42c5-964b-cd72325f5483",
+    "name": "Cakes",
+    "slug": "cakes",
+    "allows_addons": true
+   },
+   "variants": [],
+   "customisations": []
+  }
+ ]
+}

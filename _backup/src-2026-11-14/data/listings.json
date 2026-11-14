@@ -1,0 +1,1697 @@
+{
+ "/birthday-cakes/adult-birthday": {
+  "category": {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes"
+  },
+  "sub": {
+   "name": "Adult Birthday",
+   "slug": "adult-birthday"
+  },
+  "children": [
+   {
+    "name": "Kids Birthday",
+    "slug": "kids-birthday"
+   },
+   {
+    "name": "Age-Specific",
+    "slug": "age-specific"
+   },
+   {
+    "name": "1st Birthday",
+    "slug": "1st-birthday"
+   },
+   {
+    "name": "Adult Birthday",
+    "slug": "adult-birthday"
+   },
+   {
+    "name": "Milestone Birthday",
+    "slug": "milestone-birthday"
+   }
+  ],
+  "cakes": [
+   "pink-butterfly-birthday-cake-cc045",
+   "pink-rose-birthday-cake",
+   "elegant-blue-and-gold-birthday-cake",
+   "lavender-daisy-birthday-cake",
+   "gentleman-face-cake",
+   "super-duper-thatha-cake",
+   "blue-white-floral-cake",
+   "pink-butterfly-birthday-cake",
+   "romantic-teddy-bear-birthday-cake",
+   "lavender-gold-balloon-cake",
+   "happy-birthday-husband-cake",
+   "squid-game-18th-birthday-cake",
+   "pink-floral-celebration-cake-cc226",
+   "classic-floral-tiered-cake",
+   "red-velvet-celebration-cake",
+   "pink-rose-birthday-cake-cc232",
+   "whiskey-label-birthday-cake",
+   "music-notes-birthday-cake",
+   "fitness-theme-birthday-cake",
+   "shirt-cap-birthday-cake"
+  ]
+ },
+ "/occasion-cakes/festivals": {
+  "category": {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes"
+  },
+  "sub": {
+   "name": "Festivals",
+   "slug": "festivals"
+  },
+  "children": [
+   {
+    "name": "Festivals",
+    "slug": "festivals"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Farewell",
+    "slug": "farewell"
+   },
+   {
+    "name": "Special Days",
+    "slug": "special-days"
+   },
+   {
+    "name": "Baby Shower",
+    "slug": "baby-shower"
+   }
+  ],
+  "cakes": [
+   "happy-diwali-celebration-cake",
+   "diya-cake",
+   "christmas-elf-sprinkle-cake"
+  ]
+ },
+ "/occasion-cakes/designer": {
+  "category": {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes"
+  },
+  "sub": {
+   "name": "Designer",
+   "slug": "designer"
+  },
+  "children": [
+   {
+    "name": "Festivals",
+    "slug": "festivals"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Farewell",
+    "slug": "farewell"
+   },
+   {
+    "name": "Special Days",
+    "slug": "special-days"
+   },
+   {
+    "name": "Baby Shower",
+    "slug": "baby-shower"
+   }
+  ],
+  "cakes": [
+   "lavender-heart-celebration-cake"
+  ]
+ },
+ "/birthday-cakes": {
+  "category": {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes"
+  },
+  "sub": null,
+  "children": [
+   {
+    "name": "Kids Birthday",
+    "slug": "kids-birthday"
+   },
+   {
+    "name": "Age-Specific",
+    "slug": "age-specific"
+   },
+   {
+    "name": "1st Birthday",
+    "slug": "1st-birthday"
+   },
+   {
+    "name": "Adult Birthday",
+    "slug": "adult-birthday"
+   },
+   {
+    "name": "Milestone Birthday",
+    "slug": "milestone-birthday"
+   }
+  ],
+  "cakes": [
+   "pink-butterfly-birthday-cake-cc045",
+   "under-the-sea-theme-cake",
+   "gentleman-face-cake",
+   "12th-birthday-pink-cake",
+   "pink-rose-birthday-cake",
+   "jungle-animals-1st-birthday-cake",
+   "doll-dress-birthday-cake",
+   "red-race-car-birthday-cake",
+   "red-doll-dress-cake",
+   "golden-number-1-cake",
+   "floral-16-birthday-cake",
+   "naruto-birthday-cake",
+   "pink-gold-first-birthday-cake",
+   "teddy-bear-half-birthday-cake",
+   "superhero-theme-birthday-cake",
+   "spider-man-4th-birthday-cake",
+   "little-singham-theme-cake",
+   "superhero-icons-cake",
+   "pink-rose-birthday-cake-cc232",
+   "blue-balloon-birthday-cake",
+   "lavender-daisy-birthday-cake",
+   "pink-ruffle-first-birthday-cake",
+   "doll-floral-designer-cake",
+   "pink-rose-doll-birthday-cake",
+   "blue-cartoon-dog-birthday-cake",
+   "rainbow-unicorn-birthday-cake",
+   "butterfly-5th-birthday-cake",
+   "blue-doll-dress-cake",
+   "panda-garden-theme-cake",
+   "dragon-4th-birthday-cake",
+   "pink-and-purple-doll-dress-cake",
+   "panda-face-birthday-cake",
+   "first-birthday-jungle-animals-cake",
+   "minecraft-9th-birthday-cake",
+   "jungle-animals-theme-cake",
+   "jungle-animals-1st-birthday-cake-fc018",
+   "cute-puppy-treats-cake",
+   "super-duper-thatha-cake",
+   "butterfly-8th-birthday-cake",
+   "romantic-teddy-bear-birthday-cake",
+   "rainbow-doll-dress-cake",
+   "little-singham-2nd-birthday-cake",
+   "baby-shark-1st-birthday-cake",
+   "hello-kitty-pink-cake",
+   "lavender-gold-balloon-cake",
+   "red-and-white-doll-dress-cake",
+   "polar-bear-number-cake",
+   "pink-butterfly-birthday-cake",
+   "blue-and-purple-doll-dress-cake",
+   "pink-ruffle-doll-dress-cake",
+   "roller-skate-9th-birthday-cake",
+   "blue-floral-doll-dress-cake",
+   "car-cartoon-5th-birthday-cake",
+   "jungle-lion-1st-birthday-cake",
+   "among-us-8th-birthday-cake",
+   "pink-doll-dress-cake-with-roses",
+   "unicorn-5th-birthday-cake",
+   "ladybug-1st-birthday-cake",
+   "fairy-birthday-cake-with-butterflies",
+   "music-cat-5th-birthday-cake",
+   "masha-and-the-bear-theme-cake",
+   "50th-birthday-cricket-tv-theme-cake",
+   "elegant-blue-and-gold-birthday-cake",
+   "pink-elephant-birthday-cake",
+   "green-badminton-birthday-cake",
+   "basketball-10th-birthday-cake",
+   "floral-9th-birthday-cake",
+   "boo-ghost-4th-birthday-cake",
+   "blue-white-floral-cake",
+   "happy-birthday-husband-cake",
+   "unicorn-6th-birthday-cake",
+   "pink-unicorn-cake",
+   "beer-mug-30th-birthday-cake",
+   "baby-shark-birthday-cake",
+   "squid-game-18th-birthday-cake",
+   "baby-shark-underwater-birthday-cake",
+   "rainbow-butterfly-cake",
+   "pink-floral-celebration-cake-cc226",
+   "classic-floral-tiered-cake",
+   "red-velvet-celebration-cake",
+   "minecraft-theme-birthday-cake",
+   "whiskey-label-birthday-cake",
+   "lol-doll-7th-birthday-cake",
+   "captain-america-shield-cake-cc240",
+   "music-notes-birthday-cake",
+   "chhota-bheem-birthday-cake",
+   "floral-number-cake",
+   "ladybug-1st-birthday-cake-cc249",
+   "blue-star-number-cake",
+   "teddy-bear-number-cake-",
+   "floral-doll-1st-birthday-cake",
+   "40th-birthday-star-cake",
+   "unicorn-10th-birthday-cake",
+   "teddy-bear-12-birthday-cake",
+   "space-7th-birthday-cake",
+   "building-block-9th-birthday-cake",
+   "jungle-safari-1st-birthday-cake",
+   "fitness-theme-birthday-cake",
+   "green-teddy-bear-birthday-cake",
+   "vehicle-2nd-birthday-cake",
+   "jungle-animal-birthday-cake-fc042",
+   "teddy-bear-half-birthday-cake-sf012",
+   "farm-animals-birthday-cake",
+   "fox-moon-1st-birthday-cake",
+   "shirt-cap-birthday-cake",
+   "transport-theme-1st-birthday-cake",
+   "cartoon-number-cake"
+  ]
+ },
+ "/birthday-cakes/1st-birthday": {
+  "category": {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes"
+  },
+  "sub": {
+   "name": "1st Birthday",
+   "slug": "1st-birthday"
+  },
+  "children": [
+   {
+    "name": "Kids Birthday",
+    "slug": "kids-birthday"
+   },
+   {
+    "name": "Age-Specific",
+    "slug": "age-specific"
+   },
+   {
+    "name": "1st Birthday",
+    "slug": "1st-birthday"
+   },
+   {
+    "name": "Adult Birthday",
+    "slug": "adult-birthday"
+   },
+   {
+    "name": "Milestone Birthday",
+    "slug": "milestone-birthday"
+   }
+  ],
+  "cakes": [
+   "pink-gold-first-birthday-cake",
+   "jungle-animals-1st-birthday-cake",
+   "pink-ruffle-first-birthday-cake",
+   "ladybug-1st-birthday-cake",
+   "first-birthday-jungle-animals-cake",
+   "jungle-animals-1st-birthday-cake-fc018",
+   "polar-bear-number-cake",
+   "jungle-lion-1st-birthday-cake",
+   "baby-shark-1st-birthday-cake",
+   "ladybug-1st-birthday-cake-cc249",
+   "floral-doll-1st-birthday-cake",
+   "jungle-safari-1st-birthday-cake",
+   "fox-moon-1st-birthday-cake",
+   "transport-theme-1st-birthday-cake"
+  ]
+ },
+ "/occasion-cakes/farewell": {
+  "category": {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes"
+  },
+  "sub": {
+   "name": "Farewell",
+   "slug": "farewell"
+  },
+  "children": [
+   {
+    "name": "Festivals",
+    "slug": "festivals"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Farewell",
+    "slug": "farewell"
+   },
+   {
+    "name": "Special Days",
+    "slug": "special-days"
+   },
+   {
+    "name": "Baby Shower",
+    "slug": "baby-shower"
+   }
+  ],
+  "cakes": [
+   "airplane-journey-cake"
+  ]
+ },
+ "/birthday-cakes/kids-birthday": {
+  "category": {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes"
+  },
+  "sub": {
+   "name": "Kids Birthday",
+   "slug": "kids-birthday"
+  },
+  "children": [
+   {
+    "name": "Kids Birthday",
+    "slug": "kids-birthday"
+   },
+   {
+    "name": "Age-Specific",
+    "slug": "age-specific"
+   },
+   {
+    "name": "1st Birthday",
+    "slug": "1st-birthday"
+   },
+   {
+    "name": "Adult Birthday",
+    "slug": "adult-birthday"
+   },
+   {
+    "name": "Milestone Birthday",
+    "slug": "milestone-birthday"
+   }
+  ],
+  "cakes": [
+   "doll-floral-designer-cake",
+   "red-doll-dress-cake",
+   "under-the-sea-theme-cake",
+   "superhero-icons-cake",
+   "naruto-birthday-cake",
+   "blue-cartoon-dog-birthday-cake",
+   "superhero-theme-birthday-cake",
+   "hello-kitty-pink-cake",
+   "little-singham-theme-cake",
+   "blue-balloon-birthday-cake",
+   "doll-dress-birthday-cake",
+   "blue-doll-dress-cake",
+   "pink-and-purple-doll-dress-cake",
+   "blue-and-purple-doll-dress-cake",
+   "rainbow-doll-dress-cake",
+   "pink-ruffle-doll-dress-cake",
+   "pink-doll-dress-cake-with-roses",
+   "blue-floral-doll-dress-cake",
+   "teddy-bear-half-birthday-cake-sf012",
+   "red-and-white-doll-dress-cake",
+   "panda-face-birthday-cake",
+   "red-race-car-birthday-cake",
+   "rainbow-unicorn-birthday-cake",
+   "panda-garden-theme-cake",
+   "fairy-birthday-cake-with-butterflies",
+   "cute-puppy-treats-cake",
+   "masha-and-the-bear-theme-cake",
+   "pink-elephant-birthday-cake",
+   "pink-unicorn-cake",
+   "jungle-animal-birthday-cake-fc042",
+   "pink-rose-doll-birthday-cake",
+   "green-teddy-bear-birthday-cake"
+  ]
+ },
+ "/birthday-cakes/milestone-birthday": {
+  "category": {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes"
+  },
+  "sub": {
+   "name": "Milestone Birthday",
+   "slug": "milestone-birthday"
+  },
+  "children": [
+   {
+    "name": "Kids Birthday",
+    "slug": "kids-birthday"
+   },
+   {
+    "name": "Age-Specific",
+    "slug": "age-specific"
+   },
+   {
+    "name": "1st Birthday",
+    "slug": "1st-birthday"
+   },
+   {
+    "name": "Adult Birthday",
+    "slug": "adult-birthday"
+   },
+   {
+    "name": "Milestone Birthday",
+    "slug": "milestone-birthday"
+   }
+  ],
+  "cakes": [
+   "50th-birthday-cricket-tv-theme-cake",
+   "beer-mug-30th-birthday-cake",
+   "40th-birthday-star-cake"
+  ]
+ },
+ "/theme-cakes": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": null,
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "pink-bow-heart-cake",
+   "pink-pearl-bow-cake",
+   "lavender-rose-designer-cake",
+   "pink-heart-rose-cake",
+   "pastel-daisy-cake",
+   "baby-shoes-cake",
+   "pink-floral-celebration-cake-cc226",
+   "purple-rose-designer-cake",
+   "teddy-bear-half-birthday-cake",
+   "pink-crown-rose-cake",
+   "doll-floral-designer-cake",
+   "under-the-sea-theme-cake",
+   "mermaid-ocean-theme-cake",
+   "doraemon-theme-cake",
+   "purple-butterfly-floral-cake",
+   "purple-barbie-doll-cake",
+   "football-cake-cc058",
+   "baby-shark-1st-birthday-cake",
+   "red-doll-dress-cake",
+   "colourful-chocolate-candy-cake",
+   "airplane-theme-cake-cc061",
+   "ice-cream-cone-theme-cake",
+   "mermaid-photo-cake",
+   "pink-butterfly-cake",
+   "bride-to-be-cake",
+   "romantic-heart-couple-cake",
+   "watermelon-character-cake",
+   "baby-rainbow-character-cake",
+   "red-rose-heart-cake-sf011",
+   "blue-white-rose-cake",
+   "moon-and-sun-theme-cake",
+   "gentleman-face-cake",
+   "red-rose-heart-cake",
+   "angry-birds-theme-cake",
+   "rose-bow-red-white-cake",
+   "teddy-bear-half-birthday-cake-sf012",
+   "coral-ocean-theme-cake",
+   "youtube-theme-cake",
+   "blue-basket-weave-cake",
+   "pink-heart-buttercream-cake",
+   "red-rose-designer-cake",
+   "cricket-stadium-cake",
+   "teddy-bear-12-birthday-cake",
+   "teddy-bear-cloud-cake",
+   "teddy-bear-number-cake",
+   "unicorn-10th-birthday-cake",
+   "lavender-daisy-birthday-cake",
+   "lavender-swirl-designer-cake",
+   "blue-butterfly-theme-cake",
+   "blue-white-floral-cake",
+   "unicorn-rainbow-butterfly-cake",
+   "romantic-couple-anniversary-cake-cc146",
+   "purple-rose-butterfly-cake",
+   "rose-macaron-floral-cake",
+   "baby-shark-birthday-cake",
+   "red-race-car-birthday-cake",
+   "gym-fitness-theme-cake",
+   "pink-butterfly-rose-cake",
+   "dance-theme-rosette-cake",
+   "jungle-animals-1st-birthday-cake",
+   "blue-floral-couple-anniversary-cake",
+   "rainbow-unicorn-birthday-cake",
+   "romantic-heart-rose-couple-cake",
+   "christmas-elf-sprinkle-cake",
+   "purple-cartoon-bee-theme-cake",
+   "hello-kitty-floral-cake",
+   "watermelon-cartoon-cake",
+   "couple-silhouette-anniversary-cake",
+   "pink-rose-heart-cake",
+   "butterfly-floral-garden-cake",
+   "bunny-character-theme-cake",
+   "jungle-safari-theme-cake",
+   "panda-bamboo-theme-cake",
+   "rainbow-sprinkle-designer-cake",
+   "superhero-icons-cake",
+   "pink-floral-celebration-cake",
+   "butterfly-5th-birthday-cake",
+   "lion-face-theme-cake",
+   "red-blue-scooter-theme-cake",
+   "spider-man-4th-birthday-cake",
+   "007-secret-agent-cake",
+   "squid-game-18th-birthday-cake",
+   "tiger-face-theme-cake",
+   "uno-game-theme-cake",
+   "romantic-couple-anniversary-cake",
+   "football-cake",
+   "pink-puppy-face-cake",
+   "teddy-bear-green-drip-cake",
+   "romantic-couple-photo-cake",
+   "baby-shark-underwater-birthday-cake",
+   "rainbow-butterfly-cake",
+   "jungle-animals-cake-cc222",
+   "blue-purple-butterfly-floral-cake",
+   "little-singham-theme-cake",
+   "blue-white-rose-designer-cake",
+   "pink-blue-baby-shower-cake",
+   "doll-dress-birthday-cake",
+   "romantic-rose-proposal-cake",
+   "pink-ruffle-first-birthday-cake",
+   "blue-coral-ocean-theme-cake",
+   "ballet-girl-theme-cake",
+   "superhero-theme-birthday-cake",
+   "blue-butterfly-pearl-cake",
+   "minecraft-9th-birthday-cake",
+   "blue-doll-dress-cake",
+   "panda-garden-theme-cake",
+   "classic-floral-tiered-cake",
+   "pink-donut-drip-cake",
+   "purple-floral-designer-cake",
+   "blue-cartoon-dog-birthday-cake",
+   "dragon-4th-birthday-cake",
+   "captain-america-shield-cake",
+   "pink-and-purple-doll-dress-cake",
+   "pink-gold-first-birthday-cake",
+   "20th-anniversary-heart-cake",
+   "jungle-animals-theme-cake",
+   "romantic-teddy-bear-birthday-cake",
+   "hello-kitty-pink-cake",
+   "rainbow-doll-dress-cake",
+   "lavender-gold-balloon-cake",
+   "bunny-face-cake",
+   "pink-daisy-heart-cake",
+   "solar-system-theme-cake",
+   "panda-face-cake",
+   "red-and-white-doll-dress-cake",
+   "floral-9th-birthday-cake",
+   "polar-bear-number-cake",
+   "rainbow-unicorn-cake",
+   "pink-butterfly-birthday-cake",
+   "red-rose-anniversary-cake",
+   "blue-and-purple-doll-dress-cake",
+   "proposal-heart-cake",
+   "football-field-cake",
+   "butterfly-8th-birthday-cake",
+   "butterfly-floral-cake",
+   "airplane-journey-cake",
+   "pink-ruffle-doll-dress-cake",
+   "pink-rose-birthday-cake-cc232",
+   "roller-skate-9th-birthday-cake",
+   "dinosaur-theme-cake",
+   "blue-butterfly-floral-cake",
+   "blue-floral-doll-dress-cake",
+   "minecraft-theme-birthday-cake",
+   "car-cartoon-5th-birthday-cake",
+   "jungle-animals-cake",
+   "among-us-8th-birthday-cake",
+   "pink-doll-dress-cake-with-roses",
+   "chocolate-heart-floral-cake",
+   "sheep-theme-cake",
+   "unicorn-5th-birthday-cake",
+   "pink-butterfly-floral-cake",
+   "road-track-theme-cake",
+   "pink-rose-floral-designer-cake",
+   "naruto-birthday-cake",
+   "peppa-pig-family-cake",
+   "lion-face-cake",
+   "ladybug-1st-birthday-cake",
+   "whiskey-label-birthday-cake",
+   "yin-yang-floral-cake",
+   "jungle-animal-birthday-cake",
+   "pink-barbie-doll-cake",
+   "panda-face-birthday-cake",
+   "fairy-birthday-cake-with-butterflies",
+   "football-cake-cc238",
+   "cute-puppy-treats-cake",
+   "girl-with-balloons-theme-cake",
+   "lol-doll-7th-birthday-cake",
+   "fashion-dress-designer-cake",
+   "masha-and-the-bear-theme-cake",
+   "50th-birthday-cricket-tv-theme-cake",
+   "captain-america-shield-cake-cc240",
+   "airplane-theme-cake",
+   "pink-elephant-birthday-cake",
+   "basketball-10th-birthday-cake",
+   "music-notes-birthday-cake",
+   "golden-floral-couple-cake",
+   "floral-doll-designer-cake",
+   "chhota-bheem-birthday-cake",
+   "cricket-theme-cake",
+   "cricket-ground-theme-cake",
+   "boo-ghost-4th-birthday-cake",
+   "rainbow-sprinkle-cake",
+   "jungle-animal-cake",
+   "two-tier-cream-cake",
+   "happy-birthday-husband-cake",
+   "unicorn-6th-birthday-cake",
+   "floral-number-cake",
+   "purple-doll-dress-cake",
+   "pink-unicorn-cake",
+   "cricket-champion-theme-cake",
+   "rainbow-sprinkle-drip-cake",
+   "jungle-lion-1st-birthday-cake",
+   "ladybug-1st-birthday-cake-cc249",
+   "rose-heart-anniversary-cake",
+   "orange-rose-floral-cake",
+   "blue-star-number-cake",
+   "romantic-couple-heart-cake",
+   "jungle-animals-1st-birthday-cake-fc018",
+   "teddy-bear-number-cake-",
+   "music-cat-5th-birthday-cake",
+   "pink-rose-anniversary-cake",
+   "beer-mug-30th-birthday-cake",
+   "doll-dress-cake",
+   "green-badminton-birthday-cake",
+   "floral-doll-1st-birthday-cake",
+   "pink-rose-doll-birthday-cake",
+   "whiskey-bottle-theme-cake",
+   "blue-floral-doll-cake",
+   "papa-shirt-theme-cake",
+   "pink-orange-floral-doll-cake",
+   "prince-or-princess-baby-shower-cake",
+   "red-floral-doll-cake",
+   "red-flower-doll-cake",
+   "blue-double-doll-cake",
+   "building-block-9th-birthday-cake",
+   "airplane-pilot-cake",
+   "jungle-safari-1st-birthday-cake",
+   "jungle-animal-adventure-cake",
+   "romantic-proposal-heart-cake",
+   "fitness-theme-birthday-cake",
+   "makeup-artist-theme-cake",
+   "green-teddy-bear-birthday-cake",
+   "vehicle-2nd-birthday-cake",
+   "teddy-bear-cloud-theme-cake",
+   "jungle-animal-birthday-cake-fc042",
+   "mermaid-underwater-theme-cake",
+   "moon-and-teddy-bear-cake",
+   "hello-kitty-floral-cake-fc051",
+   "school-theme-cake",
+   "40th-birthday-star-cake",
+   "farm-animals-birthday-cake",
+   "roulette-king-theme-cake",
+   "mermaid-underwater-theme-cake-fc059",
+   "little-singham-2nd-birthday-cake",
+   "doctor-theme-cake",
+   "space-7th-birthday-cake",
+   "blackpink-theme-cake",
+   "doctor-theme-cake-fc066",
+   "fox-moon-1st-birthday-cake",
+   "wedding-couple-theme-cake",
+   "traditional-wedding-couple-cake",
+   "shirt-cap-birthday-cake",
+   "tooth-shaped-dentist-cake",
+   "transport-theme-1st-birthday-cake",
+   "red-car-theme-cake",
+   "minnie-mouse-theme-cake",
+   "blue-motorcycle-theme-cake",
+   "teddy-bear-heart-cake-fc084",
+   "cartoon-number-cake",
+   "house-theme-cake",
+   "fashion-theme-cake",
+   "couple-character-cake",
+   "blue-bow-designer-cake",
+   "pastel-rainbow-drip-cake",
+   "pink-heart-rose-cake-cc008",
+   "pink-butterfly-cake-cc013",
+   "hello-kitty-pink-cake-cc071",
+   "dinosaur-theme-cake-cc073"
+  ]
+ },
+ "/theme-cakes/number-alphabet": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Number & Alphabet",
+   "slug": "number-alphabet"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "spider-man-4th-birthday-cake",
+   "floral-number-cake",
+   "teddy-bear-number-cake-",
+   "blue-star-number-cake",
+   "jungle-animals-cake-cc222",
+   "polar-bear-number-cake",
+   "road-track-theme-cake",
+   "cartoon-number-cake"
+  ]
+ },
+ "/theme-cakes/kids": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Kids",
+   "slug": "kids"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "under-the-sea-theme-cake",
+   "jungle-animals-1st-birthday-cake",
+   "baby-shark-birthday-cake",
+   "baby-shark-underwater-birthday-cake",
+   "uno-game-theme-cake",
+   "panda-bamboo-theme-cake",
+   "spider-man-4th-birthday-cake",
+   "rainbow-unicorn-birthday-cake",
+   "butterfly-5th-birthday-cake",
+   "jungle-safari-theme-cake",
+   "pink-gold-first-birthday-cake",
+   "lion-face-theme-cake",
+   "red-blue-scooter-theme-cake",
+   "rainbow-butterfly-cake",
+   "tiger-face-theme-cake",
+   "teddy-bear-green-drip-cake",
+   "pink-blue-baby-shower-cake",
+   "ballet-girl-theme-cake",
+   "captain-america-shield-cake-cc240",
+   "panda-garden-theme-cake",
+   "ice-cream-cone-theme-cake",
+   "jungle-animals-theme-cake",
+   "polar-bear-number-cake",
+   "cute-puppy-treats-cake",
+   "pink-ruffle-first-birthday-cake",
+   "dinosaur-theme-cake",
+   "car-cartoon-5th-birthday-cake",
+   "jungle-lion-1st-birthday-cake",
+   "jungle-animals-cake",
+   "airplane-journey-cake",
+   "ladybug-1st-birthday-cake",
+   "building-block-9th-birthday-cake",
+   "jungle-animal-birthday-cake",
+   "pink-elephant-birthday-cake",
+   "rainbow-sprinkle-cake",
+   "jungle-animal-cake",
+   "pink-unicorn-cake",
+   "mermaid-underwater-theme-cake-fc059",
+   "space-7th-birthday-cake",
+   "ladybug-1st-birthday-cake-cc249",
+   "jungle-animals-1st-birthday-cake-fc018",
+   "airplane-pilot-cake",
+   "jungle-safari-1st-birthday-cake",
+   "jungle-animal-adventure-cake",
+   "teddy-bear-cloud-theme-cake",
+   "fox-moon-1st-birthday-cake",
+   "jungle-animal-birthday-cake-fc042",
+   "moon-and-teddy-bear-cake",
+   "farm-animals-birthday-cake",
+   "transport-theme-1st-birthday-cake",
+   "dragon-4th-birthday-cake",
+   "dinosaur-theme-cake-cc073",
+   "watermelon-character-cake",
+   "teddy-bear-cloud-cake",
+   "teddy-bear-number-cake",
+   "moon-and-sun-theme-cake",
+   "red-car-theme-cake",
+   "teddy-bear-12-birthday-cake",
+   "teddy-bear-half-birthday-cake-sf012"
+  ]
+ },
+ "/theme-cakes/photo-cakes": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Photo Cakes",
+   "slug": "photo-cakes"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "mermaid-photo-cake",
+   "romantic-couple-photo-cake"
+  ]
+ },
+ "/theme-cakes/cartoon": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Cartoon",
+   "slug": "cartoon"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "naruto-birthday-cake",
+   "blue-cartoon-dog-birthday-cake",
+   "masha-and-the-bear-theme-cake",
+   "purple-cartoon-bee-theme-cake",
+   "watermelon-cartoon-cake",
+   "bunny-character-theme-cake"
+  ]
+ },
+ "/theme-cakes/designer": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Designer",
+   "slug": "designer"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "doll-floral-designer-cake",
+   "blue-butterfly-theme-cake",
+   "romantic-couple-anniversary-cake-cc146",
+   "pink-pearl-bow-cake",
+   "red-race-car-birthday-cake",
+   "blue-bow-designer-cake",
+   "dance-theme-rosette-cake",
+   "squid-game-18th-birthday-cake",
+   "christmas-elf-sprinkle-cake",
+   "pink-bow-heart-cake",
+   "pastel-rainbow-drip-cake",
+   "gym-fitness-theme-cake",
+   "couple-silhouette-anniversary-cake",
+   "butterfly-floral-garden-cake",
+   "rainbow-sprinkle-designer-cake",
+   "pink-butterfly-cake-cc013",
+   "colourful-chocolate-candy-cake",
+   "007-secret-agent-cake",
+   "lavender-swirl-designer-cake",
+   "blue-purple-butterfly-floral-cake",
+   "rainbow-butterfly-cake",
+   "purple-butterfly-floral-cake",
+   "romantic-rose-proposal-cake",
+   "romantic-heart-couple-cake",
+   "pink-butterfly-cake",
+   "blue-coral-ocean-theme-cake",
+   "blue-butterfly-pearl-cake",
+   "pink-donut-drip-cake",
+   "captain-america-shield-cake",
+   "pink-gold-first-birthday-cake",
+   "lavender-gold-balloon-cake",
+   "mermaid-ocean-theme-cake",
+   "baby-shoes-cake",
+   "proposal-heart-cake",
+   "pink-ruffle-first-birthday-cake",
+   "solar-system-theme-cake",
+   "airplane-journey-cake",
+   "pink-butterfly-floral-cake",
+   "whiskey-label-birthday-cake",
+   "yin-yang-floral-cake",
+   "airplane-theme-cake-cc061",
+   "fashion-dress-designer-cake",
+   "50th-birthday-cricket-tv-theme-cake",
+   "airplane-theme-cake",
+   "pink-heart-buttercream-cake",
+   "music-notes-birthday-cake",
+   "golden-floral-couple-cake",
+   "floral-doll-designer-cake",
+   "coral-ocean-theme-cake",
+   "blue-basket-weave-cake",
+   "lavender-daisy-birthday-cake",
+   "two-tier-cream-cake",
+   "happy-birthday-husband-cake",
+   "cricket-champion-theme-cake",
+   "rainbow-sprinkle-drip-cake",
+   "beer-mug-30th-birthday-cake",
+   "romantic-couple-heart-cake",
+   "youtube-theme-cake",
+   "whiskey-bottle-theme-cake",
+   "papa-shirt-theme-cake",
+   "prince-or-princess-baby-shower-cake",
+   "romantic-proposal-heart-cake",
+   "fitness-theme-birthday-cake",
+   "makeup-artist-theme-cake",
+   "mermaid-underwater-theme-cake",
+   "school-theme-cake",
+   "40th-birthday-star-cake",
+   "roulette-king-theme-cake",
+   "doctor-theme-cake",
+   "blackpink-theme-cake",
+   "doctor-theme-cake-fc066",
+   "shirt-cap-birthday-cake",
+   "blue-motorcycle-theme-cake",
+   "tooth-shaped-dentist-cake",
+   "house-theme-cake",
+   "fashion-theme-cake"
+  ]
+ },
+ "/theme-cakes/floral": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Floral",
+   "slug": "floral"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "blue-white-floral-cake",
+   "purple-rose-butterfly-cake",
+   "rose-macaron-floral-cake",
+   "lavender-rose-designer-cake",
+   "pink-butterfly-rose-cake",
+   "blue-floral-couple-anniversary-cake",
+   "romantic-heart-rose-couple-cake",
+   "pink-heart-rose-cake",
+   "pink-rose-heart-cake",
+   "butterfly-floral-garden-cake",
+   "pink-heart-rose-cake-cc008",
+   "pink-floral-celebration-cake",
+   "blue-purple-butterfly-floral-cake",
+   "romantic-couple-anniversary-cake",
+   "blue-white-rose-designer-cake",
+   "romantic-rose-proposal-cake",
+   "pink-floral-celebration-cake-cc226",
+   "classic-floral-tiered-cake",
+   "purple-floral-designer-cake",
+   "20th-anniversary-heart-cake",
+   "pink-daisy-heart-cake",
+   "floral-9th-birthday-cake",
+   "pink-butterfly-birthday-cake",
+   "red-rose-anniversary-cake",
+   "blue-white-rose-cake",
+   "butterfly-8th-birthday-cake",
+   "purple-rose-designer-cake",
+   "pink-rose-birthday-cake-cc232",
+   "butterfly-floral-cake",
+   "blue-butterfly-floral-cake",
+   "rose-bow-red-white-cake",
+   "chocolate-heart-floral-cake",
+   "pink-butterfly-floral-cake",
+   "red-rose-heart-cake",
+   "pink-rose-floral-designer-cake",
+   "red-rose-designer-cake",
+   "pink-crown-rose-cake",
+   "pastel-daisy-cake",
+   "golden-floral-couple-cake",
+   "floral-doll-designer-cake",
+   "lavender-daisy-birthday-cake",
+   "purple-doll-dress-cake",
+   "rose-heart-anniversary-cake",
+   "orange-rose-floral-cake",
+   "pink-rose-anniversary-cake",
+   "red-rose-heart-cake-sf011"
+  ]
+ },
+ "/theme-cakes/character": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Character",
+   "slug": "character"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "couple-character-cake",
+   "unicorn-rainbow-butterfly-cake",
+   "baby-shark-birthday-cake",
+   "baby-shark-underwater-birthday-cake",
+   "hello-kitty-floral-cake",
+   "baby-shark-1st-birthday-cake",
+   "superhero-icons-cake",
+   "red-doll-dress-cake",
+   "spider-man-4th-birthday-cake",
+   "little-singham-2nd-birthday-cake",
+   "hello-kitty-pink-cake-cc071",
+   "pink-puppy-face-cake",
+   "teddy-bear-green-drip-cake",
+   "teddy-bear-half-birthday-cake",
+   "little-singham-theme-cake",
+   "doll-dress-birthday-cake",
+   "angry-birds-theme-cake",
+   "superhero-theme-birthday-cake",
+   "minecraft-9th-birthday-cake",
+   "blue-doll-dress-cake",
+   "panda-garden-theme-cake",
+   "bride-to-be-cake",
+   "pink-and-purple-doll-dress-cake",
+   "romantic-teddy-bear-birthday-cake",
+   "hello-kitty-pink-cake",
+   "rainbow-doll-dress-cake",
+   "bunny-face-cake",
+   "baby-rainbow-character-cake",
+   "panda-face-cake",
+   "red-and-white-doll-dress-cake",
+   "rainbow-unicorn-cake",
+   "blue-and-purple-doll-dress-cake",
+   "pink-ruffle-doll-dress-cake",
+   "gentleman-face-cake",
+   "blue-floral-doll-dress-cake",
+   "minecraft-theme-birthday-cake",
+   "among-us-8th-birthday-cake",
+   "pink-doll-dress-cake-with-roses",
+   "sheep-theme-cake",
+   "unicorn-5th-birthday-cake",
+   "naruto-birthday-cake",
+   "peppa-pig-family-cake",
+   "doraemon-theme-cake",
+   "lion-face-cake",
+   "pink-barbie-doll-cake",
+   "panda-face-birthday-cake",
+   "fairy-birthday-cake-with-butterflies",
+   "purple-barbie-doll-cake",
+   "girl-with-balloons-theme-cake",
+   "lol-doll-7th-birthday-cake",
+   "masha-and-the-bear-theme-cake",
+   "captain-america-shield-cake-cc240",
+   "pink-elephant-birthday-cake",
+   "chhota-bheem-birthday-cake",
+   "boo-ghost-4th-birthday-cake",
+   "jungle-animal-cake",
+   "unicorn-6th-birthday-cake",
+   "purple-doll-dress-cake",
+   "pink-unicorn-cake",
+   "music-cat-5th-birthday-cake",
+   "doll-dress-cake",
+   "floral-doll-1st-birthday-cake",
+   "pink-rose-doll-birthday-cake",
+   "unicorn-10th-birthday-cake",
+   "blue-floral-doll-cake",
+   "pink-orange-floral-doll-cake",
+   "red-floral-doll-cake",
+   "red-flower-doll-cake",
+   "blue-double-doll-cake",
+   "green-teddy-bear-birthday-cake",
+   "vehicle-2nd-birthday-cake",
+   "hello-kitty-floral-cake-fc051",
+   "farm-animals-birthday-cake",
+   "wedding-couple-theme-cake",
+   "traditional-wedding-couple-cake",
+   "minnie-mouse-theme-cake",
+   "teddy-bear-heart-cake-fc084"
+  ]
+ },
+ "/theme-cakes/sports": {
+  "category": {
+   "name": "Theme Cakes",
+   "slug": "theme-cakes"
+  },
+  "sub": {
+   "name": "Sports",
+   "slug": "sports"
+  },
+  "children": [
+   {
+    "name": "Number & Alphabet",
+    "slug": "number-alphabet"
+   },
+   {
+    "name": "Kids",
+    "slug": "kids"
+   },
+   {
+    "name": "Photo Cakes",
+    "slug": "photo-cakes"
+   },
+   {
+    "name": "Cartoon",
+    "slug": "cartoon"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Floral",
+    "slug": "floral"
+   },
+   {
+    "name": "Character",
+    "slug": "character"
+   },
+   {
+    "name": "Sports",
+    "slug": "sports"
+   }
+  ],
+  "cakes": [
+   "football-cake",
+   "football-field-cake",
+   "roller-skate-9th-birthday-cake",
+   "football-cake-cc058",
+   "football-cake-cc238",
+   "basketball-10th-birthday-cake",
+   "cricket-theme-cake",
+   "cricket-ground-theme-cake",
+   "cricket-champion-theme-cake",
+   "cricket-stadium-cake",
+   "green-badminton-birthday-cake"
+  ]
+ },
+ "/occasion-cakes": {
+  "category": {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes"
+  },
+  "sub": null,
+  "children": [
+   {
+    "name": "Festivals",
+    "slug": "festivals"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Farewell",
+    "slug": "farewell"
+   },
+   {
+    "name": "Special Days",
+    "slug": "special-days"
+   },
+   {
+    "name": "Baby Shower",
+    "slug": "baby-shower"
+   }
+  ],
+  "cakes": [
+   "welcome-baby-unicorn-cake",
+   "lavender-heart-celebration-cake",
+   "airplane-journey-cake",
+   "baby-shoes-cake",
+   "super-duper-thatha-cake",
+   "pink-blue-baby-shower-cake",
+   "baby-rainbow-character-cake",
+   "rose-macaron-floral-cake",
+   "watch-theme-cake-for-dad",
+   "prince-or-princess-baby-shower-cake",
+   "christmas-elf-sprinkle-cake",
+   "baby-booties-celebration-cake",
+   "father-s-day-cake",
+   "bride-to-be-cake",
+   "happy-diwali-celebration-cake",
+   "diya-cake",
+   "papa-shirt-theme-cake"
+  ]
+ },
+ "/occasion-cakes/special-days": {
+  "category": {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes"
+  },
+  "sub": {
+   "name": "Special Days",
+   "slug": "special-days"
+  },
+  "children": [
+   {
+    "name": "Festivals",
+    "slug": "festivals"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Farewell",
+    "slug": "farewell"
+   },
+   {
+    "name": "Special Days",
+    "slug": "special-days"
+   },
+   {
+    "name": "Baby Shower",
+    "slug": "baby-shower"
+   }
+  ],
+  "cakes": [
+   "bride-to-be-cake",
+   "rose-macaron-floral-cake",
+   "watch-theme-cake-for-dad",
+   "papa-shirt-theme-cake",
+   "super-duper-thatha-cake",
+   "father-s-day-cake"
+  ]
+ },
+ "/occasion-cakes/baby-shower": {
+  "category": {
+   "name": "Occasion Cakes",
+   "slug": "occasion-cakes"
+  },
+  "sub": {
+   "name": "Baby Shower",
+   "slug": "baby-shower"
+  },
+  "children": [
+   {
+    "name": "Festivals",
+    "slug": "festivals"
+   },
+   {
+    "name": "Designer",
+    "slug": "designer"
+   },
+   {
+    "name": "Farewell",
+    "slug": "farewell"
+   },
+   {
+    "name": "Special Days",
+    "slug": "special-days"
+   },
+   {
+    "name": "Baby Shower",
+    "slug": "baby-shower"
+   }
+  ],
+  "cakes": [
+   "pink-blue-baby-shower-cake",
+   "welcome-baby-unicorn-cake",
+   "prince-or-princess-baby-shower-cake",
+   "baby-shoes-cake",
+   "baby-booties-celebration-cake",
+   "baby-rainbow-character-cake"
+  ]
+ },
+ "/anniversary-cakes/couple-anniversary": {
+  "category": {
+   "name": "Anniversary Cakes",
+   "slug": "anniversary-cakes"
+  },
+  "sub": {
+   "name": "Couple Anniversary",
+   "slug": "couple-anniversary"
+  },
+  "children": [
+   {
+    "name": "Couple Anniversary",
+    "slug": "couple-anniversary"
+   }
+  ],
+  "cakes": [
+   "romantic-couple-anniversary-cake-cc146",
+   "romantic-rose-proposal-cake",
+   "rose-macaron-floral-cake",
+   "lavender-heart-celebration-cake",
+   "just-engaged-rose-cake",
+   "blue-floral-couple-anniversary-cake",
+   "romantic-heart-rose-couple-cake",
+   "pink-heart-rose-cake",
+   "couple-silhouette-anniversary-cake",
+   "pink-rose-heart-cake",
+   "romantic-couple-anniversary-cake",
+   "romantic-couple-photo-cake",
+   "pink-floral-celebration-cake-cc226",
+   "romantic-heart-couple-cake",
+   "classic-floral-tiered-cake",
+   "20th-anniversary-heart-cake",
+   "red-velvet-celebration-cake",
+   "black-and-white-heart-cake",
+   "red-rose-anniversary-cake",
+   "proposal-heart-cake",
+   "chocolate-heart-floral-cake",
+   "yin-yang-floral-cake",
+   "romantic-couple-rose-butterfly-cake",
+   "golden-floral-couple-cake",
+   "rose-heart-anniversary-cake",
+   "pink-rose-anniversary-cake",
+   "romantic-couple-heart-cake",
+   "red-rose-heart-cake-sf011",
+   "romantic-proposal-heart-cake",
+   "wedding-couple-theme-cake",
+   "traditional-wedding-couple-cake",
+   "teddy-bear-heart-cake-fc084"
+  ]
+ },
+ "/birthday-cakes/age-specific": {
+  "category": {
+   "name": "Birthday Cakes",
+   "slug": "birthday-cakes"
+  },
+  "sub": {
+   "name": "Age-Specific",
+   "slug": "age-specific"
+  },
+  "children": [
+   {
+    "name": "Kids Birthday",
+    "slug": "kids-birthday"
+   },
+   {
+    "name": "Age-Specific",
+    "slug": "age-specific"
+   },
+   {
+    "name": "1st Birthday",
+    "slug": "1st-birthday"
+   },
+   {
+    "name": "Adult Birthday",
+    "slug": "adult-birthday"
+   },
+   {
+    "name": "Milestone Birthday",
+    "slug": "milestone-birthday"
+   }
+  ],
+  "cakes": [
+   "teddy-bear-half-birthday-cake",
+   "12th-birthday-pink-cake",
+   "roller-skate-9th-birthday-cake",
+   "butterfly-5th-birthday-cake",
+   "music-cat-5th-birthday-cake",
+   "spider-man-4th-birthday-cake",
+   "butterfly-8th-birthday-cake",
+   "minecraft-9th-birthday-cake",
+   "dragon-4th-birthday-cake",
+   "jungle-animals-theme-cake",
+   "car-cartoon-5th-birthday-cake",
+   "among-us-8th-birthday-cake",
+   "unicorn-5th-birthday-cake",
+   "basketball-10th-birthday-cake",
+   "boo-ghost-4th-birthday-cake",
+   "unicorn-6th-birthday-cake",
+   "floral-number-cake",
+   "floral-9th-birthday-cake",
+   "minecraft-theme-birthday-cake",
+   "blue-star-number-cake",
+   "lol-doll-7th-birthday-cake",
+   "chhota-bheem-birthday-cake",
+   "teddy-bear-number-cake-",
+   "building-block-9th-birthday-cake",
+   "vehicle-2nd-birthday-cake",
+   "space-7th-birthday-cake",
+   "cartoon-number-cake",
+   "little-singham-2nd-birthday-cake",
+   "golden-number-1-cake",
+   "floral-16-birthday-cake",
+   "teddy-bear-12-birthday-cake",
+   "unicorn-10th-birthday-cake"
+  ]
+ },
+ "/anniversary-cakes": {
+  "category": {
+   "name": "Anniversary Cakes",
+   "slug": "anniversary-cakes"
+  },
+  "sub": null,
+  "children": [
+   {
+    "name": "Couple Anniversary",
+    "slug": "couple-anniversary"
+   }
+  ],
+  "cakes": [
+   "just-engaged-rose-cake",
+   "pink-heart-rose-cake",
+   "romantic-heart-couple-cake",
+   "pink-rose-anniversary-cake",
+   "romantic-couple-anniversary-cake-cc146",
+   "blue-floral-couple-anniversary-cake",
+   "pink-floral-celebration-cake-cc226",
+   "golden-floral-couple-cake",
+   "rose-macaron-floral-cake",
+   "romantic-rose-proposal-cake",
+   "romantic-heart-rose-couple-cake",
+   "yin-yang-floral-cake",
+   "lavender-heart-celebration-cake",
+   "couple-silhouette-anniversary-cake",
+   "red-rose-heart-cake-sf011",
+   "pink-rose-heart-cake",
+   "romantic-couple-anniversary-cake",
+   "romantic-couple-photo-cake",
+   "classic-floral-tiered-cake",
+   "20th-anniversary-heart-cake",
+   "red-velvet-celebration-cake",
+   "black-and-white-heart-cake",
+   "rose-heart-anniversary-cake",
+   "red-rose-anniversary-cake",
+   "proposal-heart-cake",
+   "chocolate-heart-floral-cake",
+   "romantic-couple-rose-butterfly-cake",
+   "romantic-couple-heart-cake",
+   "romantic-proposal-heart-cake",
+   "wedding-couple-theme-cake",
+   "traditional-wedding-couple-cake",
+   "teddy-bear-heart-cake-fc084"
+  ]
+ }
+}
